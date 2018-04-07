@@ -1,4 +1,4 @@
-# 2018-04-07-SVM车辆识别
+# SVM车辆识别
 
 - 使用 HOG - Historgram of Oriented Gradients 标签图片，再使用 SVM 分类车与非车
 - 可追加使用 binned color features 和 histograms of color
