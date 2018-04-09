@@ -235,9 +235,9 @@ Utility matrix after 300000 iterations:
 - SARDA: State.Action -> Reward -> State.Action
 - 直接用 Q 替换 U 就获得了 control 的计算方式
 
-$$U(s_{t}) \leftarrow U(s_{t}) + \alpha \big[ \text{r}_{t+1} + \gamma U(s_{t+1}) - U(s_{t}) \big]$$
+$$U(s_{t}) \leftarrow U(s_{t}) + \alpha \big[ r_{t+1} + \gamma U(s_{t+1}) - U(s_{t}) \big]$$
 
-$$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[ \text{r}_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_{t}, a_{t}) \big]$$
+$$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[ r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_{t}, a_{t}) \big]$$
 
 - Q 表格 = count(State) * count(Action)  
 ![](img/sarsa.png)
@@ -371,19 +371,19 @@ def return_epsilon_greedy_action(policy_matrix, observation, epsilon=0.1):
 - 使用 mu 策略运动，更新获得优化策略 pi  
 ![](img/qlearning_policies.png)
 
-$$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[r_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a) - Q(s_{t}, a_{t}) \big]$$  
-
 - 如下更新 Q-table
 
-    - $$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[ \text{r}_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a) - Q(s_{t}, a_{t}) \big]$$  
-    - $$\text{Target}[\text{SARSA}] = \text{r}_{t+1} + \gamma Q(s_{t+1}, a_{t+1})$$  
-    - $$\text{Target}[\text{Q-learning}] = \text{r}_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a)$$
+$$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[ r_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a) - Q(s_{t}, a_{t}) \big]$$
+
+$$\text{Target}[\text{SARSA}] = r_{t+1} + \gamma Q(s_{t+1}, a_{t+1})$$
+
+$$\text{Target}[\text{Q-learning}] = r_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a)$$
 
 - 与 SARSA 不同如下：
 
-$$\text{Target} = \text{r}_{t+1} + \gamma Q(s_{t+1}, \underset{a}{\text{ argmax }} Q(s_{t+1},a))$$
+$$\text{Target} = r_{t+1} + \gamma Q(s_{t+1}, \underset{a}{\text{ argmax }} Q(s_{t+1},a))$$
 
-$$\text{Target} = \text{r}_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a)$$
+$$\text{Target} = r_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a)$$
 
 - 更新步骤如下：  
 ![](img/qlearning_steps.jpg)  
