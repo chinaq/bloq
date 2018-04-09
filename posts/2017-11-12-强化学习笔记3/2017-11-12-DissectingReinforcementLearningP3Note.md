@@ -13,13 +13,13 @@ author:            Qiang
 
 - [1. Temporal Differencing (and rabbits)](#1-temporal-differencing-and-rabbits)
 - [2. TD(0) Python implementation](#2-td0-python-implementation)
-- [3. TD(λ) and eligibility traces](#3-tdλ-and-eligibility-traces)
+- [3. TD(λ) and eligibility traces](#3-td%CE%BB-and-eligibility-traces)
 - [4. SARSA: Temporal Differencing control](#4-sarsa-temporal-differencing-control)
-- [5. SARSA: Python and ε-greedy policy](#5-sarsa-python-and-ε-greedy-policy)
+- [5. SARSA: Python and ε-greedy policy](#5-sarsa-python-and-%CE%B5-greedy-policy)
 - [6. Q-learning: off-policy control](#6-q-learning-off-policy-control)
 - [7. Q-learning: Python implementation](#7-q-learning-python-implementation)
 - [8. Conclustions](#8-conclustions)
-- [9. 参考](#9-参考)
+- [9. 参考](#9-%E5%8F%82%E8%80%83)
 
 <!-- /TOC -->
 
@@ -375,7 +375,9 @@ def return_epsilon_greedy_action(policy_matrix, observation, epsilon=0.1):
 
 $$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[ \text{r}_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a) - Q(s_{t}, a_{t}) \big]$$
 
+
 $$\text{Target}[\text{SARSA}] = \text{r}_{t+1} + \gamma Q(s_{t+1}, a_{t+1})$$
+
 
 $$\text{Target}[\text{Q-learning}] = \text{r}_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a)$$
 
