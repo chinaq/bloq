@@ -371,6 +371,8 @@ def return_epsilon_greedy_action(policy_matrix, observation, epsilon=0.1):
 - 使用 mu 策略运动，更新获得优化策略 pi  
 ![](img/qlearning_policies.png)
 
+$$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[ \text{r}_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a) - Q(s_{t}, a_{t}) \big]$$  
+
 - 如下更新 Q-table
 
     - $$Q(s_{t}, a_{t}) \leftarrow Q(s_{t}, a_{t}) + \alpha \big[ \text{r}_{t+1} + \gamma \underset{a}{\text{ max }} Q(s_{t+1}, a) - Q(s_{t}, a_{t}) \big]$$  
