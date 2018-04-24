@@ -45,6 +45,7 @@
 
 
 ## 完整计算
+- 都基于 policy iteration
 
 ### Exploration vs. Exploitation
 - 在探索和利用间平衡

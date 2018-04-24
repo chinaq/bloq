@@ -13,6 +13,7 @@
         - [Analyzing Performance](#analyzing-performance)
     - [reference](#reference)
 
+![](./img/rl_algorithms.png)
 
 ## 支持方法
 
@@ -29,6 +30,7 @@
 
 
 ## 完整方法
+- 都基于 policy iteration
 
 ### TD Control: Sarsa(0)
 - -> action-value
