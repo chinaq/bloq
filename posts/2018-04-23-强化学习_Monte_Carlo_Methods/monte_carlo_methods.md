@@ -47,6 +47,8 @@
 ## 完整计算
 - 都基于 policy iteration（仍是 value-based）
 
+![](./img/gpi.png)
+
 ### Exploration vs. Exploitation
 - 在探索和利用间平衡
 - Greedy in the Limit with Infinite Exploration (GLIE)
@@ -62,6 +64,7 @@
 
 
 ## reference
+- [rl cheatsheet](./ref/cheatsheet.pdf)
 - [Monte Carlo Methods - Explore BlackjackEnv](./ref/Monte_Carlo_Solution.html)
 - [Monte_Carlo_Methods_summary](./ref/monte_carlo_methods_summary.png)
 
