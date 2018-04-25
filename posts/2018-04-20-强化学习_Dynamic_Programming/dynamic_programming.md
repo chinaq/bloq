@@ -2,12 +2,12 @@
 
 
 
-- [强化学习 Dynamic Programming](#%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0-dynamic-programming)
-    - [支持方法](#%E6%94%AF%E6%8C%81%E6%96%B9%E6%B3%95)
+- [强化学习 Dynamic Programming](#dynamic-programming)
+    - [支持方法](#)
         - [Iterative Policy Evaluation](#iterative-policy-evaluation)
         - [Estimation of Action Values](#estimation-of-action-values)
         - [Policy Improvement](#policy-improvement)
-    - [完整计算](#%E5%AE%8C%E6%95%B4%E8%AE%A1%E7%AE%97)
+    - [完整计算](#)
         - [Policy Iteration](#policy-iteration)
         - [Truncated Policy Iteration](#truncated-policy-iteration)
         - [Value Iteration](#value-iteration)
@@ -58,5 +58,6 @@
 
 
 ## reference
+- [rl cheatsheet](./ref/cheatsheet.pdf)
 - [Dynamic Programming - Explore FrozenLakeEnv](./ref/Dynamic_Programming_Solution.html)
 - [dynamic_programming_summary](./ref/dynamic_programming_summary.png)

@@ -64,7 +64,6 @@
 
 
 ## reference
-- [rl cheatsheet](./ref/cheatsheet.pdf)
 - [Monte Carlo Methods - Explore BlackjackEnv](./ref/Monte_Carlo_Solution.html)
 - [Monte_Carlo_Methods_summary](./ref/monte_carlo_methods_summary.png)
 
