@@ -10,21 +10,21 @@ author:            Qiang
 
 <!-- TOC -->
 
-- [1. Pong from pixels（基于像素的乒乓）](#1-pong-from-pixels基于像素的乒乓)
-    - [1.1. Policy network （策略网络）](#11-policy-network-策略网络)
-    - [1.2. It sounds kind of impossible.（不现实?）](#12-it-sounds-kind-of-impossible不现实)
-    - [1.3. Supervised Learning.（监督学习）](#13-supervised-learning监督学习)
-    - [1.4. Policy Gradients.（策略梯度）](#14-policy-gradients策略梯度)
-    - [1.5. Training protocol. （训练准则）](#15-training-protocol-训练准则)
-    - [1.6. alternative view. （另一种视角）](#16-alternative-view-另一种视角)
-    - [1.7. More general advantage functions.(回报)](#17-more-general-advantage-functions回报)
-    - [1.8. Deriving Policy Gradients.（策略梯度推导）](#18-deriving-policy-gradients策略梯度推导)
-    - [1.9. Learning.（真正的学习代码）](#19-learning真正的学习代码)
-    - [1.10. Learned weights. （权重都学了什么）](#110-learned-weights-权重都学了什么)
-- [2. What isn't happening （发生了什么）](#2-what-isnt-happening-发生了什么)
-- [3. Non-differentiable computation in Neural Networks （不可微计算)](#3-non-differentiable-computation-in-neural-networks-不可微计算)
-- [4. Conclustions （结论）](#4-conclustions-结论)
-- [5. 参考](#5-参考)
+- [1. Pong from pixels（基于像素的乒乓）](#1-pong-from-pixels)
+  - [1.1. Policy network （策略网络）](#11-policy-network)
+  - [1.2. It sounds kind of impossible.（不现实?）](#12-it-sounds-kind-of-impossible)
+  - [1.3. Supervised Learning.（监督学习）](#13-supervised-learning)
+  - [1.4. Policy Gradients.（策略梯度）](#14-policy-gradients)
+  - [1.5. Training protocol. （训练准则）](#15-training-protocol)
+  - [1.6. alternative view. （另一种视角）](#16-alternative-view)
+  - [1.7. More general advantage functions.(回报)](#17-more-general-advantage-functions)
+  - [1.8. Deriving Policy Gradients.（策略梯度推导）](#18-deriving-policy-gradients)
+  - [1.9. Learning.（真正的学习代码）](#19-learning)
+  - [1.10. Learned weights. （权重都学了什么）](#110-learned-weights)
+- [2. What isn't happening （发生了什么）](#2-what-isnt-happening)
+- [3. Non-differentiable computation in Neural Networks （不可微计算)](#3-non-differentiable-computation-in-neural-networks)
+- [4. Conclustions （结论）](#4-conclustions)
+- [5. 参考](#5)
 
 <!-- /TOC -->
 
@@ -240,6 +240,7 @@ while True:
 
 # 5. 参考
 - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
+- [《强化学习》第七讲 策略梯度 - 高斯策略](https://zhuanlan.zhihu.com/p/28348110)
 - [深度强化学习：基于像素的乒乓游戏](http://blog.csdn.net/lishuandao/article/details/52694770)
 - [http://cs231n.github.io/neural-networks-2/#losses](http://cs231n.github.io/neural-networks-2/#losses)
 - [CS231n课程笔记翻译：神经网络笔记 2](https://zhuanlan.zhihu.com/p/21560667?refer=intelligentunit)
