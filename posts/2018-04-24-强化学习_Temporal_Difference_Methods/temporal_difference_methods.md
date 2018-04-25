@@ -11,6 +11,7 @@
         - [TD Control: Sarsamax](#td-control--sarsamax)
         - [TD Control: Expected Sarsa](#td-control--expected-sarsa)
         - [Analyzing Performance](#analyzing-performance)
+        - [sarsa vs q-learning](#sarsa-vs-q-learning)
     - [reference](#reference)
 
 ![](./img/rl_algorithms.png)
@@ -30,7 +31,7 @@
 
 
 ## 完整方法
-- 都基于 policy iteration
+- 都基于 policy iteration（仍是 value-based）
 
 ### TD Control: Sarsa(0)
 - -> action-value
@@ -57,7 +58,11 @@
 - On-policy TD control methods (like Expected Sarsa and Sarsa) have better online performance than off-policy TD control methods (like Q-learning).
 - Expected Sarsa generally achieves better performance than Sarsa.
 
+### sarsa vs q-learning
 
+![](./img/sarsa_vs_q-learning.png)
+
+![](./img/off-policy_advantages.png)
 
 ---
 
