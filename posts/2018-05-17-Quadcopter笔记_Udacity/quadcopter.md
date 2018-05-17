@@ -7,6 +7,7 @@
     - [原理](#)
     - [需做](#)
     - [尝试](#)
+    - [reference](#reference)
 
 ## 问题
 [项目：指导四轴飞行器学会飞行](https://github.com/udacity/cn-deep-learning/blob/master/RL-Quadcopter-2/Quadcopter_Project.ipynb)  
@@ -41,10 +42,10 @@
 
 ## 需做
 - Set Target
-    简化目标，比如只要求飞行器快速向上飞行，
+    - 简化目标，比如只要求飞行器快速向上飞行
 - Set Reward
     - 缩短时间
-        - 如果需要训练飞行器升的，只要到达高度便结束
+        - 如果需要训练飞行器升高，只要到达高度便结束
     - 多种奖励，比例均衡
         - 当目标为高度 10 ，即使高度大于 10 也给于大幅奖励
         - 高度，速度，平衡度，xy偏离度
@@ -69,3 +70,12 @@
 
 最后可尝试 Bayesian optimization, grid search, random search 进行自动优化超参: 
 [Using Bayesian Optimization for Reinforcement Learning](https://blog.sigopt.com/posts/using-bayesian-optimization-for-reinforcement-learning)
+
+
+## reference
+- [RL Course by David Silver](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
+- [CS294-112 Fall 2017](https://www.youtube.com/playlist?list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3)
+- [CS231n](http://cs231n.stanford.edu/)
+- [Dissecting Reinforcement Learning-Part.4](https://mpatacchiola.github.io/blog/2017/02/11/dissecting-reinforcement-learning-4.html)
+- [National Tsing Hua University - CS565600 Deep Learning](https://nthu-datalab.github.io/ml/slides/17_Deep-Reinforcement-Learning.pdf)
+- [强化学习_Deep_Deterministic_Policy_Gradient](https://github.com/chinaq/bloq/blob/master/posts/2018-04-27-%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0_Deep_Deterministic_Policy_Gradient/deep_deterministic_policy_gradient.md)
