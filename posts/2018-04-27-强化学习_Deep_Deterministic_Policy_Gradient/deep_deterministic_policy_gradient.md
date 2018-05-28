@@ -40,6 +40,7 @@
 
 ## ref
 - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/) - cal E(f(x))
+- [Deep RL Bootcamp Lecture 4B Policy Gradients Revisited](https://www.youtube.com/watch?v=tqrcjHuNdmQ) - cal E(f(x))
 - [Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf) - dpg algorithm
 - [CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING](https://arxiv.org/pdf/1509.02971.pdf) - ddpg algorithm 
 - [Dissecting Reinforcement Learning-Part.4](https://mpatacchiola.github.io/blog/2017/02/11/dissecting-reinforcement-learning-4.html)

@@ -31,4 +31,5 @@ ref: Reinforcement Learning: An Introduction Second edition - 13.7 Policy Parame
 
 ![](./img/pg.png)  
 ref: [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)  
+ref: [Deep RL Bootcamp Lecture 4B Policy Gradients Revisited - Andrej Karpathy](https://www.youtube.com/watch?v=tqrcjHuNdmQ)  
 ref: [《强化学习》第七讲 策略梯度 - 高斯策略](https://zhuanlan.zhihu.com/p/28348110)
