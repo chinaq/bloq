@@ -14,6 +14,12 @@ author:            Qiang
 - 计算其 theta 梯度
 - 取样 所有经过的 state，所有使用的 action
 - 当 p 为使用 sigmoid 的深度网络时，梯度类似 sigmoid + cross entropy
+    - ![](./img/loss.png)
+- The softmax is a generalization of the sigmoid function in the sense that a softmax for two dimensions (events) is exactly the sigmoid function. 
+    - [What is the relationship between softmax and sigmoid since their derivatives are alike?](https://www.quora.com/What-is-the-relationship-between-softmax-and-sigmoid-since-their-derivatives-are-alike)
+- backpropergation of cross-entropy
+    - [Gradient descent on a Softmax cross-entropy cost function](https://madalinabuzau.github.io/2016/11/29/gradient-descent-on-a-softmax-cross-entropy-cost-function.html)
+
 
 # 参考
 - [CS294 Deep Reinforcement Learning - Policy Gradient](http://rll.berkeley.edu/deeprlcourse/f17docs/lecture_4_policy_gradient.pdf)
