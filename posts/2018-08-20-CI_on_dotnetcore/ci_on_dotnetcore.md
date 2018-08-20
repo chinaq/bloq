@@ -32,10 +32,10 @@
 ## Solution
 - set opencover for dotnet core
     - set .csproj on `<DebugType>full<DebugType/>`
-        -     Make sure all covered projects generate full pdb file (not only test projects), either through <DebugType>full</DebugType> in the .csproj file or by using a Visual Studio: Project Properties > Build > Advanced > Debugging information. By default, projects created by dotnet or by Visual Studio use a portable format for pdb files. Support for portable pdb format hasn't been released in OpenCover yet. If you fail to set full pdb, the OpenCover will print out a message notifying you that it has no results along with common causes.
+        - >Make sure all covered projects generate full pdb file (not only test projects), either through <DebugType>full</DebugType> in the .csproj file or by using a Visual Studio: Project Properties > Build > Advanced > Debugging information. By default, projects created by dotnet or by Visual Studio use a portable format for pdb files. Support for portable pdb format hasn't been released in OpenCover yet. If you fail to set full pdb, the OpenCover will print out a message notifying you that it has no results along with common causes.
 
     - set command on `-oldstyle`
-        -     where -oldstyle switch is necessary, because .NET Core uses System.Private.CoreLib instead of mscorlib and thus OpenCover can't use mscorlib for code instrumentation.
+        - >where -oldstyle switch is necessary, because .NET Core uses System.Private.CoreLib instead of mscorlib and thus OpenCover can't use mscorlib for code instrumentation.
     - example
         - `OpenCover.Console.exe -register:user -target:"C:/Program Files/dotnet/dotnet.exe" -targetargs:test -filter:"+[UnitTestTargetProject*]* -[MyUnitTests*]*" -output:".\MyProject_coverage.xml" -oldstyle`
     - doc on github
