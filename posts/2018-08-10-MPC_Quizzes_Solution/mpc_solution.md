@@ -54,21 +54,16 @@ $$\begin{array}{lc}
 - gl, gu
   - functions' constrains
 $$\begin{array}{lc}
-\\
-{\rm subject \; to \; } &  f[0] \geq 25
-\\
-                        &  f[1] = 40
-\\
-                        &  f[2] \leq 5
+\\ {\rm subject \; to \; } &  f[0] \geq 25
+\\ &  f[1] = 40
+\\ &  f[2] \leq 5
 \end{array}$$
 - fg_eval
     - functions
 $$\begin{array}{lc}
-{\rm minimize \; }      &  x_1 * x_4 * (x_1 + x_2 + x_3) + x_3
-\\
-{\rm subject \; to \; } &  x_1 * x_2 * x_3 * x_4
-\\
-                        &  x_1^2 + x_2^2 + x_3^2 + x_4^2
+\\{\rm minimize \; }      &  x_1 * x_4 * (x_1 + x_2 + x_3) + x_3
+\\{\rm subject \; to \; } &  x_1 * x_2 * x_3 * x_4
+\\                        &  x_1^2 + x_2^2 + x_3^2 + x_4^2
 \end{array}$$
 
 
