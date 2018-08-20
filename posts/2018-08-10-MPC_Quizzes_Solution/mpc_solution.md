@@ -46,7 +46,7 @@ $$\begin{array}{lc}
 - xi, xl, xu
     - x and constrains
 $$\begin{array}{lc}
-    &  1 \leq x_1, x_2, x_3, x_4 \leq 5
+{\rm subject \ to \ } &  1 \leq x_1, x_2, x_3, x_4 \leq 5
 \end{array}$$
 - gl, gu
   - functions' constrains
