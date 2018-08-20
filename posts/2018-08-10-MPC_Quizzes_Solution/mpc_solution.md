@@ -51,9 +51,9 @@ $$\begin{array}{lc}
 - gl, gu
   - functions' constrains
 $$\begin{array}{lc}
-\\ {\rm subject \ to \ } &  f[0] \geq 25
-\\ &  f[1] = 40
-\\ &  f[2] \leq 5
+\\\ {\rm subject \ to \ } &  f[0] \geq 25
+\\\ &  f[1] = 40
+\\\ &  f[2] \leq 5
 \end{array}$$
 - fg_eval
     - functions
