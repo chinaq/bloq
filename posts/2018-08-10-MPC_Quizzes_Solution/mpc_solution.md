@@ -32,12 +32,9 @@ for (size_t i = 0; i < iters; i++) {
 - [Example and Test](https://www.coin-or.org/CppAD/Doc/ipopt_solve_get_started.cpp.htm)
 - Problems
 $$\begin{array}{lc}
-{\rm minimize \; }      &  x_1 * x_4 * (x_1 + x_2 + x_3) + x_3
-\\
-{\rm subject \; to \; } &  x_1 * x_2 * x_3 * x_4  \geq 25
-\\
-                        &  x_1^2 + x_2^2 + x_3^2 + x_4^2 = 40
-\\
+{\rm minimize \; }      &  x_1 * x_4 * (x_1 + x_2 + x_3) + x_3 \\
+{\rm subject \; to \; } &  x_1 * x_2 * x_3 * x_4  \geq 25 \\
+                        &  x_1^2 + x_2^2 + x_3^2 + x_4^2 = 40 \\
                         &  1 \leq x_1, x_2, x_3, x_4 \leq 5
 \end{array}$$
 - Solve
@@ -54,15 +51,15 @@ $$\begin{array}{lc}
 - gl, gu
   - functions' constrains
 $$\begin{array}{lc}
-\\ {\rm subject \; to \; } &  f[0] \geq 25
+\\ {\rm subject \ to \ } &  f[0] \geq 25
 \\ &  f[1] = 40
 \\ &  f[2] \leq 5
 \end{array}$$
 - fg_eval
     - functions
 $$\begin{array}{lc}
-\\{\rm minimize \; }      &  x_1 * x_4 * (x_1 + x_2 + x_3) + x_3
-\\{\rm subject \; to \; } &  x_1 * x_2 * x_3 * x_4
+\\{\rm minimize \ }       &  x_1 * x_4 * (x_1 + x_2 + x_3) + x_3
+\\{\rm subject \ to \ }   &  x_1 * x_2 * x_3 * x_4
 \\                        &  x_1^2 + x_2^2 + x_3^2 + x_4^2
 \end{array}$$
 
