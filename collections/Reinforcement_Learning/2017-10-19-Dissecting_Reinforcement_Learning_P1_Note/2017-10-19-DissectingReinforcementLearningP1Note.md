@@ -36,11 +36,12 @@ author:            Qiang
 
 ## 1.1. In the beginning was Andrey Markov(马尔科夫)
 
+- 动态规划（DP）是指，当给出一个具体的环境模型已知的马尔科夫决定过程（MDP），可以用于计算其最佳策略的算法集合。
 - 依据马尔科夫链可以计算n步后，在某位置的概率
 - ![](img/simple_markov_chain.png)
 - ![](img/markov_chain_tree.png)
 
-```
+``` py
 import numpy as np
 
 # 设置转换矩阵
@@ -73,7 +74,7 @@ print("v_50: " + str(np.dot(v,T_50)))
 print("v_100: " + str(np.dot(v,T_100)))
 ```
 
-```
+``` py
 T: [[ 0.9  0.1]
     [ 0.5  0.5]]
 T_3: [[ 0.844  0.156]
@@ -99,11 +100,12 @@ v_100: [[ 0.83333333  0.16666667]]
 
 ## 1.3. The Bellman equation(贝尔曼方程)
 
+- “贝尔曼方程”通常指离散时间（discrete-time）最佳化问题的动态规划方程。
 - ![](img/reinforcement_learning_example_r004.png)
 - ![](img/reinforcement_learning_simple_world_bellman_example.png)
 - ![](img/reinforcement_learning_simple_world_bellman_example_2.png)
 
-```
+``` py
 import numpy as np
 
 def return_state_utility(v, T, u, reward, gamma):
@@ -166,7 +168,7 @@ if __name__ == "__main__":
     main()
 ```
 
-```
+``` py
 Utility of state (1,1): 0.7056
 ```
 
@@ -176,7 +178,7 @@ Utility of state (1,1): 0.7056
 - 刚开始时，只有reward，此时 Utiltiy 为 0。然后每次用当前reward，接续的 utility，更新当前 Utility，直到 Utility 几乎不再更新。
 
 
-```
+``` py
 
 def main():
     tot_states = 12
@@ -226,7 +228,7 @@ if __name__ == "__main__":
     main()
 ```
 
-```
+``` py
 =================== FINAL RESULT ==================
 Iterations: 9
 Delta: 0.000304045
@@ -239,7 +241,7 @@ Epsilon: 0.001
 ===================================================
 ```
 
-```
+``` py
 =================== FINAL RESULT ==================
 Iterations: 16
 Delta: 0.000104779638547
@@ -252,7 +254,7 @@ Epsilon: 0.001
 ===================================================
 ```
 
-```
+``` py
 =================== FINAL RESULT ==================
 Iterations: 29
 Delta: 9.97973302774e-07
@@ -268,7 +270,7 @@ Epsilon: 0.001
 ## 1.5. The policy iteration algorithm(策略迭代算法)
 
 
-```
+``` py
 import numpy as np
 
 
@@ -343,7 +345,7 @@ def print_policy(p, shape):
 
 ```
 
-```
+``` py
 def main():
     gamma = 0.999
     epsilon = 0.0001
