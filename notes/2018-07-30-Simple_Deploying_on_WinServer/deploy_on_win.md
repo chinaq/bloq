@@ -5,6 +5,7 @@
     - [目的](#目的)
     - [问题](#问题)
     - [手段](#手段)
+- [others](#others)
 
 
 
@@ -16,7 +17,7 @@
 
 ## 手段
 - 服务端
-    - 安装 sshd 使用 ssh 
+    - 安装 [FreeSSHD](http://www.freesshd.com/) 使用 ssh，参见 [windows下配置ssh](http://newgoodlooking.pixnet.net/blog/post/126965940-windows%E4%B8%8B%E9%85%8D%E7%BD%AEssh%EF%BC%88freesshd-%2B-putty%EF%BC%89---shero-vae)
     - 安装 git 使用 MinGW 环境运行 bash
 - 本机使用脚本如下：
 
@@ -66,3 +67,12 @@ ssh $s113 $runsm
 
 ```
 
+
+
+# others
+- tunnel on ssh
+    - [sql server example](https://courses.cs.washington.edu/courses/cse444/11wi/resources/tunneling-instructions.html)
+- service by [WinSW](https://github.com/kohsuke/winsw)
+- Nginx
+    - [set up](http://nginx.org/en/docs/windows.html)
+    - [load balance](https://wizardforcel.gitbooks.io/nginx-doc/content/Text/7.4_loadbalance.html)
