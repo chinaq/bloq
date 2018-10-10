@@ -5,6 +5,11 @@
     - [目的](#目的)
     - [问题](#问题)
     - [手段](#手段)
+- [publish](#publish)
+- [zip](#zip)
+- [upload](#upload)
+- [prepare](#prepare)
+- [do](#do)
 - [others](#others)
 
 
@@ -18,6 +23,8 @@
 ## 手段
 - 服务端
     - 安装 [FreeSSHD](http://www.freesshd.com/) 使用 ssh，参见 [windows下配置ssh](http://newgoodlooking.pixnet.net/blog/post/126965940-windows%E4%B8%8B%E9%85%8D%E7%BD%AEssh%EF%BC%88freesshd-%2B-putty%EF%BC%89---shero-vae)
+        - Server refused public-key signature despite accepting key問題：
+        - 解決辦法：關掉freesshd，右擊freesshd，選擇Run as Administrator，就可以了。
     - 安装 git 使用 MinGW 环境运行 bash
 - 本机使用脚本如下：
 
