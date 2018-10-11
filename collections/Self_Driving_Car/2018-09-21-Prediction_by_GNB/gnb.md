@@ -1,8 +1,8 @@
 # Prediction by Gaussian Naive Bayes
 
-![trajectories.png](./img/trajectories.png)
+![./img/trajectories.png](./img/trajectories.png)
 
-![nb.png](./img/nb.png)
+![./img/nb.png](./img/nb.png)
 
 ## process
 - training
