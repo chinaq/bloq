@@ -1,5 +1,54 @@
 # Blog Simplest
 
+## Collections
+- Deep Learning
+  - How Relu Works
+  - About Back Propagation
+  - Topological Sorting
+  - MiniFlow
+  - Hyperparameter Optimization
+  - L1 Regular
+  - Explore CNN
+  - Explore LSTM
+- Dotnet
+  - eShop on Contariners
+- History
+  - Jing Ke
+  - Sima Qian
+  - Death of Cao Cao
+  - Sanjiang and others
+  - Bai Qi Conqued Yin
+- React
+  - React Fundamentals
+- Reinforcement Learning
+  - Dissecting RL P1 Note
+  - Dissecting RL P2 Note
+  - Dissecting RL P3 Note
+  - Deep RL Pong
+  - Policy Gradient
+  - Monte Carlo Methods
+  - Deep Q-Learning
+  - Policy-Based Methods
+  - Deep Deterministic Policy Gradient
+  - Quadcopter Udacity
+  - Curiosity Driven Learning
+- Self-Driving Car
+  - SVM Vichle Detector
+  - Kalman Filter
+  - Extended Kalman Filter
+  - Unscented Kalman Filter
+  - Markov Localization
+  - Particle Filter
+  - PID
+  - Model Predictive Control
+  - MPC Quizzes Solution
+  - Search Path
+  - Prediction by GNB
+  - Behavior Planning
+
+## Other Notes
+Please search in folders.
+
 ## for reading more easily
 
 - Chrome
