@@ -15,8 +15,12 @@
 - NPM
     - intall module
 - Webpack
-    - code bunder: make production and development transformations to the code
+    - code bundler: make production and development transformations to the code
     - three steps:
         - starting point of your application, or your root JavaScript file. 
         - which transformations to make on your code. 
-        - which location it should save the new transformed code.     
+        - which location it should save the new transformed code.
+- Babel
+    - a wonderful tool for compiling your JavaScript.
+- The Usage
+  - NPM -> Webpack -> Babel
