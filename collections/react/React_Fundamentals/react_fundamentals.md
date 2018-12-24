@@ -24,3 +24,27 @@
     - a wonderful tool for compiling your JavaScript.
 - The Usage
   - NPM -> Webpack -> Babel
+
+## Dataflow with Props
+- props
+- .map
+- .filter
+
+## Pure Functions. f(d)=v.Props and Nesting React Components.
+- Components
+- PropTypes
+
+## The "this" keyword + Managing and Updating State
+- Implicit Binding: 
+  - object has a property which equals to a function and within that functions body one can refer to other properties of that object with this.dotNotation
+- Explicit Binding: 
+  - binding using functions’ in-built functionality .call, .apply, .bind.
+- New/Window Binding: 
+  - when we use new to create an instance of an object, it binds the this keyword to itself within any of its methods/properties.
+- ES2015 Arrow Functions
+  - always use the value of `this` from the enclosing scope
+  - ref: [React & Autobinding](https://medium.com/komenco/react-autobinding-2261a1092849)
+
+## Stateless Functional Components
+- stateless functional components
+- private components
