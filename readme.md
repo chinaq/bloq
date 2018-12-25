@@ -22,9 +22,6 @@
 - React
   - [React Fundamentals](./2018/2018-12-25_React_Fundamentals/react_fundamentals.md)
 - Reinforcement Learning
-  - Dissecting RL P1 Note
-  - Dissecting RL P2 Note
-  - Dissecting RL P3 Note
   - Deep RL Pong
   - Policy Gradient
   - Monte Carlo Methods
@@ -34,10 +31,10 @@
   - Quadcopter Udacity
   - Curiosity Driven Learning
 - Dissecting_Reinforcement_Learning_Notes
-  - [Dissecting_Reinforcement_Learning_P1_Notes](./2017/2017-10-19-Dissecting_Reinforcement_Learning_P1_Note/DissectingReinforcementLearningP1Note.md)
-  - [Dissecting_Reinforcement_Learning_P2_Notes](./2017/2017-10-25-Dissecting_Reinforcement_Learning_P2_Note/DissectingReinforcementLearningP2Note.md)
-  - [Dissecting_Reinforcement_Learning_P3_Notes](./2017/2017-10-27-Dissecting_Reinforcement_Learning_P3_Note/DissectingReinforcementLearningP3Note.md)
-  - [Dissecting_Reinforcement_Learning_P7_Notes](./2018/2018-12-26_Dissecting_RL_p7_note/dissecting_rl_p7_note.md)
+  - [Dissecting RL P1 Note](./2017/2017-10-19-Dissecting_Reinforcement_Learning_P1_Note/DissectingReinforcementLearningP1Note.md)
+  - [Dissecting RL P2 Note](./2017/2017-10-25-Dissecting_Reinforcement_Learning_P2_Note/DissectingReinforcementLearningP2Note.md)
+  - [Dissecting RL P3 Note](./2017/2017-10-27-Dissecting_Reinforcement_Learning_P3_Note/DissectingReinforcementLearningP3Note.md)
+  - [Dissecting RL P7 Note](./2018/2018-12-26_Dissecting_RL_p7_note/dissecting_rl_p7_note.md)
 - Self-Driving Car
   - SVM Vichle Detector
   - Kalman Filter
