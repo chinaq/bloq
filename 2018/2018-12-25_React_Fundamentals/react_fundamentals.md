@@ -43,7 +43,9 @@
   - when we use new to create an instance of an object, it binds the this keyword to itself within any of its methods/properties.
 - ES2015 Arrow Functions
   - always use the value of `this` from the enclosing scope
-  - ref: [React & Autobinding](https://medium.com/komenco/react-autobinding-2261a1092849)
+  - ref:
+    - [React & Autobinding](https://medium.com/komenco/react-autobinding-2261a1092849)
+    - [Class 的基本语法- ECMAScript 6入门](http://es6.ruanyifeng.com/#docs/class)
 
 ## Stateless Functional Components
 - stateless functional components
