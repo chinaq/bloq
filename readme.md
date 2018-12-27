@@ -11,14 +11,12 @@
   - Explore CNN
   - Explore LSTM
   - [YOLO like Object Detection](./2018/2018-12-13_Traffic_Light_Detection/traffic_light_detection.md)
-- Dotnet
-  - eShop on Contariners
 - History
   - [Jing Ke](./2016/2016-08-08-Jing_Ke/jingke.md)
   - [Sima Qian](./2016/2016-09-01-Sima_Qian/simaqian.md)
-  - Death of Cao Cao
-  - Sanjiang and others
-  - Bai Qi Conqued Yin
+  - [Death of Cao Cao](./2017/2017-09-28-Death_of_Cao_Cao/death_of_caocao.md)
+  - [Sanjiang and others](./2017/2017-09-29-Sanjiang_and_others/words_from_xindeyong.md)
+  - [Bai Qi Conqued Yin](./2018/2018-07-20-Bai_Qi_Conqued_Yin/conqued_yin.md)
 - React
   - [React Fundamentals](./2018/2018-12-25_React_Fundamentals/react_fundamentals.md)
 - Reinforcement Learning
