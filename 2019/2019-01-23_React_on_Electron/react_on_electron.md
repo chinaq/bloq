@@ -13,3 +13,5 @@
   - [using concurrently and wait-on](https://medium.com/@poksme/you-can-simplify-this-process-by-using-concurrently-and-wait-on-command-line-tools-502a7d3b3419)
 - flex
   - [How to make a div take the remaining height](https://www.whitebyte.info/programming/css/how-to-make-a-div-take-the-remaining-height)
+- kill ports
+  - [How to find and kill port processes on a Mac using Bash](https://medium.freecodecamp.org/find-and-kill-port-processes-on-a-mac-using-bash-c5e95b9e704e)
