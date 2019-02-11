@@ -1,6 +1,18 @@
 # Blog Simplest
 
 ## Collections
+- History
+  - [Jing Ke](./2016/2016-08-08-Jing_Ke/jingke.md)
+  - [Sima Qian](./2016/2016-09-01-Sima_Qian/simaqian.md)
+  - [Death of Cao Cao](./2017/2017-09-28-Death_of_Cao_Cao/death_of_caocao.md)
+  - [Sanjiang and others](./2017/2017-09-29-Sanjiang_and_others/words_from_xindeyong.md)
+  - [Bai Qi Conqued Yin](./2018/2018-07-20-Bai_Qi_Conqued_Yin/conqued_yin.md)
+  - [History of Japan](./2019/2019-01-13_History_of_Japan/history_of_japan.md)
+- ASP.NET core
+  - [Mini ASP.NET Core](./2019/2019-01-30_Mini_AspNet_Core/mini_aspnet_core.md)
+- React & JS
+  - [React Fundamentals](./2018/2018-12-25_React_Fundamentals/react_fundamentals.md)
+  - [keyword 'new' in JS](./2019/2019-01-30_Keyword_new_in_JS/keyword_new_in_js.md)
 - Deep Learning
   - How Relu Works
   - About Back Propagation
@@ -11,14 +23,6 @@
   - Explore CNN
   - Explore LSTM
   - [YOLO like Object Detection](./2018/2018-12-13_Traffic_Light_Detection/traffic_light_detection.md)
-- History
-  - [Jing Ke](./2016/2016-08-08-Jing_Ke/jingke.md)
-  - [Sima Qian](./2016/2016-09-01-Sima_Qian/simaqian.md)
-  - [Death of Cao Cao](./2017/2017-09-28-Death_of_Cao_Cao/death_of_caocao.md)
-  - [Sanjiang and others](./2017/2017-09-29-Sanjiang_and_others/words_from_xindeyong.md)
-  - [Bai Qi Conqued Yin](./2018/2018-07-20-Bai_Qi_Conqued_Yin/conqued_yin.md)
-- React
-  - [React Fundamentals](./2018/2018-12-25_React_Fundamentals/react_fundamentals.md)
 - Reinforcement Learning
   - Deep RL Pong
   - Policy Gradient
