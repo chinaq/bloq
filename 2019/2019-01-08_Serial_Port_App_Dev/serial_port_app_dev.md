@@ -9,6 +9,7 @@
     - [dotnet core](#dotnet-core)
     - [javascript](#javascript)
     - [final choice](#final-choice)
+    - [problem on babel compile](#problem-on-babel-compile)
   - [Set Virtual Ports on Mac](#set-virtual-ports-on-mac)
   - [Test Frame](#test-frame)
     - [problem on serial port test](#problem-on-serial-port-test)
@@ -31,9 +32,22 @@
 - electron
 - the reason is `System.IO.Ports.SerialPort` is currently only supported on Windows.
 
+### problem on babel compile
+- [Tracking serialport with webpack ](https://github.com/node-serialport/node-serialport/issues/901#issuecomment-240478831)
+- [serialport-webpack-minimal/webpack.config.js](https://github.com/saintcrawler/serialport-webpack-minimal/blob/master/webpack.config.js)
+```js
+module.exports = {
+  target: 'electron-renderer',
+  externals: {
+    serialport: 'serialport'
+  }
+}
+```
+
 
 ## Set Virtual Ports on Mac
 - [serial port on mac](../2019-01-04_Serial_Port_on_Mac/serial_port_on_mac.md)
+- finally use [`@serialport/binding-mock`](https://serialport.io/docs/en/api-binding-mock)
 
 ## Test Frame
 - [jest](https://github.com/facebook/jest), star 22k+

@@ -7,6 +7,7 @@
     - [create a pair](#create-a-pair)
     - [with specified link name](#with-specified-link-name)
   - [node-serialport](#node-serialport)
+  - [about bluetooth](#about-bluetooth)
 
 ## Socat
 ### create a pair
@@ -27,3 +28,6 @@
   - [electron-serialport](https://github.com/nodebots/electron-serialport)
 - update devDependencies & dependencies to newest version
 - `npm install && npm start`
+
+## about bluetooth
+- it specifies some bluetooth devices to virtual serial ports on Mac
