@@ -16,6 +16,7 @@
   - [Serial Port App Dev](./2019/2019-01-08_Serial_Port_App_Dev/serial_port_app_dev.md)
   - [React on Electron](./2019/2019-01-23_React_on_Electron/react_on_electron.md)
   - [keyword 'new' in JS](./2019/2019-01-30_Keyword_new_in_JS/keyword_new_in_js.md)
+  - [Functional Instantiation pattern](./2019/2019-02-11_Functional_Instantiation/functional_instantiation.md)
 - Deep Learning
   - How Relu Works
   - About Back Propagation
@@ -58,7 +59,7 @@
 ## Other Notes
 Please search in folders.
 
-## for reading more easily
+## reading more conveniently
 
 - Chrome
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) - Code tree for GitHub
