@@ -18,6 +18,7 @@
   - [keyword 'new' in JS](./2019/2019-01-30_Keyword_new_in_JS/keyword_new_in_js.md)
   - [Functional Instantiation pattern](./2019/2019-02-11_Functional_Instantiation/functional_instantiation.md)
   - [Promise in JS](./2019/2019-02-11_Promise_in_JS/promise_in_js.md)
+  - [Redux](./2019/2019-02-12_Redux/redux.md)
 - Deep Learning
   - How Relu Works
   - About Back Propagation
