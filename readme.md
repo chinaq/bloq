@@ -43,18 +43,19 @@
   - [Dissecting RL P3 Note](./2017/2017-10-27-Dissecting_Reinforcement_Learning_P3_Note/DissectingReinforcementLearningP3Note.md)
   - [Dissecting RL P7 Note](./2018/2018-12-26_Dissecting_RL_p7_note/dissecting_rl_p7_note.md)
 - Self-Driving Car
-  - SVM Vichle Detector
-  - Kalman Filter
-  - Extended Kalman Filter
-  - Unscented Kalman Filter
-  - Markov Localization
-  - Particle Filter
-  - PID
-  - Model Predictive Control
-  - MPC Quizzes Solution
-  - Search Path
-  - Prediction by GNB
-  - Behavior Planning
+  - [Summary](./2018/2018-12-24_Self_Driving_nd_Summary/self_driving_summary.md)
+  - [SVM Vichle Detector](./2018/2018-04-07-SVM_Vichle_Detector/vehicle_detector.md)
+  - [Kalman Filter](./2018/2018-05-31-Kalman_Filter/kalman_filter.md)
+  - [Extended Kalman Filter](./2018/2018-06-08-Extended_Kalman_Filter/extented_kalman_filter.md)
+  - [Unscented Kalman Filter](./2018/2018-06-13-Unscented_Kalman_Filter/unscented_kalman_filter.md)
+  - [Markov Localization](./2018/2018-07-17-Markov_Localization/markov_localization.md)
+  - [Particle Filter](./2018/2018-08-01-Particle_Filter/particle_filter.md)
+  - [PID](./2018/2018-08-02-PID/pid.md)
+  - [Model Predictive Control](./2018/2018-08-09-Model_Predictive_Control/model_predictive_control.md)
+  - [MPC Quizzes Solution](./2018/2018-08-10-MPC_Quizzes_Solution/mpc_solution.md)
+  - [Search Path](./2018/2018-09-07-Search_Path/search_path.md)
+  - [Prediction by GNB](./2018/2018-09-21-Prediction_by_GNB/gnb.md)
+  - [Behavior Planning](./2018/2018-10-11_Behavior_Planning/behavior_planning.md)
   - [Traffic Light Detection](./2018/2018-12-13_Traffic_Light_Detection/traffic_light_detection.md)
 
 ## Other Notes
