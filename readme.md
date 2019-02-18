@@ -8,6 +8,7 @@
   - [Sanjiang and others](./2017/2017-09-29-Sanjiang_and_others/words_from_xindeyong.md)
   - [Bai Qi Conqued Yin](./2018/2018-07-20-Bai_Qi_Conqued_Yin/conqued_yin.md)
   - [History of Japan](./2019/2019-01-13_History_of_Japan/history_of_japan.md)
+  - [The Rise and Fall of the Third Reich](./2019/2019-02-18_The_Third_Reich/the_third_reich.md)
 - ASP.NET core
   - [Mini ASP.NET Core](./2019/2019-01-30_Mini_AspNet_Core/mini_aspnet_core.md)
 - JS - React, Electron, Node
