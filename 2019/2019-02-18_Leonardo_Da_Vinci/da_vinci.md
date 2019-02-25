@@ -43,6 +43,7 @@
 ## Apprentice
 ## On his own
 ## Milan
+未完成修道院的委托项目，实在不是一个讨好他人的作者。太追求完美，又觉得自己无法达到完美。
 ## Leonardo's notebooks
 ## Court entertainer
 ## Personal life
