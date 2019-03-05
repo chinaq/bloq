@@ -4,3 +4,7 @@
 
 # mini redux
 ![mini redux](./img/mini_redux.jpeg)
+
+# others
+- Thunk: for asynchromous
+- React's Context: for ref Store more conveniently
