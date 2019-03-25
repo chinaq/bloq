@@ -2,6 +2,7 @@
 
 ![](./img/effect.png)
 
+# my steps
 - install [zsh](https://github.com/robbyrussell/oh-my-zsh) (it had been installed on my mac, when?)
 - install [oh_my_zsh](https://github.com/robbyrussell/oh-my-zsh) (after that, it turned zsh to default terminal, what?)
 - set [ZSH_THEME="agnoster"](https://github.com/robbyrussell/oh-my-zsh#themes) in .zshrc file
@@ -10,3 +11,6 @@
 - set [default user](https://gist.github.com/logicmd/4015090#gistcomment-1908209) to ignore it on prompt
 - set [`source .bash_profile`](https://github.com/robbyrussell/oh-my-zsh/issues/3807) in .zshrc
 - final [effect](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#agnoster)
+
+# other refs
+- [Power up your Terminal using Oh-my-Zsh + iTerm2](https://medium.com/swlh/power-up-your-terminal-using-oh-my-zsh-iterm2-c5a03f73a9fb)
