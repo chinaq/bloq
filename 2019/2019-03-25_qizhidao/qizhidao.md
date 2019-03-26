@@ -1,3 +1,5 @@
 # 七支刀
-
-![routes](./img/routes.jpeg)
+![cover](./img/cover.jpeg)  
+![inscription](./img/inscription.jpeg)  
+![about](./img/about.jpeg)  
+![routes](./img/routes.jpeg)  
