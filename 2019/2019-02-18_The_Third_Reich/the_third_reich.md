@@ -340,6 +340,8 @@
 #### 一 「阿西娜」号的沉没
 #### 二 希特勒的和平建议
 #### 三 推翻希特勒的佐森「密谋」
+- 战争爆发以来，他们已经遭到过一次挫折。在进攻波兰前夕，早已退休的“冯·哈麦施但因”将军又暂时被起用，在西线担任一个司令官的职务，战争开始的第一个星期，他曾经竭力邀请希特勒到他的司令部去视察一下，以表示在进攻波兰的时候他并没忽视那条战线。实际上，哈麦施但因将军，这个希特勒的死对头，是想要把他抓起来。费边·冯·施拉勃伦道夫早在9 月3 日英国政府宣战的那一天，就在柏林阿德隆饭店匆忙会见奥吉尔维·福比斯的时候，把这个阴谋悄悄地告诉了他。但是那位元首已经嗅出气味不对，谢绝了那位前陆军总司令的邀请，并且过了不久就把他撤掉了。
+
 #### 四 纳粹绑架案和啤酒馆炸弹事件
 #### 五 希特勒对将领们的训话
 #### 六 纳粹在波兰的暴行：第一阶段
@@ -452,3 +454,5 @@
   - （德语：Otto Strasser；1897年9月10日－1974年8月27日），纳粹党左翼领导人。后来改派与希特勒一派人发生冲突，导致纳粹党分裂，其成员在长刀之夜遭到清洗。
 - 休根堡
   - Alfred Ernst Christian Alexander Hugenberg (19 June 1865 – 12 March 1951) was an influential German businessman and politician. As leader of the German National People's Party he was instrumental in helping Adolf Hitler become Chancellor of Germany and served in his first cabinet in 1933.
+- 冯·哈麦施但因
+  - Kurt Gebhard Adolf Philipp Freiherr von Hammerstein-Equord (26 September 1878 – 24 April 1943) 是一名德国将军，曾担任过帝国威尔士总司令。他因反对希特勒和纳粹政权的热情而闻名。曾试图邀请希特勒到他的司令部，并乘机把他抓起来，但希特勒并未去。
