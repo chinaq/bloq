@@ -1,0 +1,146 @@
+# React Native - Tyler McGinnis
+
+- Lesson 1 Introduction
+  - Course Intro (0:50)
+  - Course Map
+  - In-class project
+- What is React Native?
+  - What is React Native? (1:19)
+  - Under the hood
+  - Summary & Further Research
+- Dev Environment Setup
+  - Create React Native App
+  - Installing CRNA
+  - Using Yarn
+  - Why Expo? (1:06)
+  - Expo
+  - Simulators
+  - Hello World (2:18)
+  - The Environment
+  - App Setup
+  - Summary
+- Using the Debugger
+  - How to Debug
+  - How to debug  - example (3:00)
+  - Refreshing the App (1:03)
+  - Summary
+- Lesson 1 Summary
+  - Summary (0:30)
+- Lesson 2 Introduction
+  - Lesson 2 Overview (0:18)
+- Web vs Native
+  - Web vs Native (0:33)
+  - Routing and Animation Differences
+  - Android vs iOS
+  - Summary
+- Common React Native Components
+  - React Native Components (0:33)
+  - Recap
+  - View and Text (1:07)
+  - App Walkthrough (2:37)
+  - Rendering Icons (1:39)
+  - Icons out of the box
+  - AddEntry  - getMetricMetaInfo (5:01)
+  - AddEntry Component (2:42)
+  - AddEntry  - methods (4:32)
+  - AddEntry  - render (5:17)
+  - AddEntry  - DateHeader (1:42)
+  - Touchables (3:53)
+  - AddEntry  - SubmitBtn (3:53)
+  - Slider (1:58)
+  - AddEntry  - UdaciSlider (2:10)
+  - AddEntry  - UdaciSteppers (2:33)
+  - AddEntry-TextButton (3:58)
+  - Pause Udacifitness
+  - Lists (3:55)
+  - Forms (3:58)
+  - Image (2:02)
+  - Other Images
+  - Summary
+- AsyncStorage
+  - LocalStorage (0:26)
+  - API.js (4:15)
+  - Summary
+- Redux and React Native
+  - Redux in React Native (0:35)
+  - Adding Redux
+  - Building out Actions (1:58)
+  - Building out the Reducer (2:39)
+  - Creating a Store (1:23)
+  - Connecting AddEntry.js (6:42)
+- Lesson 2 Summary
+  - Summary (0:31)
+- Lesson 3 Intro
+  - Lesson Overview (0:14)
+- CSS in JS
+  - CSS in JS (1:14)
+  - Style Progression (2:59)
+  - CSS in JS Libs
+  - Summary
+- Flexbox Guide
+  - Flexbox (1:30)
+  - Summary
+- Layout in React Native
+  - Flexbox Implementation (0:26)
+  - Style Meta Info (3:30)
+  - Platform API (1:56)
+  - Style AddEntry (6:23)
+  - Style Steppers (7:38)
+  - Style the rest (4:27)
+  - Dimensions API
+  - History (6:53)
+  - Calendar (4:47)
+  - Methods (4:52)
+  - Metric Card (4:04)
+  - App Loading (1:50)
+  - Summary
+- How Professionals Handle Styling
+  - Intro (0:17)
+  - Stylesheet vs Inline
+  - Media Queries
+  - CSS in JS Libraries (5:23)
+  - Summary and Outro (0:25)
+- Lesson 4 Intro
+  - Overview (0:56)
+- TabNavigator
+  - TabNavigator Intro (3:30)
+  - Adding TabNavigator (5:03)
+  - StatusBar Intro (2:36)
+  - Summary
+- StackNavigator
+  - Intro (3:09)
+  - Adding StackNavigator (4:35)
+  - navigationOptions (2:43)
+  - Connect EntryDetail (2:41)
+  - EntryDetail Reset (6:07)
+  - Finish Navigation (2:06)
+  - Summary
+- Drawer Navigator
+  - DrawerNavigator (2:45)
+  - Lesson 4 Outro (0:34)
+- Lesson 5 Intro
+  - Lesson 5 Overview (0:23)
+  - Live (4:20)
+- Geolocation
+  - Introduction to Geolocation (0:24)
+  - Undetermined Geolocation (2:20)
+  - Denied Geolocation (0:58)
+  - Granted Geolocation (2:57)
+  - Set Geolocation (4:54)
+  - AskPermission (3:31)
+  - Summary
+- Animations
+  - Animations (5:45)
+  - Animated (4:07)
+- Local Notifications
+  - Local Notifications (0:32)
+  - setLocalNotifications (6:02)
+  - useLocalNotification (2:04)
+- Handling Photos
+  - Handling Photos (4:41)
+- App Store Prep
+  - App Store Prep (2:23)
+  - Prep App (2:23)
+  - .apk and .ipa files (3:03)
+- Outro
+  - Course Outro (0:19)

@@ -12,17 +12,19 @@
 - ASP.NET core
   - [Mini ASP.NET Core](./2019/2019-01-30_Mini_AspNet_Core/mini_aspnet_core.md)
 - JS - React, Electron, Node
-  - [React Fundamentals](./2018/2018-12-25_React_Fundamentals/react_fundamentals.md)
+  - Tyler McGinnis
+    - [React Fundamentals](./2018/2018-12-25_React_Fundamentals/react_fundamentals.md)
+    - [Redux](./2019/2019-02-12_Redux/redux.md)
+    - [React Router](./2019/2019-03-12_React_Router/react_router.md)
   - [Serial Port on Mac](./2019/2019-01-04_Serial_Port_on_Mac/serial_port_on_mac.md)
   - [Serial Port App Dev](./2019/2019-01-08_Serial_Port_App_Dev/serial_port_app_dev.md)
   - [React on Electron](./2019/2019-01-23_React_on_Electron/react_on_electron.md)
   - [keyword 'new' in JS](./2019/2019-01-30_Keyword_new_in_JS/keyword_new_in_js.md)
   - [Functional Instantiation pattern](./2019/2019-02-11_Functional_Instantiation/functional_instantiation.md)
   - [Promise in JS](./2019/2019-02-11_Promise_in_JS/promise_in_js.md)
-  - [Redux](./2019/2019-02-12_Redux/redux.md)
 - Deep Learning
-  - How Relu Works
-  - About Back Propagation
+  - [How Relu Works](./2017/2017-07-31-How_Relu_Works/how_relu_works.md)
+  - [About Back Propagation](./2017/2017-08-07-About_Back_Propagation/about_bp.md)
   - Topological Sorting
   - MiniFlow
   - Hyperparameter Optimization
@@ -31,8 +33,8 @@
   - Explore LSTM
   - [YOLO like Object Detection](./2018/2018-12-13_Traffic_Light_Detection/traffic_light_detection.md)
 - Reinforcement Learning
-  - Deep RL Pong
-  - Policy Gradient
+  - [Deep RL Pong](./2017/2017-10-30-DeepRL_Pong/deep_rl_pong.md)
+  - [Policy Gradient](./2017/2017-11-25-Policy_Gradient/policy_gradient.md)
   - Monte Carlo Methods
   - Deep Q-Learning
   - Policy-Based Methods
