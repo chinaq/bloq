@@ -1,5 +1,6 @@
 # React Native - Tyler McGinnis
 
+## ToC
 - Lesson 1 Introduction
   - Course Intro (0:50)
   - Course Map
@@ -144,3 +145,9 @@
   - .apk and .ipa files (3:03)
 - Outro
   - Course Outro (0:19)
+
+## Note
+- Flexbox
+  - [Getting Started with Flexbox](./ref/Flexbox.mhtml)
+  - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  - [Flexbox Froggy](http://flexboxfroggy.com/)
