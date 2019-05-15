@@ -11,6 +11,7 @@
   - [The Rise and Fall of the Third Reich](./2019/2019-02-18_The_Third_Reich/the_third_reich.md)
 - ASP.NET core
   - [Mini ASP.NET Core](./2019/2019-01-30_Mini_AspNet_Core/mini_aspnet_core.md)
+  - [eShopContainer Learning](./2019/2019-05-15_eShopContainer_Learning/eshop.md)
 - JS - React, Electron, Node
   - Tyler McGinnis
     - [React Fundamentals](./2018/2018-12-25_React_Fundamentals/react_fundamentals.md)
