@@ -19,3 +19,35 @@ IdentityUrl=http://docker.for.mac.localhost:5105
 ## Learning
 ### Day 1 - Aggrgate & SeedWork
 - DDD only found in Ordering Service
+
+![Aggregate](./img/Aggregate.png)
+
+### Day 2 - procession on order
+
+```
+webmvc
+
+1
+  -> cart.controller.index
+  -> cart.view.index [checkout]
+
+2
+  -> cart.controller.index.post
+  -> order.controller.create
+  -> basket.service.getOrderDraft
+    ->> api.purchase.getOrderDraft
+      ->>> orderClient.GetOrderDraft
+  -> order.view.create [place order]
+
+3
+  -> order.controller.checkout
+  -> basket.service.checkout
+    ->> api.basket.CheckoutBasket
+      ->>> eventBus.publish(checkoutEvent)
+  -> order.view.index [detail]
+```
+
+![1.cart](./img/1.cart.png)  
+![2.checkedout](./img/2.checkedout.png)  
+![3.created](./img/3.created.png)  
+![4.detal.png](./img/4.detail.png)  
