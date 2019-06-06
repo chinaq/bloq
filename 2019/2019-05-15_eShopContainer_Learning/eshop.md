@@ -51,3 +51,54 @@ webmvc
 ![2.checkedout](./img/2.checkedout.png)  
 ![3.created](./img/3.created.png)  
 ![4.detal.png](./img/4.detail.png)  
+
+### Day 3
+- Domain Event 在 context.save 中 publish
+- CQRS 是 await 到 query 或 command 结果
+- 以上两者，均采用 mediatR
+
+### Day 4
+- add buyer
+```
+Order
+
+-> ValidateOrAddBuyerAggregateWhenOrderStartedDomainEventHandler
+  -> buyer.VerifyOrAddPaymentMethod
+  -> buyerRepo.Save
+  -> orderingIntegrationEventService.AddAndSaveEventAsync
+```
+
+### Day 5
+- about EventBus
+
+![event bus](./img/EventBus.jpeg)
+
+- unusual `AutoFac` Interface Setting on eventBus in `Ordering.API` project
+
+``` cs
+// ApplicationModule.cs
+
+builder
+  .RegisterAssemblyTypes(typeof(CreateOrderCommandHandler).GetTypeInfo().Assembly)
+  .AsClosedTypesOf(typeof(IIntegrationEventHandler<>))
+```
+
+``` cs
+// Startup.cs
+
+private void ConfigureEventBus(IApplicationBuilder app)
+{
+    var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+
+    eventBus.Subscribe<OrderStatusChangedToAwaitingValidationIntegrationEvent, OrderStatusChangedToAwaitingValidationIntegrationEventHandler>();
+    eventBus.Subscribe<OrderStatusChangedToPaidIntegrationEvent, OrderStatusChangedToPaidIntegrationEventHandler>();
+    eventBus.Subscribe<OrderStatusChangedToStockConfirmedIntegrationEvent, OrderStatusChangedToStockConfirmedIntegrationEventHandler>();
+    eventBus.Subscribe<OrderStatusChangedToShippedIntegrationEvent, OrderStatusChangedToShippedIntegrationEventHandler>();
+    eventBus.Subscribe<OrderStatusChangedToCancelledIntegrationEvent, OrderStatusChangedToCancelledIntegrationEventHandler>();
+    eventBus.Subscribe<OrderStatusChangedToSubmittedIntegrationEvent, OrderStatusChangedToSubmittedIntegrationEventHandler>();
+}
+```
+
+- about init in `Startup.cs`
+  - `EventBusRabbitMQ`: AddSingleton
+  - `MediatR`: registered in MediatorModule, not need to set singleton
