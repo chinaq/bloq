@@ -92,10 +92,8 @@ private void ConfigureEventBus(IApplicationBuilder app)
 
     eventBus.Subscribe<OrderStatusChangedToAwaitingValidationIntegrationEvent, OrderStatusChangedToAwaitingValidationIntegrationEventHandler>();
     eventBus.Subscribe<OrderStatusChangedToPaidIntegrationEvent, OrderStatusChangedToPaidIntegrationEventHandler>();
-    eventBus.Subscribe<OrderStatusChangedToStockConfirmedIntegrationEvent, OrderStatusChangedToStockConfirmedIntegrationEventHandler>();
-    eventBus.Subscribe<OrderStatusChangedToShippedIntegrationEvent, OrderStatusChangedToShippedIntegrationEventHandler>();
-    eventBus.Subscribe<OrderStatusChangedToCancelledIntegrationEvent, OrderStatusChangedToCancelledIntegrationEventHandler>();
-    eventBus.Subscribe<OrderStatusChangedToSubmittedIntegrationEvent, OrderStatusChangedToSubmittedIntegrationEventHandler>();
+
+    ......
 }
 ```
 
@@ -104,8 +102,8 @@ private void ConfigureEventBus(IApplicationBuilder app)
   - `MediatR`: registered in MediatorModule, not need to set singleton
 
 
-  ### Day 6
-  - 从购物车中 checkout
+### Day 6
+- 从购物车中 checkout
 ```
 UserCheckoutAcceptedIntegrationEventHandler
   -> mediator.send CreateOrderCommand
@@ -119,3 +117,7 @@ In TransactionBehaviour
 ```
 
 ![behavior](./img/behavior.jpeg)
+
+### 7
+- DDD layers
+![layers](./img/layers.png)
