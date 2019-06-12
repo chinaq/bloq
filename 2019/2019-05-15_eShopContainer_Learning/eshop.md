@@ -102,3 +102,20 @@ private void ConfigureEventBus(IApplicationBuilder app)
 - about init in `Startup.cs`
   - `EventBusRabbitMQ`: AddSingleton
   - `MediatR`: registered in MediatorModule, not need to set singleton
+
+
+  ### Day 6
+  - 从购物车中 checkout
+```
+UserCheckoutAcceptedIntegrationEventHandler
+  -> mediator.send CreateOrderCommand
+
+CreateOrderCommandHander.Handle
+  -> orderingIntegrationEventService.AddAndSaveEventAsync
+  -> orderReposity.Add
+
+In TransactionBehaviour
+    -> ordringIntegrationEventService.PulishEventsThroughEventBusAsync
+```
+
+![behavior](./img/behavior.jpeg)
