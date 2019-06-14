@@ -1,7 +1,7 @@
 # eShopContainer Learning
 ### learning examples form micosoft
 
-# Preparing
+## Preparing
 ### set up
 - if on mac, please set `IdentityUrl` in `docker-compose.override.yml`
 ``` yml
@@ -118,6 +118,23 @@ In TransactionBehaviour
 
 ![behavior](./img/behavior.jpeg)
 
-### 7
+### Day 7
 - DDD layers
 ![layers](./img/layers.png)
+
+- Services Are in Gateway
+
+### Day 8
+- generating api controller for ef context
+  - [Scaffolding ASP.NET Core API Controllers](https://mattmillican.com/blog/aspnetcore-controller-scaffolding)
+  - [Add a model to a Razor Pages app in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-2.2&tabs=visual-studio-code)
+  - [Add a model to an ASP.NET Core MVC app](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-2.2&tabs=visual-studio-code)
+
+
+
+
+
+## ref
+- [eShopOnContainers 知多少](https://www.jianshu.com/c/78c71ddcaeea)
+- [领域驱动设计实践（战略篇）](https://gitbook.cn/gitchat/column/5b3235082ab5224deb750e02)
+- [Writing Multitenant ASP.NET Core Applications](https://stackify.com/writing-multitenant-asp-net-core-applications/amp/)
