@@ -129,8 +129,25 @@ In TransactionBehaviour
   - [Scaffolding ASP.NET Core API Controllers](https://mattmillican.com/blog/aspnetcore-controller-scaffolding)
   - [Add a model to a Razor Pages app in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-2.2&tabs=visual-studio-code)
   - [Add a model to an ASP.NET Core MVC app](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-2.2&tabs=visual-studio-code)
-
-
+- set config by service.configure
+``` cs
+// in startup.cs
+services.Configure<CatalogSettings>(configuration);
+```
+``` cs
+// in controller 
+public CatalogController(IOptionsSnapshot<CatalogSettings> settings, ......)
+```
+- set api attributes by service.configure
+``` cs
+// in startup.cs
+services.Configure<ApiBehaviorOptions>(options => {......});
+```
+``` cs
+// in controller
+[ApiController]
+public class CatalogController : ControllerBase
+```
 
 
 
