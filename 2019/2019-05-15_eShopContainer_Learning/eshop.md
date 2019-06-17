@@ -149,6 +149,26 @@ services.Configure<ApiBehaviorOptions>(options => {......});
 public class CatalogController : ControllerBase
 ```
 
+### day 9
+- 神奇的 docker-compose.yml
+  - 如果一个 service 同时包含 image 和 build 参数，先后顺序是完全不同的两种用法，如下
+``` yml
+# 先从远程获取 image，行就结束。不行再新建 image
+services:
+ ordering-api-unit-test:
+  image: ${REGISTRY:-eshop}/ordering-api-test:${TAG:-latest}
+  build:
+    dockerfile: src/Services/Ordering/Ordering.API/Dockerfile
+```
+``` yml
+# 新建 image，并进行命名
+services:
+ ordering-api-unit-test:
+  build:
+    dockerfile: src/Services/Ordering/Ordering.API/Dockerfile
+  image: ${REGISTRY:-eshop}/ordering-api-test:${TAG:-latest}
+```
+
 
 
 ## ref
