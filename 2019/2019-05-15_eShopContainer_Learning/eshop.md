@@ -169,6 +169,12 @@ services:
   image: ${REGISTRY:-eshop}/ordering-api-test:${TAG:-latest}
 ```
 
+### day 10
+- Identity
+  - [ASP.NET Core Identity Series – Getting Started](https://chsakell.com/2018/04/28/asp-net-core-identity-series-getting-started/)
+  - [ASP.NET Core 之 Identity 入门（一）](https://www.cnblogs.com/savorboard/p/aspnetcore-identity.html)
+ 
+![identity](./img/identity.jpeg)
 
 
 ## ref
