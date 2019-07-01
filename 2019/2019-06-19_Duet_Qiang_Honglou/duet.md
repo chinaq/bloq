@@ -3,3 +3,6 @@
 
 ## 友
 ![friends](./img/friends.jpg)
+
+## 家
+![family](./img/family.jpg)
