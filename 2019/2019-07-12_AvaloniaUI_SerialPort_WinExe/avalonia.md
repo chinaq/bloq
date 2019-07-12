@@ -7,7 +7,7 @@
     - [Get Control](#Get-Control)
     - [Font Family](#Font-Family)
     - [Window Size](#Window-Size)
-    - [No sroll api for textbox to scroll](#No-sroll-api-for-textbox-to-scroll)
+    - [No api for textbox to scroll](#No-api-for-textbox-to-scroll)
     - [Message Box](#Message-Box)
     - [Publish WinExe](#Publish-WinExe)
     - [Not easy to add a loading image](#Not-easy-to-add-a-loading-image)
@@ -64,7 +64,7 @@ public MainWindow()
         ...... >
 ```
 
-### No sroll api for textbox to scroll
+### No api for textbox to scroll
 - [Is there any api for textbox to scroll to bottom in multi lines?](https://github.com/AvaloniaUI/Avalonia/issues/2722)
 
 ### Message Box
