@@ -102,9 +102,10 @@ public MainWindow()
 
 ## Pack in one Exe file
 ### warp-packer
-- [Publish .NET Core App As Portable Executable](https://stackoverflow.com/questions/50703578/publish-net-core-app-as-portable-executable)
 - [warp](https://github.com/dgiagio/warp#windows-1) worked
+  - [Creating a small single self-contained executable out of a .NET Core application](https://www.hanselman.com/blog/BrainstormingCreatingASmallSingleSelfcontainedExecutableOutOfANETCoreApplication.aspx)
 - [CoreRT](https://blog.miniasp.com/post/2019/01/30/How-to-use-CoreRT-SCD-compile-your-NET-Core-App) did not work
+  - [Publish .NET Core App As Portable Executable](https://stackoverflow.com/questions/50703578/publish-net-core-app-as-portable-executable)
 
 ### editbin to hide console
 - `editbin` worked which is in `"C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64"` on my pc.
