@@ -25,3 +25,8 @@
 - `useReducer`
     - If different pieces of state update independently from one another (hovering, selected, etc.), `useState` should work fine. 
     - If your state tends to be updated together or if updating one piece of state is based on another piece of state, go with `useReducer`.
+
+## New Render, Same Value
+- The useRef Hook
+    - trigger re-render when it’s updated, go with `useState` or `useReducer` \
+    - doesn’t trigger a re-render when it’s updated, go with `useRef`.
