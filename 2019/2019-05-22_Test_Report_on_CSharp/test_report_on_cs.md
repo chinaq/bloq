@@ -28,5 +28,6 @@ junit-viewer \
   - [trx2junit](https://github.com/gfoidl/trx2junit)
   - [junit-viewer](https://www.npmjs.com/package/junit-viewer)
 - try & failed
+  - [Reporting test results - dotnet test](https://github.com/Microsoft/vstest-docs/blob/master/docs/report.md)
   - [xunit test logger](https://github.com/spekt/xunit.testlogger)
   - [xunit-viewer](https://github.com/lukejpreston/xunit-viewer)
