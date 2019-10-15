@@ -1,0 +1,3 @@
+- [The Elephant and the Mouse, or, Parameter Sniffing in SQL Server](https://www.brentozar.com/archive/2013/06/the-elephant-and-the-mouse-or-parameter-sniffing-in-sql-server/)
+- [Improving query performance with OPTION (RECOMPILE), Constant Folding and avoiding Parameter Sniffing issues](https://blogs.msdn.microsoft.com/robinlester/2016/08/10/improving-query-performance-with-option-recompile-constant-folding-and-avoiding-parameter-sniffing-issues/)
+- [SQL Server · 最佳实践 · 参数嗅探问题](http://mysql.taobao.org/monthly/2016/10/10/)

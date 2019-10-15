@@ -1,0 +1,3 @@
+- [使用华硕 merlin 架设透明代理](https://github.com/zw963/asuswrt-merlin-transparent-proxy/wiki)
+- [How to setup your own DNSCrypt server in less than 10 minutes](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/How-to-setup-your-own-DNSCrypt-server-in-less-than-10-minutes)
+- [ASUS Merlin 折腾记 + 我的 RT-AC66U B1](https://zhuanlan.zhihu.com/p/34156571)
