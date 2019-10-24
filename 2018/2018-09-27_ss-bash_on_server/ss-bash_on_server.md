@@ -1,6 +1,34 @@
 # ss-bash on server
 
-![ss-bash](./img/ss-bash.png)
+```
+用法：
+    显示版本：
+        ssadmin.sh -v|v|version
+    显示帮助：
+        ssadmin.sh [-h|h|help]
+    启动ss:
+        ssadmin.sh start
+    停止ss：
+        ssadmin.sh stop
+    查看ss状态：
+        ssadmin.sh status
+    重启ss：
+        ssadmin.sh restart
+    软重启ss：
+        ssadmin.sh soft_restart
+        在不影响现有连接的情况下重启ss服务。用于ss服务参数修改，
+        和手动直接修改配置文件后，重启ss服务。
+    添加用户：
+        ssadmin.sh add port passwd limit
+            port：端口号, 0<port<=65535
+            passwd：密码, 不能有空格，引号等字符
+            limit：流量限制，可以用K/M/G/T、KB/MB/GB/TB等（不区
+                   分大小写）。支持小数。比如10.5G、10.5GB等。
+                   1KB=1024 bytes，以此类推。
+        示例： ssadmin.sh add 3333 abcde 10.5G
+
+    ......
+```
 
 - install 
     - apt install python python-pip
