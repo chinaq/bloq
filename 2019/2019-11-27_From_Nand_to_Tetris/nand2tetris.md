@@ -6,8 +6,8 @@
 
 - [From Nand to Tetris](#from-nand-to-tetris)
   - [Project 1: Boolean Logic](#project-1-boolean-logic)
-  - [Project 2: Boolean Arithmetic](#project-2-boolean-arithmetic)
-  - [Project 3: Sequential Logic](#project-3-sequential-logic)
+  - [Project 2: Boolean Arithmetic - ALU](#project-2-boolean-arithmetic---alu)
+  - [Project 3: Sequential Logic - Memory](#project-3-sequential-logic---memory)
   - [Project 4: Machine Language](#project-4-machine-language)
   - [Project 5: Computer Architecture](#project-5-computer-architecture)
   - [Project 6: Assembler](#project-6-assembler)
@@ -22,14 +22,27 @@
 
 ![gate](img/gate.png)
 
-## Project 2: Boolean Arithmetic
+## Project 2: Boolean Arithmetic - ALU
 
-![alu0](img/alu0.png)
-![alu1](img/alu1.png)
-![alu2](img/alu2.png)
-![alu3](img/alu3.png)
+![alu0](img/alu0.png)  
+![alu1](img/alu1.png)  
+![alu2](img/alu2.png)  
+![alu3](img/alu3.png)  
 
-## Project 3: Sequential Logic
+## Project 3: Sequential Logic - Memory
+
+- flip-flop -  触发器（延时器）
+- 1-bit register - 寄存器
+- Multi-bit register
+- Random Access Memory (RAM) - 内存
+- Counter - 计数器
+
+![flip-flop](img/flip-flop.png)  
+![1-bit register](img/1-bit_register.png)  
+![register](img/register.png)  
+![RAM](img/RAM.png)  
+![Counter](img/counter.png)  
+
 ## Project 4: Machine Language
 ## Project 5: Computer Architecture
 ## Project 6: Assembler
