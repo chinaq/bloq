@@ -17,6 +17,7 @@
   - [Project 10: Compiler I: Syntax Analysis](#project-10-compiler-i-syntax-analysis)
   - [Project 11: Compiler II: Code Generation](#project-11-compiler-ii-code-generation)
   - [Project 12: Operating System](#project-12-operating-system)
+  - [refs](#refs)
 
 ## Project 1: Boolean Logic
 
@@ -52,3 +53,7 @@
 ## Project 10: Compiler I: Syntax Analysis
 ## Project 11: Compiler II: Code Generation
 ## Project 12: Operating System
+
+
+## refs
+- [Richard Feynman: Computer Heuristics](https://sites.google.com/site/principiascientifica/lecture/richard-feynman-computer-heuristics)
