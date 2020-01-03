@@ -45,6 +45,15 @@
 ![Counter](img/counter.png)  
 
 ## Project 4: Machine Language
+
+![concept](img/concept.png)  
+![a-c](img/a-c.png)  
+![a-instruction](img/a-instruction.png)  
+![c-instruction](img/c-instruction.png)  
+![c-symbolic](img/c-symbolic.png)  
+![iterative](img/iterative.png)  
+![input](img/input.png)  
+
 ## Project 5: Computer Architecture
 ## Project 6: Assembler
 ## Project 7: VM I: Stack Arithmetic
