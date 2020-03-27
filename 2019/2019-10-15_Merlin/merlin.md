@@ -1,3 +1,4 @@
 - [使用华硕 merlin 架设透明代理](https://github.com/zw963/asuswrt-merlin-transparent-proxy/wiki)
+- [修改Hosts临时解决GitHub的raw.githubusercontent.com无法链接的问题](https://www.ioiox.com/archives/62.html)
 - [How to setup your own DNSCrypt server in less than 10 minutes](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/How-to-setup-your-own-DNSCrypt-server-in-less-than-10-minutes)
 - [ASUS Merlin 折腾记 + 我的 RT-AC66U B1](https://zhuanlan.zhihu.com/p/34156571)
