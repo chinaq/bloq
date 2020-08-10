@@ -4,11 +4,15 @@
 - [Something about IdenttiyServer4](#something-about-identtiyserver4)
   - [user sign-in to IdentityServer via cookie on default](#user-sign-in-to-identityserver-via-cookie-on-default)
   - [Use Identity Server End Points](#use-identity-server-end-points)
+  - [Authentication and authorization for SPAs](#authentication-and-authorization-for-spas)
+  - [Path of Identity](#path-of-identity)
   - [others](#others)
 
 ## user sign-in to IdentityServer via cookie on default
 
 ``` cs
+// IdentityServerServiceCollectionExtensions.cs
+
 public static IIdentityServerBuilder AddIdentityServer(this IServiceCollection services)
 {
     var builder = services.AddIdentityServerBuilder();
@@ -24,10 +28,7 @@ public static IIdentityServerBuilder AddIdentityServer(this IServiceCollection s
         .AddDefaultSecretParsers()
         .AddDefaultSecretValidators();
 
-    // provide default in-memory implementation, not suitable for most production scenarios
-    builder.AddInMemoryPersistedGrants();
-
-    return builder;
+        // ......
 }
 ```
 
@@ -39,6 +40,8 @@ public static IIdentityServerBuilder AddIdentityServer(this IServiceCollection s
 ## Use Identity Server End Points
 
 ``` cs
+// Startup.cs
+
 public void Configure(IApplicationBuilder app)
 {
     // ......
@@ -57,17 +60,11 @@ public void Configure(IApplicationBuilder app)
 - identity server 4 endpoints are independent of app.UserEndpoints which runs later
 
 ``` cs
+// IdentityServerApplicationBuilderExtensions.cs
+
 public static IApplicationBuilder UseIdentityServer(this IApplicationBuilder app, IdentityServerMiddlewareOptions options = null)
 {
     // ......
-
-    // it seems ok if we have UseAuthentication more than once in the pipeline --
-    // this will just re-run the various callback handlers and the default authN 
-    // handler, which just re-assigns the user on the context. claims transformation
-    // will run twice, since that's not cached (whereas the authN handler result is)
-    // related: https://github.com/aspnet/Security/issues/1399
-    if (options == null) options = new IdentityServerMiddlewareOptions();
-    options.AuthenticationMiddleware(app);
 
     app.UseMiddleware<MutualTlsEndpointMiddleware>();
     app.UseMiddleware<IdentityServerMiddleware>();
@@ -75,54 +72,103 @@ public static IApplicationBuilder UseIdentityServer(this IApplicationBuilder app
 }
 ```
 
-- [source](https://github.com/IdentityServer/IdentityServer4/blob/18897890ce2cb020a71b836db030f3ed1ae57882/src/IdentityServer4/src/Configuration/IdentityServerApplicationBuilderExtensions.cs#L23-L49)
+- [app.UseIdentityServer() source](https://github.com/IdentityServer/IdentityServer4/blob/18897890ce2cb020a71b836db030f3ed1ae57882/src/IdentityServer4/src/Configuration/IdentityServerApplicationBuilderExtensions.cs#L23-L49)
 
 
 
 ``` cs
+// EndpointRouter.cs
+
 public async Task Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
 {
-    // this will check the authentication session and from it emit the check session
-    // cookie needed from JS-based signout clients.
-    await session.EnsureSessionIdCookieAsync();
-
-    context.Response.OnStarting(async () =>
-    {
-        if (context.GetSignOutCalled())
-        {
-          // .....
-        }
-    });
-
-    try
-    {
+    // ......
         var endpoint = router.Find(context);
-        if (endpoint != null)
-        {
-            _logger.LogInformation("Invoking IdentityServer endpoint: {endpointType} for {url}", endpoint.GetType().FullName, context.Request.Path.ToString());
-
+        // ......
             var result = await endpoint.ProcessAsync(context);
-            if (result != null)
-            {
-                _logger.LogTrace("Invoking result: {type}", result.GetType().FullName);
+            // ......
                 await result.ExecuteAsync(context);
-            }
-
-            return;
-        }
-    }
-    catch (Exception ex)
-    {
-      // ......
-    }
-
-    await _next(context);
+    // ......
 }
 ```
-- [source](https://github.com/IdentityServer/IdentityServer4/blob/18897890ce2cb020a71b836db030f3ed1ae57882/src/IdentityServer4/src/Hosting/EndpointRouter.cs#L27-L66)
+- [EndpointRouter source](https://github.com/IdentityServer/IdentityServer4/blob/18897890ce2cb020a71b836db030f3ed1ae57882/src/IdentityServer4/src/Hosting/EndpointRouter.cs#L27-L66)
 - use is4 router to attach the endpoint of is4
 - `IdentityServerMiddleware.Invoke -> EndPointRouter.FindEndPoint -> IEndPointHanlder.Process`
 
+
+
+## Authentication and authorization for SPAs
+
+[official doc](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-3.1)
+
+- Inside the `Startup.ConfigureServices` method:
+    - IdentityServer with an additional AddApiAuthorization helper method that sets up some default ASP.NET Core conventions on top of IdentityServer:
+
+    ``` cs
+    // Startup.cs
+
+    services.AddIdentityServer()
+        .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
+    ```
+
+    - details about [`AddApiAuthorization()`](https://github.com/dotnet/aspnetcore/blob/9a1810c1dbe432fc7bc7e8bc68fa22ab787c0452/src/Identity/ApiAuthorization.IdentityServer/src/IdentityServerBuilderConfigurationExtensions.cs#L43-L74)
+
+    ``` cs
+    // IdentityServerBuilderConfigurationExtensions.cs
+
+    public static IIdentityServerBuilder AddApiAuthorization<TUser, TContext>(
+        this IIdentityServerBuilder builder,
+        Action<ApiAuthorizationOptions> configure)
+            where TUser : class
+            where TContext : DbContext, IPersistedGrantDbContext
+    {
+        // ......
+
+        builder.AddAspNetIdentity<TUser>()
+            .AddOperationalStore<TContext>()
+            .ConfigureReplacedServices()
+            .AddIdentityResources()
+            .AddApiResources()
+            .AddClients()
+            .AddSigningCredentials();
+
+        // ......
+    }
+    ```
+
+    - Authentication with an additional AddIdentityServerJwt helper method that configures the app to validate JWT tokens produced by IdentityServer:
+
+    ``` cs
+    services.AddAuthentication()
+        .AddIdentityServerJwt();
+    ```
+
+* Inside the `Startup.Configure` method:
+  * The authentication middleware that is responsible for validating the request credentials and setting the user on the request context:
+
+    ```csharp
+    app.UseAuthentication();
+    ```
+
+  * The IdentityServer middleware that exposes the OpenID Connect endpoints:
+
+    ```csharp
+    app.UseIdentityServer();
+    ```
+
+
+- AddApiAuthorization
+    - This helper method configures IdentityServer to use our supported configuration. ......
+- AddIdentityServerJwt
+    - This helper method configures a policy scheme for the app as the default authentication handler. The policy is configured to let Identity handle all requests routed to any subpath in the Identity URL space "/Identity". The `JwtBearerHandler` handles all other requests. ......
+- WeatherForecastController
+    - In the *Controllers\WeatherForecastController.cs* file, notice the `[Authorize]` attribute applied to the class that indicates that the user needs to be authorized based on the default policy to access the resource. The default authorization policy happens to be configured to use the default authentication scheme, which is set up by `AddIdentityServerJwt` to the policy scheme that was mentioned above, making the `JwtBearerHandler` configured by such helper method the default handler for requests to the app.
+
+## Path of Identity
+
+- It's on `/Identity/account/login` when adding default identity
+    - `AddDefaultIdentity -> AddDefaultUI -> IdentityDefaultUIConfigureOptions -> “/Identity/account/login”`
+- custome ui on `/account/login` when only adding identity
+    - `AddIdentity -> "/account/login"`
 
 
 ## others
@@ -132,3 +178,4 @@ public async Task Invoke(HttpContext context, IEndpointRouter router, IUserSessi
 - [理解 OpenID Connect Hybrid 模式](http://www.ngbeijing.cn/2019/07/02/2019-07-02_openid_connect_hybrid_flow/)
 - [RS256 JWT签名 - 非对称加密](https://zhuanlan.zhihu.com/p/70275218)
 - [IdentityServer4源码解析_1_项目结构](https://holdengong.com/identityserver4%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90_1_%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84/)
+- [Scaffold Identity in ASP.NET Core projects](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-3.1)
