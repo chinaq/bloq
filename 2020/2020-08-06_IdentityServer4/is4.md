@@ -6,6 +6,7 @@
   - [Use Identity Server End Points](#use-identity-server-end-points)
   - [Authentication and authorization for SPAs](#authentication-and-authorization-for-spas)
   - [Path of Identity](#path-of-identity)
+  - [重写租户登录](#重写租户登录)
   - [others](#others)
 
 ## user sign-in to IdentityServer via cookie on default
@@ -171,6 +172,18 @@ public async Task Invoke(HttpContext context, IEndpointRouter router, IUserSessi
     - `AddIdentity -> "/account/login"`
 
 
+
+## 重写租户登录
+``` cs
+// ProfileService
+// auth 后 token 中包含响应 claims
+:AuthorizeEndPoint -> :AuthorizeResponseGenerator -> :DefaultTokenService -> :DefaultClaimService -> :ProfileService
+
+// AuthorizeResponseGenerator
+// 作用之一：用户是不是需要登录或授权等
+:AuthorizeEndPoint -> :AuthorizeResponseGenerator
+```
+
 ## others
 - [Use Cookie in MVC Client - Interactive Applications with ASP.NET Core](http://docs.identityserver.io/en/latest/quickstarts/2_interactive_aspnetcore.html#creating-an-mvc-client)
 - [[JWT] TokenValidationParameters RoleClaimType Not Fully Respected](https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet/issues/1214)
@@ -179,3 +192,5 @@ public async Task Invoke(HttpContext context, IEndpointRouter router, IUserSessi
 - [RS256 JWT签名 - 非对称加密](https://zhuanlan.zhihu.com/p/70275218)
 - [IdentityServer4源码解析_1_项目结构](https://holdengong.com/identityserver4%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90_1_%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84/)
 - [Scaffold Identity in ASP.NET Core projects](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-3.1)
+- [How to Implement Tenant Selection In Identity Server 4 For Multi Tenant Application](https://lalitacode.com/how-to-implement-tenant-selection-in-identity-server-4-application/)
+- [Implement Domain Or Subdomain Based Multi Tenancy In Identity Server](https://lalitacode.com/implement-domain-or-subdomain-based-multi-tenancy-in-identity-server/)

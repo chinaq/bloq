@@ -14,4 +14,5 @@
 - [Finbuckle.MultiTenant](https://github.com/Finbuckle/Finbuckle.MultiTenant)
 - [Writing Multitenant ASP.NET Core Applications](https://stackify.com/writing-multitenant-asp-net-core-applications/)
 - [Creating a multi-tenant .NET Core Application](https://michael-mckenna.com/tags/multitenant/)
-- [Using Identity Server for Multi-Tenant Web Applications](https://blog.bitsrc.io/using-identity-server-for-multi-tenant-web-applications-c511ffa3e428)
+- [How to Implement Tenant Selection In Identity Server 4 For Multi Tenant Application](https://lalitacode.com/how-to-implement-tenant-selection-in-identity-server-4-application/)
+- [Implement Domain Or Subdomain Based Multi Tenancy In Identity Server](https://lalitacode.com/implement-domain-or-subdomain-based-multi-tenancy-in-identity-server/)
