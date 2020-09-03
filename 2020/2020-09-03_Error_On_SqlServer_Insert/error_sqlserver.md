@@ -28,11 +28,11 @@
   - 那么判断是某个当前未知的软件造成该问题
 - 当前如何处理
   - 需记录异常时，服务器的运行状态
-  ![perfmon](img/perfmon.png)
+  - ![perfmon](img/perfmon.png)
   - 由于一年多前的出过问题，当时的积累是可以使用 windows 自带的 perfmon.exe，设置 CPU、内存、硬盘等过载时触发事件。当时直接触发为发送邮件，但缺点是没法定位到过载原因。
   - 所以目标是记录出现异常时，服务器的具体状态
 - 开始搜索优化方案
-  ![process monitor](./img/process-monitor.png)
+  - ![process monitor](./img/process-monitor.png)
   - 查到可以使用 ProcessMonitor 记录所有进程
   - 搜索后，发现一种不太完善的记录法，通过 perfmon.exe 触发 ProcessMonitor 记录进程状态
   - 设置 CPU、内存、硬盘，任一占用超过 99% 时触发
@@ -59,7 +59,7 @@
 - 插曲 
   - 正在分析时，出现内存被大量占用的状况
   - 此时，分析任务管理器中的 process 发现并没有占满内存，所以需要更精确的工具
-  ![ram map](img/rammap.png)
+  - ![ram map](img/rammap.png)
   - 查询到 RAMMap 可以查看内存状态，发现有一文件占用了大量内存
   - 确定，是由于开启了 SQL Server Profiler 记录到文件，导致内存大量占用
   - 所以先关闭，有需要再开启
@@ -72,7 +72,7 @@
   - perfmon.exe 正好记录了其导致硬盘过载读写
   - 开始猜测，问题根源可能是“天软件”，但日志显示，之前异常时该软件并未运行
 - 继续寻找
-  ![duration](./img/duration.png)
+  - ![duration](./img/duration.png)
   - 发现，每次的异常都是由写入数据库 30 秒超时引起
   - 那么是硬盘先异常，导致 30 秒异常；还是该插入操作本身有问题，导致了 30 秒异常？无解
   - 当前已经无解，没法去确定问题源
