@@ -1,0 +1,3876 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://cc.bingj.com/cache.aspx?q=https%3a%2f%2flalitacode.com%2fimplement-domain-or-subdomain-based-multi-tenancy-in-identity-server%2f&d=5049532969129525&mkt=en-US&setlang=en-US&w=0H9gY21WvGD4Q0nYOZ7H4OWMY7vWb6W8
+Subject: Implement Subdomain Based Multi Tenancy In Identity Server - Lalita Code
+Date: Thu, 10 Sep 2020 07:43:17 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----"
+
+
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/html
+Content-ID: <frame-6CFF592EE99B2FF17FDE66E910DD3BAC@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cc.bingj.com/cache.aspx?q=https%3a%2f%2flalitacode.com%2fimplement-domain-or-subdomain-based-multi-tenancy-in-identity-server%2f&d=5049532969129525&mkt=en-US&setlang=en-US&w=0H9gY21WvGD4Q0nYOZ7H4OWMY7vWb6W8
+
+<html class=3D"html" lang=3D"en-US"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-fa042025-ceaf-4470-9809-e7126754c094@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-97a58549-eb16-4=
+c40-b5de-0b46312ce9cf@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-c375882f-a06f-4d47-95d4-1e2ea833867a@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2e3e31b2-3793-41e6=
+-ae67-7ea7a3fb44f8@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-8bec772b-76cc-4643-afb1-0913a6b5ee7a@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-fb82fb5d-07b1-4012-ac=
+1c-6b35333eada8@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
+ref=3D"cid:css-d6d372fb-2333-458a-bbe5-d8be98cb9370@mhtml.blink" /><link re=
+l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-507289af-79ad-4899-bb41-=
+563334d43c19@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-cec0279e-70b5-4c05-8e7b-1edf4d32a557@mhtml.blink" /><base href=
+=3D"https://lalitacode.com/implement-domain-or-subdomain-based-multi-tenanc=
+y-in-identity-server/"><!-- Banner:Start --><!--LocalizedDate:8/16/2020--><=
+!--InvariantDate:8/16/2020--></head><body class=3D"post-template-default si=
+ngle single-post postid-982 single-format-standard wp-custom-logo wp-embed-=
+responsive oceanwp-theme sidebar-mobile no-header-border default-breakpoint=
+ content-full-width content-max-width post-in-category-featured post-in-cat=
+egory-programming page-header-disabled has-breadcrumbs has-fixed-footer lof=
+tloader-lite-enabled elementor-default elementor-kit-37 elementor-page-259"=
+ itemscope=3D"itemscope" itemtype=3D"https://schema.org/Article"><div class=
+=3D"banner"><div class=3D"b_vPanel"><div><!-- Title:Start -->You have reach=
+ed the cached page for <strong><a href=3D"https://lalitacode.com/implement-=
+domain-or-subdomain-based-multi-tenancy-in-identity-server/" h=3D"ID=3DSERP=
+,5003.1">https://lalitacode.com/implement-domain-or-subdomain-based-multi-t=
+enancy-in-identity-server/</a></strong><!-- Title:End --></div><div><!-- Co=
+ntent:Start -->Below is a snapshot of the Web page as it appeared on <stron=
+g>8/16/2020</strong> (the last time our crawler visited it). This is the ve=
+rsion of the page that was used for ranking your search results. The page m=
+ay have changed since we last cached it. To see what might have changed (wi=
+thout the highlights), <a href=3D"https://lalitacode.com/implement-domain-o=
+r-subdomain-based-multi-tenancy-in-identity-server/" h=3D"ID=3DSERP,5003.2"=
+>go to the current page</a>.<!-- Content:End --></div><div><!-- Disclaimer:=
+Start --><div class=3D"disclaimer">Bing is not responsible for the content =
+of this page.</div><!-- Disclaimer:End --></div><!-- Banner:End --></div></=
+div><div class=3D"cacheContent">=20
+
+
+<link rel=3D"preload" href=3D"https://lalitacode.com/wp-content/plugins/w3-=
+total-cache/pub/js/lazyload.min.js" as=3D"script">
+=09
+	<link rel=3D"profile" href=3D"https://gmpg.org/xfn/11">
+
+	<link rel=3D"pingback" href=3D"https://lalitacode.com/xmlrpc.php">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+	<!-- This site is optimized with the Yoast SEO plugin v14.7 - https://yoas=
+t.com/wordpress/plugins/seo/ -->
+	<title>Implement Subdomain Based Multi Tenancy In Identity Server - Lalita=
+ Code</title>
+	<meta name=3D"description" content=3D"Implement domain or subdomain based =
+multi tenancy in Identity server 4. With it you can achieve simple but powe=
+rful multi tenant applications.">
+	<meta name=3D"robots" content=3D"index, follow">
+	<meta name=3D"googlebot" content=3D"index, follow, max-snippet:-1, max-ima=
+ge-preview:large, max-video-preview:-1">
+	<meta name=3D"bingbot" content=3D"index, follow, max-snippet:-1, max-image=
+-preview:large, max-video-preview:-1">
+	<link rel=3D"canonical" href=3D"https://lalitacode.com/implement-domain-or=
+-subdomain-based-multi-tenancy-in-identity-server/">
+	<meta property=3D"og:locale" content=3D"en_US">
+	<meta property=3D"og:type" content=3D"article">
+	<meta property=3D"og:title" content=3D"Implement Subdomain Based Multi Ten=
+ancy In Identity Server - Lalita Code">
+	<meta property=3D"og:description" content=3D"Implement domain or subdomain=
+ based multi tenancy in Identity server 4. With it you can achieve simple b=
+ut powerful multi tenant applications.">
+	<meta property=3D"og:url" content=3D"https://lalitacode.com/implement-doma=
+in-or-subdomain-based-multi-tenancy-in-identity-server/">
+	<meta property=3D"og:site_name" content=3D"Lalita Code">
+	<meta property=3D"article:published_time" content=3D"2020-05-20T13:38:43+0=
+0:00">
+	<meta property=3D"article:modified_time" content=3D"2020-05-24T10:17:18+00=
+:00">
+	<meta property=3D"og:image" content=3D"https://lalitacode.com/wp-content/u=
+ploads/2020/05/monitor-933392_1280-e1589982081843.jpg">
+	<meta property=3D"og:image:width" content=3D"960">
+	<meta property=3D"og:image:height" content=3D"640">
+	<meta name=3D"twitter:card" content=3D"summary_large_image">
+=09
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel=3D"dns-prefetch" href=3D"https://s.w.org/">
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"Lalita Code =
+=C2=BB Feed" href=3D"https://lalitacode.com/feed/">
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"Lalita Code =
+=C2=BB Comments Feed" href=3D"https://lalitacode.com/comments/feed/">
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"Lalita Code =
+=C2=BB Implement Domain Or Subdomain Based Multi Tenancy In Identity Server=
+ Comments Feed" href=3D"https://lalitacode.com/implement-domain-or-subdomai=
+n-based-multi-tenancy-in-identity-server/feed/">
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.12.2 =
+- Using Analytics tracking - https://www.monsterinsights.com/ -->
+
+<!-- / Google Analytics by MonsterInsights -->
+	=09
+	=09
+	<link rel=3D"stylesheet" href=3D"https://lalitacode.com/wp-content/cache/m=
+inify/1d330.css" media=3D"all">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel=3D"stylesheet" id=3D"google-fonts-1-css" href=3D"https://fonts.go=
+ogleapis.com/css?family=3DRoboto%3A100%2C100italic%2C200%2C200italic%2C300%=
+2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C7=
+00italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100itali=
+c%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2=
+C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;=
+ver=3D5.4.2" type=3D"text/css" media=3D"all">
+<link rel=3D"stylesheet" href=3D"https://lalitacode.com/wp-content/cache/mi=
+nify/35ce5.css" media=3D"all">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel=3D"https://api.w.org/" href=3D"https://lalitacode.com/wp-json/">
+<link rel=3D"EditURI" type=3D"application/rsd+xml" title=3D"RSD" href=3D"ht=
+tps://lalitacode.com/xmlrpc.php?rsd">
+<link rel=3D"wlwmanifest" type=3D"application/wlwmanifest+xml" href=3D"http=
+s://lalitacode.com/wp-includes/wlwmanifest.xml">=20
+<meta name=3D"generator" content=3D"WordPress 5.4.2">
+<link rel=3D"shortlink" href=3D"https://lalitacode.com/?p=3D982">
+<link rel=3D"alternate" type=3D"application/json+oembed" href=3D"https://la=
+litacode.com/wp-json/oembed/1.0/embed?url=3Dhttps%3A%2F%2Flalitacode.com%2F=
+implement-domain-or-subdomain-based-multi-tenancy-in-identity-server%2F">
+<link rel=3D"alternate" type=3D"text/xml+oembed" href=3D"https://lalitacode=
+.com/wp-json/oembed/1.0/embed?url=3Dhttps%3A%2F%2Flalitacode.com%2Fimplemen=
+t-domain-or-subdomain-based-multi-tenancy-in-identity-server%2F&amp;format=
+=3Dxml">
+		=09
+<link rel=3D"icon" href=3D"https://lalitacode.com/wp-content/uploads/2020/0=
+4/cropped-site-icon-new-32x32.png" sizes=3D"32x32">
+<link rel=3D"icon" href=3D"https://lalitacode.com/wp-content/uploads/2020/0=
+4/cropped-site-icon-new-192x192.png" sizes=3D"192x192">
+<link rel=3D"apple-touch-icon" href=3D"https://lalitacode.com/wp-content/up=
+loads/2020/04/cropped-site-icon-new-180x180.png">
+<meta name=3D"msapplication-TileImage" content=3D"https://lalitacode.com/wp=
+-content/uploads/2020/04/cropped-site-icon-new-270x270.png">
+<!-- OceanWP CSS -->
+
+
+<div id=3D"loftloader-wrapper" class=3D"pl-imgloading" data-show-close-time=
+=3D"15000" data-max-load-time=3D"0"><div class=3D"loader-inner"><div id=3D"=
+loader"><div class=3D"imgloading-container"><span class=3D"lazy" style=3D""=
+ data-bg=3D"url(https://lalitacode.com/wp-content/uploads/2020/05/loader-4.=
+svg)"></span></div><img data-no-lazy=3D"1" class=3D"skip-lazy" alt=3D"loade=
+r image" src=3D"https://lalitacode.com/wp-content/uploads/2020/05/loader-4.=
+svg"></div></div><div class=3D"loader-section section-fade"></div><div clas=
+s=3D"loader-close-button" style=3D"display: none;"><span class=3D"screen-re=
+ader-text">Close</span></div></div>
+
+=09
+=09
+	<div id=3D"outer-wrap" class=3D"site clr">
+
+		<a class=3D"skip-link screen-reader-text" href=3D"https://lalitacode.com/=
+implement-domain-or-subdomain-based-multi-tenancy-in-identity-server/#main"=
+>Skip to content</a>
+
+	=09
+		<div id=3D"wrap" class=3D"clr">
+
+		=09
+		=09
+<header id=3D"site-header" class=3D"clr" data-height=3D"74" itemscope=3D"it=
+emscope" itemtype=3D"https://schema.org/WPHeader" role=3D"banner">
+
+			<div data-elementor-type=3D"header" data-elementor-id=3D"76" class=3D"el=
+ementor elementor-76 elementor-location-header" data-elementor-settings=3D"=
+[]">
+		<div class=3D"elementor-inner">
+			<div class=3D"elementor-section-wrap">
+						<section class=3D"elementor-element elementor-element-f3a084b element=
+or-section-full_width elementor-section-content-middle elementor-section-he=
+ight-default elementor-section-height-default elementor-section elementor-t=
+op-section" data-id=3D"f3a084b" data-element_type=3D"section" data-settings=
+=3D"{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class=3D"elementor-background-overlay"></div>
+							<div class=3D"elementor-container elementor-column-gap-no">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-5c9508c elementor-col=
+umn elementor-col-50 elementor-top-column" data-id=3D"5c9508c" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-3aa3dae elementor-hid=
+den-phone elementor-widget elementor-widget-heading" data-id=3D"3aa3dae" da=
+ta-element_type=3D"widget" data-widget_type=3D"heading.default">
+				<div class=3D"elementor-widget-container">
+			<h2 class=3D"elementor-heading-title elementor-size-default">info@lalita=
+code.com</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-acbedb7 elementor-col=
+umn elementor-col-50 elementor-top-column" data-id=3D"acbedb7" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-0d8835f elementor-wid=
+get elementor-widget-elementskit-social-media" data-id=3D"0d8835f" data-ele=
+ment_type=3D"widget" data-widget_type=3D"elementskit-social-media.default">
+				<div class=3D"elementor-widget-container">
+			<div class=3D"ekit-wid-con">			 <ul class=3D"ekit_social_media">
+														<li class=3D"elementor-repeater-item-c3fedc1">
+					    <a href=3D"https://www.facebook.com/codelalita" class=3D"facebook"=
+>
+													=09
+							<i aria-hidden=3D"true" class=3D"icon icon-facebook"></i>								=09
+                                                                           =
+                                 </a>
+                    </li>
+                    														<li class=3D"elementor-repeater-item-272a=
+0fd">
+					    <a href=3D"https://twitter.com/lalitacode" class=3D"twitter">
+													=09
+							<i aria-hidden=3D"true" class=3D"icon icon-twitter"></i>								=09
+                                                                           =
+                                 </a>
+                    </li>
+                    														<li class=3D"elementor-repeater-item-0ab9=
+081">
+					    <a href=3D"https://www.youtube.com/channel/UCpBdiJteMl-xfU2L2yxk7e=
+A" class=3D"v">
+													=09
+							<i aria-hidden=3D"true" class=3D"icon icon-youtube-v"></i>								=
+=09
+                                                                           =
+                                 </a>
+                    </li>
+                    							</ul>
+		 </div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class=3D"elementor-element elementor-element-883f74a elementor=
+-section-content-middle elementor-section-boxed elementor-section-height-de=
+fault elementor-section-height-default elementor-section elementor-top-sect=
+ion" data-id=3D"883f74a" data-element_type=3D"section" data-settings=3D"{&q=
+uot;background_background&quot;:&quot;classic&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-da251b0 elementor-col=
+umn elementor-col-33 elementor-top-column" data-id=3D"da251b0" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-a24065a elementor-wid=
+get elementor-widget-theme-site-logo elementor-widget-image" data-id=3D"a24=
+065a" data-element_type=3D"widget" data-widget_type=3D"theme-site-logo.defa=
+ult">
+				<div class=3D"elementor-widget-container">
+					<div class=3D"elementor-image">
+											<a href=3D"https://lalitacode.com/">
+							<img width=3D"401" height=3D"110" src=3D"data:image/svg+xml,%3Csvg%2=
+0xmlns=3D'http://www.w3.org/2000/svg'%20viewBox=3D'0%200%20401%20110'%3E%3C=
+/svg%3E" data-src=3D"https://lalitacode.com/wp-content/uploads/2020/04/crop=
+ped-logo-white.png" class=3D"elementor-animation-pulse attachment-full size=
+-full lazy" alt=3D"" data-srcset=3D"https://lalitacode.com/wp-content/uploa=
+ds/2020/04/cropped-logo-white.png 401w, https://lalitacode.com/wp-content/u=
+ploads/2020/04/cropped-logo-white-300x82.png 300w, https://lalitacode.com/w=
+p-content/uploads/2020/04/cropped-logo-white-396x110.png 396w" data-sizes=
+=3D"(max-width: 401px) 100vw, 401px">								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-ea4b2d7 elementor-col=
+umn elementor-col-33 elementor-top-column" data-id=3D"ea4b2d7" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-d7cf5c6 elementor-nav=
+-menu__align-center elementor-nav-menu--indicator-classic elementor-nav-men=
+u--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu-=
+-toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-me=
+nu" data-id=3D"d7cf5c6" data-element_type=3D"widget" data-settings=3D"{&quo=
+t;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;=
+}" data-widget_type=3D"nav-menu.default">
+				<div class=3D"elementor-widget-container">
+						<nav role=3D"navigation" class=3D"elementor-nav-menu--main elementor-=
+nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underl=
+ine e--animation-fade"><ul id=3D"menu-1-d7cf5c6" class=3D"elementor-nav-men=
+u"><li class=3D"menu-item menu-item-type-post_type menu-item-object-page me=
+nu-item-home menu-item-15"><a href=3D"https://lalitacode.com/" class=3D"ele=
+mentor-item">Home</a></li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page curre=
+nt_page_parent menu-item-14"><a href=3D"https://lalitacode.com/blog/" class=
+=3D"elementor-item">Blog</a></li>
+<li class=3D"menu-item menu-item-type-custom menu-item-object-custom menu-i=
+tem-has-children menu-item-606"><a href=3D"https://lalitacode.com/implement=
+-domain-or-subdomain-based-multi-tenancy-in-identity-server/#" class=3D"ele=
+mentor-item elementor-item-anchor">Categories</a>
+<ul class=3D"sub-menu elementor-nav-menu--dropdown">
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category c=
+urrent-post-ancestor current-menu-parent current-post-parent menu-item-601"=
+><a href=3D"https://lalitacode.com/category/programming/" class=3D"elemento=
+r-sub-item">Programming</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-603"><a href=3D"https://lalitacode.com/category/technology/" class=
+=3D"elementor-sub-item">Technology</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-602"><a href=3D"https://lalitacode.com/category/development/" clas=
+s=3D"elementor-sub-item">Development</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-604"><a href=3D"https://lalitacode.com/category/coding/" class=3D"=
+elementor-sub-item">Coding</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-605"><a href=3D"https://lalitacode.com/category/lifestyle/" class=
+=3D"elementor-sub-item">Lifestyle</a></li>
+</ul>
+</li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-22"><a href=3D"https://lalitacode.com/contact/" class=3D"elementor-ite=
+m">Contact</a></li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-23"><a href=3D"https://lalitacode.com/about-me/" class=3D"elementor-it=
+em">About</a></li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-319"><a href=3D"https://lalitacode.com/privacy-policy/" class=3D"eleme=
+ntor-item">Privacy Policy</a></li>
+</ul></nav>
+					<div class=3D"elementor-menu-toggle" role=3D"button" tabindex=3D"0" ar=
+ia-label=3D"Menu Toggle" aria-expanded=3D"false">
+			<i class=3D"eicon-menu-bar" aria-hidden=3D"true"></i>
+			<span class=3D"elementor-screen-only">Menu</span>
+		</div>
+			<nav class=3D"elementor-nav-menu--dropdown elementor-nav-menu__container=
+" role=3D"navigation" aria-hidden=3D"true"><ul id=3D"menu-2-d7cf5c6" class=
+=3D"elementor-nav-menu"><li class=3D"menu-item menu-item-type-post_type men=
+u-item-object-page menu-item-home menu-item-15"><a href=3D"https://lalitaco=
+de.com/" class=3D"elementor-item">Home</a></li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page curre=
+nt_page_parent menu-item-14"><a href=3D"https://lalitacode.com/blog/" class=
+=3D"elementor-item">Blog</a></li>
+<li class=3D"menu-item menu-item-type-custom menu-item-object-custom menu-i=
+tem-has-children menu-item-606"><a href=3D"https://lalitacode.com/implement=
+-domain-or-subdomain-based-multi-tenancy-in-identity-server/#" class=3D"ele=
+mentor-item elementor-item-anchor">Categories</a>
+<ul class=3D"sub-menu elementor-nav-menu--dropdown">
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category c=
+urrent-post-ancestor current-menu-parent current-post-parent menu-item-601"=
+><a href=3D"https://lalitacode.com/category/programming/" class=3D"elemento=
+r-sub-item">Programming</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-603"><a href=3D"https://lalitacode.com/category/technology/" class=
+=3D"elementor-sub-item">Technology</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-602"><a href=3D"https://lalitacode.com/category/development/" clas=
+s=3D"elementor-sub-item">Development</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-604"><a href=3D"https://lalitacode.com/category/coding/" class=3D"=
+elementor-sub-item">Coding</a></li>
+	<li class=3D"menu-item menu-item-type-taxonomy menu-item-object-category m=
+enu-item-605"><a href=3D"https://lalitacode.com/category/lifestyle/" class=
+=3D"elementor-sub-item">Lifestyle</a></li>
+</ul>
+</li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-22"><a href=3D"https://lalitacode.com/contact/" class=3D"elementor-ite=
+m">Contact</a></li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-23"><a href=3D"https://lalitacode.com/about-me/" class=3D"elementor-it=
+em">About</a></li>
+<li class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-319"><a href=3D"https://lalitacode.com/privacy-policy/" class=3D"eleme=
+ntor-item">Privacy Policy</a></li>
+</ul></nav>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-f3c9938 elementor-col=
+umn elementor-col-33 elementor-top-column" data-id=3D"f3c9938" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-2eaff94 elementor-sea=
+rch-form--skin-classic elementor-search-form--button-type-icon elementor-se=
+arch-form--icon-search elementor-widget elementor-widget-search-form" data-=
+id=3D"2eaff94" data-element_type=3D"widget" data-settings=3D"{&quot;skin&qu=
+ot;:&quot;classic&quot;}" data-widget_type=3D"search-form.default">
+				<div class=3D"elementor-widget-container">
+					<form class=3D"elementor-search-form" role=3D"search" action=3D"https:=
+//lalitacode.com/" method=3D"get">
+			=20
+						<div class=3D"elementor-search-form__container">
+								<input placeholder=3D"Search..." class=3D"elementor-search-form__in=
+put" type=3D"search" name=3D"s" title=3D"Search" value=3D"">
+													<button class=3D"elementor-search-form__submit" type=3D"submit=
+" title=3D"Search" aria-label=3D"Search">
+													<i class=3D"fa fa-search" aria-hidden=3D"true"></i>
+							<span class=3D"elementor-screen-only">Search</span>
+											</button>
+											</div>
+		</form>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+					</div>
+		</div>
+		</div>
+	=09
+</header><!-- #site-header -->
+
+
+		=09
+			<main id=3D"main" class=3D"site-main clr" role=3D"main">
+
+			=09
+=09
+	<div id=3D"content-wrap" class=3D"container clr">
+
+	=09
+		<div id=3D"primary" class=3D"content-area clr">
+
+		=09
+			<div id=3D"content" class=3D"site-content clr">
+
+			=09
+						<div data-elementor-type=3D"single" data-elementor-id=3D"259" class=
+=3D"elementor elementor-259 elementor-location-single post-982 post type-po=
+st status-publish format-standard has-post-thumbnail hentry category-featur=
+ed category-programming tag-net-core-3-1 tag-angular tag-angular-9 tag-code=
+-flow tag-code-flow-with-pkce tag-domain tag-dynamic tag-entity-framework-c=
+ore tag-identity tag-identity-server-4 tag-multi-tenancy tag-multi-tenant t=
+ag-oidc tag-pkce tag-subdomain entry has-media" data-elementor-settings=3D"=
+[]">
+		<div class=3D"elementor-inner">
+			<div class=3D"elementor-section-wrap">
+						<section class=3D"elementor-element elementor-element-2f0f89f element=
+or-section-boxed elementor-section-height-default elementor-section-height-=
+default elementor-section elementor-top-section" data-id=3D"2f0f89f" data-e=
+lement_type=3D"section">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-053ed2a elementor-col=
+umn elementor-col-100 elementor-top-column" data-id=3D"053ed2a" data-elemen=
+t_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-fd14488 elementor-wid=
+get elementor-widget-spacer" data-id=3D"fd14488" data-element_type=3D"widge=
+t" data-widget_type=3D"spacer.default">
+				<div class=3D"elementor-widget-container">
+					<div class=3D"elementor-spacer">
+			<div class=3D"elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class=3D"elementor-element elementor-element-97c7dc6 elementor=
+-section-stretched elementor-section-boxed elementor-section-height-default=
+ elementor-section-height-default elementor-section elementor-top-section" =
+data-id=3D"97c7dc6" data-element_type=3D"section" data-settings=3D"{&quot;s=
+tretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-5f58173 elementor-col=
+umn elementor-col-100 elementor-top-column" data-id=3D"5f58173" data-elemen=
+t_type=3D"column" data-settings=3D"{&quot;background_background&quot;:&quot=
+;classic&quot;}">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-5f77ac4 elementor-wid=
+get elementor-widget-breadcrumbs" data-id=3D"5f77ac4" data-element_type=3D"=
+widget" data-widget_type=3D"breadcrumbs.default">
+				<div class=3D"elementor-widget-container">
+			<p id=3D"breadcrumbs"><span><span><a href=3D"https://lalitacode.com/">Ho=
+me</a> =C2=BB <span><a href=3D"https://lalitacode.com/blog/">Blog</a> =C2=
+=BB <span class=3D"breadcrumb_last" aria-current=3D"page">Implement Domain =
+Or Subdomain Based Multi Tenancy In Identity Server</span></span></span></s=
+pan></p>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class=3D"elementor-element elementor-element-33ecc15 elementor=
+-section-stretched elementor-section-boxed elementor-section-height-default=
+ elementor-section-height-default elementor-section elementor-top-section" =
+data-id=3D"33ecc15" data-element_type=3D"section" data-settings=3D"{&quot;s=
+tretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-no">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-1c0a7d2 elementor-col=
+umn elementor-col-66 elementor-top-column" data-id=3D"1c0a7d2" data-element=
+_type=3D"column" data-settings=3D"{&quot;background_background&quot;:&quot;=
+classic&quot;}">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<section class=3D"elementor-element elementor-element-67e963e elementor=
+-section-boxed elementor-section-height-default elementor-section-height-de=
+fault elementor-section elementor-inner-section" data-id=3D"67e963e" data-e=
+lement_type=3D"section" data-settings=3D"{&quot;background_background&quot;=
+:&quot;classic&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-380c3fa elementor-col=
+umn elementor-col-100 elementor-inner-column" data-id=3D"380c3fa" data-elem=
+ent_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-62a1202 elementor-wid=
+get elementor-widget-theme-post-title elementor-page-title elementor-widget=
+-heading" data-id=3D"62a1202" data-element_type=3D"widget" data-widget_type=
+=3D"theme-post-title.default">
+				<div class=3D"elementor-widget-container">
+			<h3 class=3D"elementor-heading-title elementor-size-default">Implement D=
+omain Or Subdomain Based Multi Tenancy In Identity Server</h3>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class=3D"elementor-element elementor-element-55150ef elementor-wid=
+get elementor-widget-theme-post-featured-image elementor-widget-image" data=
+-id=3D"55150ef" data-element_type=3D"widget" data-widget_type=3D"theme-post=
+-featured-image.default">
+				<div class=3D"elementor-widget-container">
+					<div class=3D"elementor-image">
+										<img width=3D"1024" height=3D"682" src=3D"data:image/svg+xml,%3Cs=
+vg%20xmlns=3D'http://www.w3.org/2000/svg'%20viewBox=3D'0%200%201024%20682'%=
+3E%3C/svg%3E" data-src=3D"https://lalitacode.com/wp-content/uploads/2020/05=
+/monitor-933392_1280-1024x682.jpg" class=3D"attachment-large size-large laz=
+y" alt=3D"Implement Domain Or Subdomain Based Multi Tenancy In Identity Ser=
+ver" data-srcset=3D"https://lalitacode.com/wp-content/uploads/2020/05/monit=
+or-933392_1280-1024x682.jpg 1024w, https://lalitacode.com/wp-content/upload=
+s/2020/05/monitor-933392_1280-300x200.jpg 300w, https://lalitacode.com/wp-c=
+ontent/uploads/2020/05/monitor-933392_1280-768x512.jpg 768w, https://lalita=
+code.com/wp-content/uploads/2020/05/monitor-933392_1280-e1589982081843.jpg =
+960w" data-sizes=3D"(max-width: 1024px) 100vw, 1024px">											</div>
+				</div>
+				</div>
+				<div class=3D"elementor-element elementor-element-f97f4d9 elementor-mob=
+ile-align-left elementor-widget elementor-widget-post-info" data-id=3D"f97f=
+4d9" data-element_type=3D"widget" data-widget_type=3D"post-info.default">
+				<div class=3D"elementor-widget-container">
+					<ul class=3D"elementor-inline-items elementor-icon-list-items elemento=
+r-post-info">
+					<li class=3D"elementor-icon-list-item elementor-repeater-item-6e82438 =
+elementor-inline-item" itemprop=3D"author">
+						<a href=3D"https://lalitacode.com/author/admin/">
+											<span class=3D"elementor-icon-list-icon">
+														<i class=3D"fa fa-user-circle-o" aria-hidden=3D"true"></i>
+												</span>
+									<span class=3D"elementor-icon-list-text elementor-post-info__item =
+elementor-post-info__item--type-author">
+										Lalita					</span>
+									</a>
+				</li>
+				<li class=3D"elementor-icon-list-item elementor-repeater-item-c82ddcb e=
+lementor-inline-item" itemprop=3D"datePublished">
+						<a href=3D"https://lalitacode.com/2020/05/20/">
+											<span class=3D"elementor-icon-list-icon">
+														<i class=3D"fa fa-calendar" aria-hidden=3D"true"></i>
+												</span>
+									<span class=3D"elementor-icon-list-text elementor-post-info__item =
+elementor-post-info__item--type-date">
+										May 20, 2020					</span>
+									</a>
+				</li>
+				<li class=3D"elementor-icon-list-item elementor-repeater-item-65a5af8 e=
+lementor-inline-item">
+										<span class=3D"elementor-icon-list-icon">
+														<i class=3D"fa fa-clock-o" aria-hidden=3D"true"></i>
+												</span>
+									<span class=3D"elementor-icon-list-text elementor-post-info__item =
+elementor-post-info__item--type-time">
+										1:38 pm					</span>
+								</li>
+				<li class=3D"elementor-icon-list-item elementor-repeater-item-73f553b e=
+lementor-inline-item" itemprop=3D"commentCount">
+						<a href=3D"https://lalitacode.com/implement-domain-or-subdomain-based=
+-multi-tenancy-in-identity-server/#comments">
+											<span class=3D"elementor-icon-list-icon">
+														<i class=3D"fa fa-commenting-o" aria-hidden=3D"true"></i>
+												</span>
+									<span class=3D"elementor-icon-list-text elementor-post-info__item =
+elementor-post-info__item--type-comments">
+										6 Comments					</span>
+									</a>
+				</li>
+				</ul>
+				</div>
+				</div>
+				<div class=3D"elementor-element elementor-element-9231877 elementor-wid=
+get elementor-widget-theme-post-content" data-id=3D"9231877" data-element_t=
+ype=3D"widget" data-widget_type=3D"theme-post-content.default">
+				<div class=3D"elementor-widget-container">
+		=09
+<p><strong>Update : You can follow <a href=3D"https://youtu.be/QTmcrCnbZ30"=
+>this </a>tutorial along with this video if you want.</strong></p>
+
+
+
+<p><strong>Update : I have added the example code to this <a href=3D"https:=
+//github.com/LalitaCode/IdentityServerSubdomainMultiTenant">Github reposito=
+ry</a>.</strong></p>
+
+
+
+<p>In this <a href=3D"https://lalitacode.com/how-to-implement-tenant-select=
+ion-in-identity-server-4-application/">tutorial </a>we saw how to implement=
+ tenant selection page in Identity Server 4. There I told you that there ar=
+e other ways to do multi tenancy. Instead of tenant selection page where th=
+e user can select the tenant we can also determine tenant using domain or s=
+ubdomain name. So, this is our topic for today. In this tutorial I am going=
+ to show you how to implement domain or subdomain based multi tenancy in Id=
+entity Server 4. Like the previous tutorial I have used .Net Core 3.1, SQL =
+Server and Angular as our client app. The example implements Authorization =
+Code Flow with PKCE but you can implement any OIDC flow you want. I am not =
+going to create a Identity Server application from the beginning as it woul=
+d be out of scope of this tutorial. So, before you begin have your Identity=
+ Server application up and running. Let=E2=80=99s begin.</p>
+
+
+
+<p>The architecture of our application is going to be like this. We will ha=
+ve multiple tenants in our application. Each tenant will access our applica=
+tion through their own subdomains, For Eg, tenant1.lalita.com, tenant2.lali=
+ta.com etc. Each of these tenants are going to have their corresponding Aut=
+horization Server (Identity Server 4) running on tenant1.lalitaauth.com, te=
+nant2.lalitaauth.com. Similarly we will have API=E2=80=99s running on tenan=
+t1.lalitaapi.com, tenant2.lalitaapi.com and so on. For simplicity I have us=
+ed just =E2=80=9Clalita.com=E2=80=9D as our base domain name, because it is=
+ easy to develop that way. This can be changed according to your liking dur=
+ing deployment.</p>
+
+
+
+<p>So, lets create a multi tenant application in Identity Server 4. In your=
+ Identity Server project create a user service class. I have named it Profi=
+leService in this example. The code is as follows :</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">public class ProfileService : IProfileService
+    {
+        private readonly IUserClaimsPrincipalFactory&lt;ApplicationUser&gt;=
+ _claimsFactory;
+        private readonly UserManager&lt;ApplicationUser&gt; _userManager;
+        private readonly IHttpContextAccessor _context;
+
+        public ProfileService(IHttpContextAccessor context,UserManager&lt;A=
+pplicationUser&gt; userManager, IUserClaimsPrincipalFactory&lt;ApplicationU=
+ser&gt; claimsFactory)
+        {
+            _context =3D context;
+            _userManager =3D userManager;
+            _claimsFactory =3D claimsFactory;
+        }
+
+        public async Task GetProfileDataAsync(ProfileDataRequestContext con=
+text)
+        {
+            var sub =3D context.Subject.GetSubjectId();
+            var user =3D await _userManager.FindByIdAsync(sub);
+            var principal =3D await _claimsFactory.CreateAsync(user);
+
+            var claims =3D principal.Claims.ToList();
+            claims =3D claims.Where(claim =3D&gt; context.RequestedClaimTyp=
+es.Contains(claim.Type)).ToList();
+
+            // Add custom claims in token here based on user properties or =
+any other source
+          string.Empty));
+            claims.Add(new Claim("TenantId", user.TenantId ?? string.Empty)=
+);
+
+            context.IssuedClaims =3D claims;
+        }
+       =20
+        public async Task IsActiveAsync(IsActiveContext context)
+        {
+          =20
+          =20
+
+            //var tokenId =3D _interaction.
+            var sub =3D context.Subject.GetSubjectId();
+            var user =3D await _userManager.FindByIdAsync(sub);
+
+            if (context.Caller =3D=3D "AuthorizeEndpoint")
+            {
+                var tenantId =3D _context.HttpContext.Request.Query["acr_va=
+lues"].ToString().Replace("tenant:", "");
+                if (user !=3D null &amp;&amp; tenantId =3D=3D user.TenantId=
+)
+                {
+                    context.IsActive =3D true;
+                }
+                else
+                {
+                    context.IsActive =3D false;
+                }
+            }
+            else
+            {
+                context.IsActive =3D user !=3D null;
+            }      =20
+        }
+
+    }</pre>
+
+
+
+<p>I will explain some of the important part of the code above. Above we ha=
+ve create a ProfileService class which extends IProfileService. Here we hav=
+e simply implented GetProfileDataAsync method where we add a new claim to t=
+he token called =E2=80=9CTenantId=E2=80=9D. This method is called after the=
+ user successfully logins. In this same class we have implemented another m=
+ethod called IsActiveAsync. This is a very important method as this is call=
+ed everytime during the Authorization flow, so this is good place to implem=
+ent custom logic if needed. Here, we will get the acr_values which the clie=
+nt sends to the Authorization Server during authorization requests. The acr=
+_value will be same as the subdomain name. This will be also be our Tenant =
+Id. If acr_value matches the TenantId in our token we authorized the reques=
+t. If not then we set IsActive to false which will cause an unauthorized re=
+sult. You can also resolve the TenantId of the request using redirect_uri o=
+r client_uri but I think acr_values is a better way to do it.</p>
+
+
+
+<p>Register the ProfileService and IHttpContextAccessor in ConfigureService=
+  which we have made use of method of StartUp.cs.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">  services.AddSingleton&lt;IHttpContextAccessor, HttpContextAcce=
+ssor&gt;();
+
+services.AddScoped&lt;IProfileService, ProfileService&gt;();
+</pre>
+
+
+
+<p>Also don=E2=80=99t forget to enable CORS as follows. Create a variable f=
+or your CORS settings in Startup.cs.</p>
+
+
+
+<p>private readonly string MyAllowSpecificOrigins =3D =E2=80=9C_myAllowSpec=
+ificOrigins=E2=80=9D;</p>
+
+
+
+<p>Now in ConfigureServices method add the CORS settings. This settings wil=
+l be different according to your development or deployement configurations.=
+</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D""> options.AddPolicy(MyAllowSpecificOrigins, builder =3D&gt;
+                {
+                    builder.WithOrigins("https://localhost:4200",=20
+                        "http://localhost:4200",=20
+                        "https://tenant1.lalita.com:4200",
+                        "https://tenant2.lalita.com:4200",
+                        "http://tenant1.lalita.com:4200",
+                        "http://tenant2.lalita.com:4200");
+                    builder.WithHeaders("Authorization");
+                    builder.WithHeaders("content-type");
+
+                });</pre>
+
+
+
+<p>Now in Configure method the same class enable CORS as follows :</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"generic" data-enli=
+ghter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=
+=3D"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlight=
+er-group=3D""> app.UseCors(MyAllowSpecificOrigins);</pre>
+
+
+
+<p>Now you need to add the TenantId field to out Identity user model.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D""> public class ApplicationUser : IdentityUser
+    {
+
+        public string TenantId { get; set; }
+    }</pre>
+
+
+
+<p>Run the migrations and update the database as follows :</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"generic" data-enli=
+ghter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=
+=3D"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlight=
+er-group=3D"">add-migration 'Tenant Migration" -context IdentityDbContext
+update-database -context IdentityDbContext</pre>
+
+
+
+<p>In the above code IdentityDbContext is your Db Context for your Identiti=
+es. After this process you will have TenantId column in your AspNetUsers ta=
+ble. </p>
+
+
+
+<figure class=3D"wp-block-image size-large"><img src=3D"data:image/svg+xml,=
+%3Csvg%20xmlns=3D'http://www.w3.org/2000/svg'%20viewBox=3D'0%200%201024%209=
+5'%3E%3C/svg%3E" data-src=3D"https://lalitacode.com/wp-content/uploads/2020=
+/05/db-1024x95.png" alt=3D"AspNetUsers Table" class=3D"wp-image-1007 lazy" =
+data-srcset=3D"https://lalitacode.com/wp-content/uploads/2020/05/db-1024x95=
+.png 1024w, https://lalitacode.com/wp-content/uploads/2020/05/db-300x28.png=
+ 300w, https://lalitacode.com/wp-content/uploads/2020/05/db-768x71.png 768w=
+, https://lalitacode.com/wp-content/uploads/2020/05/db.png 1207w" data-size=
+s=3D"(max-width: 1024px) 100vw, 1024px"><figcaption>AspNetUsers Table with =
+TenantId Column</figcaption></figure>
+
+
+
+<p>You need to make some changes to Login method of Identity Server Account=
+  controller. This is the same method you use to do the login. Just make si=
+mple changes to the code where we now check if TenantId of our user in data=
+base is same as the value we have received through acr_values. Add the foll=
+owing code just before this code:</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">  if (user !=3D null &amp;&amp; context.Tenant.ToString() =3D=3D=
+ user.TenantId.ToString())
+{
+ var result =3D await _signInManager.PasswordSignInAsync(model.Username, mo=
+del.Password,
+                        model.RememberLogin, lockoutOnFailure: true);</pre>
+
+
+
+<p>This code should be there is you are using Identity Server 4 <a href=3D"=
+http://docs.identityserver.io/en/latest/quickstarts/community.html">QuickSt=
+arts</a>. Whole login method will be as follows :</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">public async Task&lt;IActionResult&gt; Login(LoginInputModel mod=
+el, string button)
+        {
+            // check if we are in the context of an authorization request
+            var context =3D await _interaction.GetAuthorizationContextAsync=
+(model.ReturnUrl);
+
+            // the user clicked the "cancel" button
+            if (button !=3D "login")
+            {
+                if (context !=3D null)
+                {
+                    // if the user cancels, send a result back into Identit=
+yServer as if they=20
+                    // denied the consent (even if this client does not req=
+uire consent).
+                    // this will send back an access denied OIDC error resp=
+onse to the client.
+                    await _interaction.GrantConsentAsync(context, ConsentRe=
+sponse.Denied);
+
+                    // we can trust model.ReturnUrl since GetAuthorizationC=
+ontextAsync returned non-null
+                    if (await _clientStore.IsPkceClientAsync(context.Client=
+Id))
+                    {
+                        // if the client is PKCE then we assume it's native=
+, so this change in how to
+                        // return the response is for better UX for the end=
+ user.
+                        return View("Redirect", new RedirectViewModel { Red=
+irectUrl =3D model.ReturnUrl });
+                    }
+
+                    return Redirect(model.ReturnUrl);
+                }
+                else
+                {
+                    // since we don't have a valid context, then we just go=
+ back to the home page
+                    return Redirect("~/");
+                }
+            }
+
+            if (ModelState.IsValid)
+            {
+                var user =3D await _userManager.FindByNameAsync(model.Usern=
+ame);
+                if (user !=3D null &amp;&amp; context.Tenant.ToString() =3D=
+=3D user.TenantId.ToString())
+                {
+                    var result =3D await _signInManager.PasswordSignInAsync=
+(model.Username, model.Password,
+                        model.RememberLogin, lockoutOnFailure: true);
+                    if (result.Succeeded)
+                    {
+                        await _events.RaiseAsync(new UserLoginSuccessEvent(=
+user.UserName, user.Id, user.UserName));
+
+                        if (context !=3D null)
+                        {
+                            if (await _clientStore.IsPkceClientAsync(contex=
+t.ClientId))
+                            {
+                                // if the client is PKCE then we assume it'=
+s native, so this change in how to
+                                // return the response is for better UX for=
+ the end user.
+                                return View("Redirect", new RedirectViewMod=
+el { RedirectUrl =3D model.ReturnUrl });
+                            }
+
+                            // we can trust model.ReturnUrl since GetAuthor=
+izationContextAsync returned non-null
+                            return Redirect(model.ReturnUrl);
+                        }
+
+                        // request for a local page
+                        if (Url.IsLocalUrl(model.ReturnUrl))
+                        {
+                            return Redirect(model.ReturnUrl);
+                        }
+                        else if (string.IsNullOrEmpty(model.ReturnUrl))
+                        {
+                            return Redirect("~/");
+                        }
+                        else
+                        {
+                            // user might have clicked on a malicious link =
+- should be logged
+                            throw new Exception("invalid return URL");
+                        }
+                    }
+                }
+
+                await _events.RaiseAsync(new UserLoginFailureEvent(model.Us=
+ername, "invalid credentials"));
+                ModelState.AddModelError(string.Empty, AccountOptions.Inval=
+idCredentialsErrorMessage);
+            }
+
+            // something went wrong, show form with error
+            var vm =3D await BuildLoginViewModelAsync(model);
+            return View(vm);
+        }</pre>
+
+
+
+<p>For every Tenant you will have to add their respective redirect_uris in =
+the client settings of Identity Server.</p>
+
+
+
+<figure class=3D"wp-block-image size-large"><img src=3D"data:image/svg+xml,=
+%3Csvg%20xmlns=3D'http://www.w3.org/2000/svg'%20viewBox=3D'0%200%201024%203=
+04'%3E%3C/svg%3E" data-src=3D"https://lalitacode.com/wp-content/uploads/202=
+0/05/redirect-1024x304.png" alt=3D"Redirect Uris" class=3D"wp-image-1010 la=
+zy" data-srcset=3D"https://lalitacode.com/wp-content/uploads/2020/05/redire=
+ct-1024x304.png 1024w, https://lalitacode.com/wp-content/uploads/2020/05/re=
+direct-300x89.png 300w, https://lalitacode.com/wp-content/uploads/2020/05/r=
+edirect-768x228.png 768w, https://lalitacode.com/wp-content/uploads/2020/05=
+/redirect.png 1251w" data-sizes=3D"(max-width: 1024px) 100vw, 1024px"><figc=
+aption>Redirect Uris for our client</figcaption></figure>
+
+
+
+<p>This is all the setup needed in our Authorization Server (Identity Serve=
+r 4). In our Angular 9 client we will have to set the Authorization Server =
+and Redirect Uris according to the respective tenant. This is a sample clie=
+nt settings in Angular 9 client.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"generic" data-enli=
+ghter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=
+=3D"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlight=
+er-group=3D"">let sts: string  =3D 'http://'+window.location.hostname+':500=
+0';
+
+    return () =3D&gt;
+        oidcConfigService.withConfig({
+            stsServer: sts,
+            redirectUrl: window.location.origin,
+            postLogoutRedirectUri:window.location.origin,
+            clientId: 'js',
+            scope: 'openid profile web_api',
+            responseType: 'code',
+            silentRenew: true,
+            silentRenewUrl: `${window.location.origin}/silent-renew.html`,
+            customParams:{acr_values:'tenant:'+window.location.host.split('=
+.')[0]+''}
+        });</pre>
+
+
+
+<p>In the above code I have set the Authorization Server (stsServer) accord=
+ing to the tenant. So, if the user access our service through tenant1.lalit=
+a.com, the acr_values (tenant), sts_server(Authorization/Identity Server) i=
+s going to be set accordingly.</p>
+
+
+
+<p>Now we will move on to the API. For this just create a simple .Net Core =
+API project in Visual Studio. All our work in this tutorial. is going to be=
+ in this project, from now onward. There are some complications here as we =
+need to set dynamic authority for our JWT Bearer Middleware, and .net Core =
+doesn=E2=80=99t make it simple for us. Anyways lets proceed.</p>
+
+
+
+<p>First create a TenantProvider class which we will use to resolve the ten=
+ant.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"generic" data-enli=
+ghter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=
+=3D"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlight=
+er-group=3D"">  public class TenantProvider
+    {
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        public TenantProvider(IHttpContextAccessor httpContextAccessor)
+            =3D&gt; _httpContextAccessor =3D httpContextAccessor;
+
+        public string GetCurrentTenant()
+        {
+          =20
+            string requestUrl =3D $"{this._httpContextAccessor.HttpContext.=
+Request.Host}";
+            var tenantId =3D requestUrl.Split('.')[0];
+            string authorityDomain =3D "lalita.com:5000";
+            //string authorityScheme =3D this._httpContextAccessor.HttpCont=
+ext.Request.Scheme;
+            string authorityScheme =3D "http";
+            string authorityUrl =3D $"{authorityScheme}://{tenantId}.{autho=
+rityDomain}";
+            return  authorityUrl;
+          =20
+        }
+    }</pre>
+
+
+
+<p>Its a simple class where we get the tenant from the Http Request. For th=
+is we have injected IHttpContextAccessor using DI. So, if the client access=
+ our api like tenant1.lalitaapi.com, the tenant is going to be resolved as =
+=E2=80=9Ctenant1=E2=80=9D. Once again don=E2=80=99t forget to register IHtt=
+pContextAccessor and TenantProvider in Configure Service method of Startup.=
+cs.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">services.AddSingleton&lt;IHttpContextAccessor, HttpContextAccess=
+or&gt;();
+services.AddSingleton&lt;TenantProvider&gt;();</pre>
+
+
+
+<p>Now that we are working on Startup.cs, lets also add JWT Bearer settings=
+ in ConfigureServices method as follows:</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">services.AddAuthentication(JwtBearerDefaults.AuthenticationSchem=
+e)
+          .AddJwtBearer(options =3D&gt;
+          {
+               options.RequireHttpsMetadata =3D false;
+               // base-address of your identityserver
+               options.Authority =3D "http://lalita.com:5000";
+
+               // name of the API resource
+               options.Audience =3D "web_api";         =20
+
+              //options.Events =3D new JwtBearerEvents()
+              //{
+              //    OnMessageReceived =3D async context =3D&gt;
+              //    {
+                    =20
+              //    }
+
+              //};
+          });</pre>
+
+
+
+<p>You can just put the base address of our Authorization Server for now as=
+ this is going to be dynamic and set according to the tenant. Once again do=
+n=E2=80=99t forget to add CORS settings, which is same as above for our Ide=
+ntity Server project.</p>
+
+
+
+<p>Also add authorization in Configure method of Startup.cs.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D""> app.UseAuthorization();</pre>
+
+
+
+<p>Make sure the above code is below app.UseRouting().</p>
+
+
+
+<p>To create dynamic JwtBearerOptions we need to implement two more class. =
+First class is JwtOptionsInitializer which is given below.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">public class JwtOptionsInitializer : IConfigureNamedOptions&lt;J=
+wtBearerOptions&gt;
+    {
+        private readonly TenantProvider _tenantProvider;
+
+        public JwtOptionsInitializer(
+            TenantProvider tenantProvider)
+        {
+
+            _tenantProvider =3D tenantProvider;
+        }
+
+        public void Configure(string name, JwtBearerOptions options)
+        {
+         =20
+
+            var authority =3D _tenantProvider.GetCurrentTenant();
+
+            options.Authority =3D authority;
+        }
+
+        public void Configure(JwtBearerOptions options)
+            =3D&gt; Debug.Fail("This infrastructure method shouldn't be cal=
+led.");
+    }</pre>
+
+
+
+<p>In the above code we set configrue JwtBearerOptions and set our authorit=
+y based on the tenant.</p>
+
+
+
+<p>Now we will implement the second class required which we need to monitor=
+ and fetch changes in JwtBearerOptions.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D""> public class JweBearerOptionsProvider : IOptionsMonitor&lt;JwtB=
+earerOptions&gt;
+    {
+        private readonly ConcurrentDictionary&lt;(string name, string tenan=
+t), Lazy&lt;JwtBearerOptions&gt;&gt; _cache;
+        private readonly IOptionsFactory&lt;JwtBearerOptions&gt; _optionsFa=
+ctory;
+        private readonly TenantProvider _tenantProvider;
+
+        public JweBearerOptionsProvider(
+            IOptionsFactory&lt;JwtBearerOptions&gt; optionsFactory,
+            TenantProvider tenantProvider)
+        {
+            _cache =3D new ConcurrentDictionary&lt;(string, string), Lazy&l=
+t;JwtBearerOptions&gt;&gt;();
+            _optionsFactory =3D optionsFactory;
+            _tenantProvider =3D tenantProvider;
+
+           =20
+        }
+
+        public JwtBearerOptions CurrentValue =3D&gt; Get(Options.DefaultNam=
+e);
+
+        public JwtBearerOptions Get(string name)
+        {
+            var tenant =3D _tenantProvider.GetCurrentTenant();
+
+            Lazy&lt;JwtBearerOptions&gt; Create() =3D&gt; new Lazy&lt;JwtBe=
+arerOptions&gt;(() =3D&gt; _optionsFactory.Create(name));
+            return _cache.GetOrAdd((name, tenant), _ =3D&gt; Create()).Valu=
+e;
+        }
+
+        public IDisposable OnChange(Action&lt;JwtBearerOptions, string&gt; =
+listener) =3D&gt; null;
+    }</pre>
+
+
+
+<p>Here we put JwtBearerOptions in a dictionary, for each tenant that acces=
+ses our API. Once again we need to register the above two classes in Config=
+ureServices method of Startup class. Add the just below the code where we r=
+egistered our TenantProvider.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">  services.AddSingleton&lt;IOptionsMonitor&lt;JwtBearerOptions&g=
+t;, JweBearerOptionsProvider&gt;();
+            services.AddSingleton&lt;IConfigureOptions&lt;JwtBearerOptions&=
+gt;, JwtOptionsInitializer&gt;();</pre>
+
+
+
+<p>Finally we will create a CustomAuthorize attribute.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"generic" data-enli=
+ghter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=
+=3D"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlight=
+er-group=3D""> public void OnAuthorization(AuthorizationFilterContext conte=
+xt)
+        {
+
+            var tenantId =3D context.HttpContext.User.Claims.Where(x =3D&gt=
+; x.Type =3D=3D "TenantId").FirstOrDefault().Value;
+            var requestUrl =3D $"{context.HttpContext.Request.Host}";
+            var requestTenantId =3D requestUrl.Split('.')[0];
+            if (tenantId !=3D requestTenantId)
+            {
+                context.Result =3D new UnauthorizedResult();
+            }
+
+            var issuer =3D context.HttpContext.User.FindFirst(x =3D&gt; x.T=
+ype =3D=3D "iss").Value;
+            var issuerTenant =3D new Uri(issuer).Host.Split('.')[0];
+            if (issuerTenant !=3D tenantId)
+            {
+                context.Result =3D new UnauthorizedResult();
+            }
+            return;
+
+        }</pre>
+
+
+
+<p>During authorization we check if the TenantId is the same as the TenantI=
+d resolved from API Url. If they are not the same we return unauthorized. W=
+e also check the issuer to see if it matches with our respective tenant. We=
+ can also use this method to dynamically create a connection string to our =
+database according to the tenant information. This can also be checked in J=
+wtBearerEvents OnTokenValidated event.</p>
+
+
+
+<p>Now you can decorate your Controller Actions with the custom authorizati=
+on filter.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"generic" data-enli=
+ghter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=
+=3D"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlight=
+er-group=3D""> [CustomAuthorize(AuthenticationSchemes =3D "Bearer")]</pre>
+
+
+
+<p>Instead of custom Authorization Filter we can also use policy based auth=
+orization. I will show you one example quickly.  Create policy requirement =
+and handlers as follows.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D""> public class TenantRequirement : IAuthorizationRequirement
+    {
+
+
+        public TenantRequirement()
+        {
+
+        }
+    }</pre>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D"">public class TenantHandler : AuthorizationHandler&lt;TenantRequi=
+rement&gt;
+    {
+
+        private readonly IHttpContextAccessor _context;
+        public TenantHandler(IHttpContextAccessor context)
+        {
+
+            _context=3Dcontext;
+        }
+        protected override Task HandleRequirementAsync(AuthorizationHandler=
+Context context,
+                                                    TenantRequirement requi=
+rement)
+        {
+
+            if (!context.User.HasClaim(c =3D&gt; c.Type =3D=3D "TenantId")|=
+| !context.User.HasClaim(c =3D&gt; c.Type =3D=3D "iss"))
+            {
+                //TODO: Use the following if targeting a version of
+                //.NET Framework older than 4.6:
+                //      return Task.FromResult(0);
+                return Task.CompletedTask;
+            }
+
+
+            var tenantId =3D context.User.Claims.Where(x =3D&gt; x.Type =3D=
+=3D "TenantId").FirstOrDefault().Value;
+            var requestUrl =3D $"{_context.HttpContext.Request.Host}";
+          =20
+            var requestTenantId =3D requestUrl.Split('.')[0];
+            if (tenantId !=3D requestTenantId)
+            {
+                return Task.CompletedTask;
+            }
+
+
+            var issuer =3D  context.User.FindFirst(x =3D&gt; x.Type =3D=3D =
+"iss").Value;
+            var issuerTenant =3D new Uri(issuer).Host.Split('.')[0];
+            if(issuerTenant!=3DtenantId)
+            {
+                return Task.CompletedTask;
+            }
+            context.Succeed(requirement);
+          =20
+
+            //TODO: Use the following if targeting a version of
+            //.NET Framework older than 4.6:
+            //      return Task.FromResult(0);
+            return Task.CompletedTask;
+        }
+    }</pre>
+
+
+
+<p>Now register the handler and policy based authorization is ConfigureServ=
+ices method of Startup class.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D""> services.AddAuthorization(options =3D&gt;
+            {
+                options.AddPolicy("Tenant", policy =3D&gt;
+                    policy.Requirements.Add(new TenantRequirement()));
+            });
+services.AddSingleton&lt;IAuthorizationHandler, TenantHandler&gt;();</pre>
+
+
+
+<p>Now you can decorate your Controller Actions with policy based authoriza=
+tion filter as follows.</p>
+
+
+
+<pre class=3D"EnlighterJSRAW" data-enlighter-language=3D"csharp" data-enlig=
+hter-theme=3D"" data-enlighter-highlight=3D"" data-enlighter-linenumbers=3D=
+"" data-enlighter-lineoffset=3D"" data-enlighter-title=3D"" data-enlighter-=
+group=3D""> [Authorize(AuthenticationSchemes =3D "Bearer",Policy =3D"Tenant=
+")]</pre>
+
+
+
+<p>You can see the code in <a href=3D"https://github.com/LalitaCode/Identit=
+yServerSubdomainMultiTenant">this Github repository.</a></p>
+
+
+
+<p>So, we have reached to the end of the tutorial. This is all you need to =
+get domain or subdomain based multi tenancy going in Identity Server 4. So,=
+ its as easy as that to get Identity Server Multi Tenancy. Once, again ther=
+e are other ways to get Identity Server Multi Tenancy, such as having user =
+choose the tenant during login, or by resolving the tenant in back end logi=
+n through user info in the token. There are simply many ways to get Identit=
+y Server Multi Tenancy and it all depends on your requirements. You can com=
+bine this with <a href=3D"https://lalitacode.com/how-to-implement-tenant-se=
+lection-in-identity-server-4-application/">tenant selection page</a> for ev=
+en more fidelity. If you have any issues or problems please leave a comment=
+ below or you can contact me directly at info@lalitacode.com. Good, luck.</=
+p>
+
+
+
+<p>Lalita.</p>
+
+
+
+<p></p>
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-204bc4f elementor-col=
+umn elementor-col-33 elementor-top-column" data-id=3D"204bc4f" data-element=
+_type=3D"column" data-settings=3D"{&quot;background_background&quot;:&quot;=
+classic&quot;}">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-a154aa0 elementor-wid=
+get elementor-widget-sidebar" data-id=3D"a154aa0" data-element_type=3D"widg=
+et" data-widget_type=3D"sidebar.default">
+				<div class=3D"elementor-widget-container">
+					<div id=3D"recent-posts-2" class=3D"sidebar-box widget_recent_entries =
+clr">		<h4 class=3D"widget-title">Recent Posts</h4>		<ul>
+											<li>
+					<a href=3D"https://lalitacode.com/how-to-get-adsense-approval-for-your=
+-website/">How To Get Adsense Approval For Your Website?</a>
+									</li>
+											<li>
+					<a href=3D"https://lalitacode.com/dynamic-openid-connect-options-in-ne=
+t-core/">Dynamic OpenId Connect Options In .Net Core</a>
+									</li>
+											<li>
+					<a href=3D"https://lalitacode.com/dynamic-jwt-bearer-options-in-net-co=
+re/">Dynamic JWT Bearer Options In .Net Core</a>
+									</li>
+											<li>
+					<a href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-=
+multi-tenancy-in-identity-server/" aria-current=3D"page">Implement Domain O=
+r Subdomain Based Multi Tenancy In Identity Server</a>
+									</li>
+											<li>
+					<a href=3D"https://lalitacode.com/functional-programming-sucks-video/"=
+>Functional Programming Sucks (Video)</a>
+									</li>
+											<li>
+					<a href=3D"https://lalitacode.com/functional-programming-sucks-donkeys=
+-balls/">Functional Programming Sucks donkey=E2=80=99s balls.</a>
+									</li>
+											<li>
+					<a href=3D"https://lalitacode.com/implement-openid-connect-oidc-code-f=
+low-in-angular-updated/">Implement OpenID Connect (OIDC) Code Flow In Angul=
+ar (Updated)</a>
+									</li>
+											<li>
+					<a href=3D"https://lalitacode.com/what-do-nepali-people-think-of-india=
+ns/">What do Nepali people think of Indians?</a>
+									</li>
+					</ul>
+		</div><div id=3D"recent-comments-2" class=3D"sidebar-box widget_recent_co=
+mments clr"><h4 class=3D"widget-title">Recent Comments</h4><ul id=3D"recent=
+comments"><li class=3D"recentcomments"><span class=3D"comment-author-link">=
+<a href=3D"https://seekalgo.net/2020/05/05/a-tutorial-on-how-to-implement-o=
+penid-connect-code-flow-with-pkce-in-angular/" rel=3D"external nofollow ugc=
+" class=3D"url">A tutorial on how to implement OpenID Connect Code Flow wit=
+h PKCE in Angular. &gt; Seekalgo</a></span> on <a href=3D"https://lalitacod=
+e.com/implement-openid-connect-code-flow-with-pkce-in-angular/#comment-25">=
+Implement OpenID Connect (OIDC) Code Flow In Angular</a></li><li class=3D"r=
+ecentcomments"><span class=3D"comment-author-link"><a href=3D"https://lalit=
+acode.com/" rel=3D"external nofollow ugc" class=3D"url">Lalita</a></span> o=
+n <a href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-mul=
+ti-tenancy-in-identity-server/#comment-24">Implement Domain Or Subdomain Ba=
+sed Multi Tenancy In Identity Server</a></li><li class=3D"recentcomments"><=
+span class=3D"comment-author-link">Pan</span> on <a href=3D"https://lalitac=
+ode.com/implement-domain-or-subdomain-based-multi-tenancy-in-identity-serve=
+r/#comment-23">Implement Domain Or Subdomain Based Multi Tenancy In Identit=
+y Server</a></li><li class=3D"recentcomments"><span class=3D"comment-author=
+-link">Sivakumar R</span> on <a href=3D"https://lalitacode.com/implement-do=
+main-or-subdomain-based-multi-tenancy-in-identity-server/#comment-22">Imple=
+ment Domain Or Subdomain Based Multi Tenancy In Identity Server</a></li><li=
+ class=3D"recentcomments"><span class=3D"comment-author-link">Eugene Kudrya=
+vtsev</span> on <a href=3D"https://lalitacode.com/implement-domain-or-subdo=
+main-based-multi-tenancy-in-identity-server/#comment-12">Implement Domain O=
+r Subdomain Based Multi Tenancy In Identity Server</a></li></ul></div>		</d=
+iv>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class=3D"elementor-element elementor-element-73d44c7 elementor=
+-section-stretched elementor-section-boxed elementor-section-height-default=
+ elementor-section-height-default elementor-section elementor-top-section" =
+data-id=3D"73d44c7" data-element_type=3D"section" data-settings=3D"{&quot;s=
+tretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-1124d45 elementor-col=
+umn elementor-col-100 elementor-top-column" data-id=3D"1124d45" data-elemen=
+t_type=3D"column" data-settings=3D"{&quot;background_background&quot;:&quot=
+;classic&quot;}">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-4d29250 elementor-wid=
+get elementor-widget-elementskit-social-share" data-id=3D"4d29250" data-ele=
+ment_type=3D"widget" data-widget_type=3D"elementskit-social-share.default">
+				<div class=3D"elementor-widget-container">
+			<div class=3D"ekit-wid-con">		<ul class=3D"ekit_socialshare">
+                                            <li class=3D"elementor-repeater=
+-item-144dfae" data-social=3D"facebook">
+                    <a class=3D"facebook">
+                       =20
+                        <i aria-hidden=3D"true" class=3D"icon icon-facebook=
+"></i>                       =20
+                                                                           =
+                 </a>
+                </li>
+                                                            <li class=3D"el=
+ementor-repeater-item-049853d" data-social=3D"twitter">
+                    <a class=3D"twitter">
+                       =20
+                        <i aria-hidden=3D"true" class=3D"icon icon-twitter"=
+></i>                       =20
+                                                                           =
+                 </a>
+                </li>
+                                                            <li class=3D"el=
+ementor-repeater-item-a4649b6" data-social=3D"linkedin">
+                    <a class=3D"linkedin">
+                       =20
+                        <i aria-hidden=3D"true" class=3D"icon icon-linkedin=
+"></i>                       =20
+                                                                           =
+                 </a>
+                </li>
+                                    </ul>
+        </div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class=3D"elementor-element elementor-element-b7f216b elementor=
+-section-stretched elementor-section-boxed elementor-section-height-default=
+ elementor-section-height-default elementor-section elementor-top-section" =
+data-id=3D"b7f216b" data-element_type=3D"section" data-settings=3D"{&quot;s=
+tretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-49bb5a5 elementor-col=
+umn elementor-col-100 elementor-top-column" data-id=3D"49bb5a5" data-elemen=
+t_type=3D"column" data-settings=3D"{&quot;background_background&quot;:&quot=
+;classic&quot;}">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-d22f405 elementor-pos=
+t-navigation-borders-yes elementor-widget elementor-widget-post-navigation"=
+ data-id=3D"d22f405" data-element_type=3D"widget" data-widget_type=3D"post-=
+navigation.default">
+				<div class=3D"elementor-widget-container">
+					<div class=3D"elementor-post-navigation elementor-grid">
+			<div class=3D"elementor-post-navigation__prev elementor-post-navigation_=
+_link">
+				<a href=3D"https://lalitacode.com/functional-programming-sucks-video/" =
+rel=3D"prev"><span class=3D"post-navigation__arrow-wrapper post-navigation_=
+_arrow-prev"><i class=3D"fa fa-angle-left" aria-hidden=3D"true"></i><span c=
+lass=3D"elementor-screen-only">Prev</span></span><span class=3D"elementor-p=
+ost-navigation__link__prev"><span class=3D"post-navigation__prev--label">Pr=
+evious</span><span class=3D"post-navigation__prev--title">Functional Progra=
+mming Sucks (Video)</span></span></a>			</div>
+							<div class=3D"elementor-post-navigation__separator-wrapper">
+					<div class=3D"elementor-post-navigation__separator"></div>
+				</div>
+						<div class=3D"elementor-post-navigation__next elementor-post-navigati=
+on__link">
+				<a href=3D"https://lalitacode.com/dynamic-jwt-bearer-options-in-net-cor=
+e/" rel=3D"next"><span class=3D"elementor-post-navigation__link__next"><spa=
+n class=3D"post-navigation__next--label">Next</span><span class=3D"post-nav=
+igation__next--title">Dynamic JWT Bearer Options In .Net Core</span></span>=
+<span class=3D"post-navigation__arrow-wrapper post-navigation__arrow-next">=
+<i class=3D"fa fa-angle-right" aria-hidden=3D"true"></i><span class=3D"elem=
+entor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class=3D"elementor-element elementor-element-46bf6fb elementor=
+-section-stretched elementor-section-boxed elementor-section-height-default=
+ elementor-section-height-default elementor-section elementor-top-section" =
+data-id=3D"46bf6fb" data-element_type=3D"section" data-settings=3D"{&quot;s=
+tretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-3590ed4 elementor-col=
+umn elementor-col-100 elementor-top-column" data-id=3D"3590ed4" data-elemen=
+t_type=3D"column" data-settings=3D"{&quot;background_background&quot;:&quot=
+;classic&quot;}">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-13880ec elementor-wid=
+get elementor-widget-post-comments" data-id=3D"13880ec" data-element_type=
+=3D"widget" data-widget_type=3D"post-comments.theme_comments">
+				<div class=3D"elementor-widget-container">
+		=09
+<section id=3D"comments" class=3D"comments-area clr has-comments">
+
+=09
+=09
+		<h3 class=3D"theme-heading comments-title">
+			<span class=3D"text">This Post Has 6 Comments</span>
+		</h3>
+
+		<ol class=3D"comment-list">
+		=09
+			<li id=3D"comment-10" class=3D"comment-container">
+
+				<article class=3D"comment even thread-even depth-1 comment-body">
+
+					<img alt=3D"" src=3D"data:image/svg+xml,%3Csvg%20xmlns=3D'http://www.w=
+3.org/2000/svg'%20viewBox=3D'0%200%20150%20150'%3E%3C/svg%3E" data-src=3D"h=
+ttps://secure.gravatar.com/avatar/9670728c44f24d9839676d794d8244d1?s=3D150&=
+amp;d=3Dmm&amp;r=3Dg" data-srcset=3D"https://secure.gravatar.com/avatar/967=
+0728c44f24d9839676d794d8244d1?s=3D300&amp;d=3Dmm&amp;r=3Dg 2x" class=3D"ava=
+tar avatar-150 photo lazy" height=3D"150" width=3D"150">
+		            <div class=3D"comment-content">
+		                <div class=3D"comment-author">
+		                    <span class=3D"comment-link">Eugene </span>
+
+		                    <span class=3D"comment-meta commentmetadata">
+		                    			                        	<span class=3D"comment-da=
+te">21 May 2020</span>
+		                       =20
+		                        <a rel=3D"nofollow" class=3D"comment-reply-link" =
+href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-multi-te=
+nancy-in-identity-server/#comment-10" data-commentid=3D"10" data-postid=3D"=
+982" data-belowelement=3D"comment-10" data-respondelement=3D"respond" aria-=
+label=3D"Reply to Eugene">Reply</a>
+		                       =20
+		                    			                    </span>
+		                </div>
+
+		                <div class=3D"clr"></div>
+
+		                <div class=3D"comment-entry">
+		                   =20
+		                    <div class=3D"comment-content">
+		                        <p>Hi</p>
+<p>Thanks for the post, this is exactly what I was looking for!</p>
+<p>Could you please post the code to github?</p>
+<p>Cheers<br>
+Eugene</p>
+		                    </div>
+		                </div>
+		            </div>
+
+				</article><!-- #comment-## -->
+
+			<ol class=3D"children">
+
+			<li id=3D"comment-11" class=3D"comment-container">
+
+				<article class=3D"comment byuser comment-author-admin bypostauthor odd =
+alt depth-2 comment-body">
+
+					<img alt=3D"" src=3D"data:image/svg+xml,%3Csvg%20xmlns=3D'http://www.w=
+3.org/2000/svg'%20viewBox=3D'0%200%20150%20150'%3E%3C/svg%3E" data-src=3D"h=
+ttps://secure.gravatar.com/avatar/43a433b1ce8a7153e09e42c3fa86ffa3?s=3D150&=
+amp;d=3Dmm&amp;r=3Dg" data-srcset=3D"https://secure.gravatar.com/avatar/43a=
+433b1ce8a7153e09e42c3fa86ffa3?s=3D300&amp;d=3Dmm&amp;r=3Dg 2x" class=3D"ava=
+tar avatar-150 photo lazy" height=3D"150" width=3D"150">
+		            <div class=3D"comment-content">
+		                <div class=3D"comment-author">
+		                    <span class=3D"comment-link"><a href=3D"https://lalit=
+acode.com/" rel=3D"external nofollow ugc" class=3D"url">Lalita</a> </span>
+
+		                    <span class=3D"comment-meta commentmetadata">
+		                    			                        	<span class=3D"comment-da=
+te">22 May 2020</span>
+		                       =20
+		                        <a rel=3D"nofollow" class=3D"comment-reply-link" =
+href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-multi-te=
+nancy-in-identity-server/#comment-11" data-commentid=3D"11" data-postid=3D"=
+982" data-belowelement=3D"comment-11" data-respondelement=3D"respond" aria-=
+label=3D"Reply to Lalita">Reply</a>
+		                       =20
+		                    			                    </span>
+		                </div>
+
+		                <div class=3D"clr"></div>
+
+		                <div class=3D"comment-entry">
+		                   =20
+		                    <div class=3D"comment-content">
+		                        <p>Sure, I will post the code to Github later whe=
+n I have the time.</p>
+<p>Regards,<br>
+Lalita</p>
+		                    </div>
+		                </div>
+		            </div>
+
+				</article><!-- #comment-## -->
+
+			</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+
+			<li id=3D"comment-12" class=3D"comment-container">
+
+				<article class=3D"comment even thread-odd thread-alt depth-1 comment-bo=
+dy">
+
+					<img alt=3D"" src=3D"data:image/svg+xml,%3Csvg%20xmlns=3D'http://www.w=
+3.org/2000/svg'%20viewBox=3D'0%200%20150%20150'%3E%3C/svg%3E" data-src=3D"h=
+ttps://secure.gravatar.com/avatar/9670728c44f24d9839676d794d8244d1?s=3D150&=
+amp;d=3Dmm&amp;r=3Dg" data-srcset=3D"https://secure.gravatar.com/avatar/967=
+0728c44f24d9839676d794d8244d1?s=3D300&amp;d=3Dmm&amp;r=3Dg 2x" class=3D"ava=
+tar avatar-150 photo lazy" height=3D"150" width=3D"150">
+		            <div class=3D"comment-content">
+		                <div class=3D"comment-author">
+		                    <span class=3D"comment-link">Eugene Kudryavtsev </spa=
+n>
+
+		                    <span class=3D"comment-meta commentmetadata">
+		                    			                        	<span class=3D"comment-da=
+te">24 May 2020</span>
+		                       =20
+		                        <a rel=3D"nofollow" class=3D"comment-reply-link" =
+href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-multi-te=
+nancy-in-identity-server/#comment-12" data-commentid=3D"12" data-postid=3D"=
+982" data-belowelement=3D"comment-12" data-respondelement=3D"respond" aria-=
+label=3D"Reply to Eugene Kudryavtsev">Reply</a>
+		                       =20
+		                    			                    </span>
+		                </div>
+
+		                <div class=3D"clr"></div>
+
+		                <div class=3D"comment-entry">
+		                   =20
+		                    <div class=3D"comment-content">
+		                        <p>Ah, thanks!</p>
+		                    </div>
+		                </div>
+		            </div>
+
+				</article><!-- #comment-## -->
+
+			</li><!-- #comment-## -->
+
+			<li id=3D"comment-22" class=3D"comment-container">
+
+				<article class=3D"comment odd alt thread-even depth-1 comment-body">
+
+					<img alt=3D"" src=3D"data:image/svg+xml,%3Csvg%20xmlns=3D'http://www.w=
+3.org/2000/svg'%20viewBox=3D'0%200%20150%20150'%3E%3C/svg%3E" data-src=3D"h=
+ttps://secure.gravatar.com/avatar/a4581da28ebe6804d9b1820f3a692742?s=3D150&=
+amp;d=3Dmm&amp;r=3Dg" data-srcset=3D"https://secure.gravatar.com/avatar/a45=
+81da28ebe6804d9b1820f3a692742?s=3D300&amp;d=3Dmm&amp;r=3Dg 2x" class=3D"ava=
+tar avatar-150 photo lazy" height=3D"150" width=3D"150">
+		            <div class=3D"comment-content">
+		                <div class=3D"comment-author">
+		                    <span class=3D"comment-link">Sivakumar R </span>
+
+		                    <span class=3D"comment-meta commentmetadata">
+		                    			                        	<span class=3D"comment-da=
+te">14 Jul 2020</span>
+		                       =20
+		                        <a rel=3D"nofollow" class=3D"comment-reply-link" =
+href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-multi-te=
+nancy-in-identity-server/#comment-22" data-commentid=3D"22" data-postid=3D"=
+982" data-belowelement=3D"comment-22" data-respondelement=3D"respond" aria-=
+label=3D"Reply to Sivakumar R">Reply</a>
+		                       =20
+		                    			                    </span>
+		                </div>
+
+		                <div class=3D"clr"></div>
+
+		                <div class=3D"comment-entry">
+		                   =20
+		                    <div class=3D"comment-content">
+		                        <p>Thank you for the great post.<br>
+This is exactly what I was looking for. You summed this up.</p>
+		                    </div>
+		                </div>
+		            </div>
+
+				</article><!-- #comment-## -->
+
+			</li><!-- #comment-## -->
+
+			<li id=3D"comment-23" class=3D"comment-container">
+
+				<article class=3D"comment even thread-odd thread-alt depth-1 comment-bo=
+dy">
+
+					<img alt=3D"" src=3D"data:image/svg+xml,%3Csvg%20xmlns=3D'http://www.w=
+3.org/2000/svg'%20viewBox=3D'0%200%20150%20150'%3E%3C/svg%3E" data-src=3D"h=
+ttps://secure.gravatar.com/avatar/1cce426c462f059dbfcaaad4975a01d0?s=3D150&=
+amp;d=3Dmm&amp;r=3Dg" data-srcset=3D"https://secure.gravatar.com/avatar/1cc=
+e426c462f059dbfcaaad4975a01d0?s=3D300&amp;d=3Dmm&amp;r=3Dg 2x" class=3D"ava=
+tar avatar-150 photo lazy" height=3D"150" width=3D"150">
+		            <div class=3D"comment-content">
+		                <div class=3D"comment-author">
+		                    <span class=3D"comment-link">Pan </span>
+
+		                    <span class=3D"comment-meta commentmetadata">
+		                    			                        	<span class=3D"comment-da=
+te">27 Jul 2020</span>
+		                       =20
+		                        <a rel=3D"nofollow" class=3D"comment-reply-link" =
+href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-multi-te=
+nancy-in-identity-server/#comment-23" data-commentid=3D"23" data-postid=3D"=
+982" data-belowelement=3D"comment-23" data-respondelement=3D"respond" aria-=
+label=3D"Reply to Pan">Reply</a>
+		                       =20
+		                    			                    </span>
+		                </div>
+
+		                <div class=3D"clr"></div>
+
+		                <div class=3D"comment-entry">
+		                   =20
+		                    <div class=3D"comment-content">
+		                        <p>Realy great post, thanks.<br>
+I have one question, do you have one instance of identity server with an al=
+ias for each tenant?</p>
+		                    </div>
+		                </div>
+		            </div>
+
+				</article><!-- #comment-## -->
+
+			<ol class=3D"children">
+
+			<li id=3D"comment-24" class=3D"comment-container">
+
+				<article class=3D"comment byuser comment-author-admin bypostauthor odd =
+alt depth-2 comment-body">
+
+					<img alt=3D"" src=3D"data:image/svg+xml,%3Csvg%20xmlns=3D'http://www.w=
+3.org/2000/svg'%20viewBox=3D'0%200%20150%20150'%3E%3C/svg%3E" data-src=3D"h=
+ttps://secure.gravatar.com/avatar/43a433b1ce8a7153e09e42c3fa86ffa3?s=3D150&=
+amp;d=3Dmm&amp;r=3Dg" data-srcset=3D"https://secure.gravatar.com/avatar/43a=
+433b1ce8a7153e09e42c3fa86ffa3?s=3D300&amp;d=3Dmm&amp;r=3Dg 2x" class=3D"ava=
+tar avatar-150 photo lazy" height=3D"150" width=3D"150">
+		            <div class=3D"comment-content">
+		                <div class=3D"comment-author">
+		                    <span class=3D"comment-link"><a href=3D"https://lalit=
+acode.com/" rel=3D"external nofollow ugc" class=3D"url">Lalita</a> </span>
+
+		                    <span class=3D"comment-meta commentmetadata">
+		                    			                        	<span class=3D"comment-da=
+te">27 Jul 2020</span>
+		                       =20
+		                        <a rel=3D"nofollow" class=3D"comment-reply-link" =
+href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-multi-te=
+nancy-in-identity-server/#comment-24" data-commentid=3D"24" data-postid=3D"=
+982" data-belowelement=3D"comment-24" data-respondelement=3D"respond" aria-=
+label=3D"Reply to Lalita">Reply</a>
+		                       =20
+		                    			                    </span>
+		                </div>
+
+		                <div class=3D"clr"></div>
+
+		                <div class=3D"comment-entry">
+		                   =20
+		                    <div class=3D"comment-content">
+		                        <p>I have one instance of Identity Server(for all=
+ tenants) with multiple sub-domain bindings, in this example. You could hav=
+e separate instance for each tenant if you want. This just depends on your =
+requirements.</p>
+<p>Regards,<br>
+Lalita</p>
+		                    </div>
+		                </div>
+		            </div>
+
+				</article><!-- #comment-## -->
+
+			</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+	=09
+	=09
+=09
+		<div id=3D"respond" class=3D"comment-respond">
+		<h3 id=3D"reply-title" class=3D"comment-reply-title">Leave a Reply <small=
+><a rel=3D"nofollow" id=3D"cancel-comment-reply-link" href=3D"https://lalit=
+acode.com/implement-domain-or-subdomain-based-multi-tenancy-in-identity-ser=
+ver/#respond" style=3D"display:none;">Cancel reply</a></small></h3><form ac=
+tion=3D"https://lalitacode.com/wp-comments-post.php" method=3D"post" id=3D"=
+commentform" class=3D"comment-form" novalidate=3D""><div class=3D"comment-t=
+extarea"><label for=3D"comment" class=3D"screen-reader-text">Comment</label=
+><textarea name=3D"comment" id=3D"comment" cols=3D"39" rows=3D"4" tabindex=
+=3D"0" class=3D"textarea-comment" placeholder=3D"Your Comment Here..."></te=
+xtarea></div><div class=3D"comment-form-author"><label for=3D"author" class=
+=3D"screen-reader-text">Enter your name or username</label><input type=3D"t=
+ext" name=3D"author" id=3D"author" value=3D"" placeholder=3D"Name (required=
+)" size=3D"22" tabindex=3D"0" aria-required=3D"true" class=3D"input-name" a=
+utocomplete=3D"off" style=3D"background-image: url(&quot;data:image/png;bas=
+e64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREF=
+UOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbId=
+zd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLm=
+tGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwby=
+BkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4Yzva=
+ssiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-re=
+peat: no-repeat; background-attachment: scroll; background-size: 16px 18px;=
+ background-position: 98% 50%;"></div>
+<div class=3D"comment-form-email"><label for=3D"email" class=3D"screen-read=
+er-text">Enter your email</label><input type=3D"text" name=3D"email" id=3D"=
+email" value=3D"" placeholder=3D"Email (required)" size=3D"22" tabindex=3D"=
+0" aria-required=3D"true" class=3D"input-email"></div>
+<div class=3D"comment-form-url"><label for=3D"url" class=3D"screen-reader-t=
+ext">Enter your website URL (optional)</label><input type=3D"text" name=3D"=
+url" id=3D"url" value=3D"" placeholder=3D"Website" size=3D"22" tabindex=3D"=
+0" class=3D"input-website"></div>
+<p class=3D"comment-form-cookies-consent"><input id=3D"wp-comment-cookies-c=
+onsent" name=3D"wp-comment-cookies-consent" type=3D"checkbox" value=3D"yes"=
+> <label for=3D"wp-comment-cookies-consent">Save my name, email, and websit=
+e in this browser for the next time I comment.</label></p>
+<p class=3D"form-submit"><input name=3D"submit" type=3D"submit" id=3D"comme=
+nt-submit" class=3D"submit" value=3D"Post Comment">=20
+
+</p></form>	</div><!-- #respond -->
+=09
+</section><!-- #comments -->		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+					</div>
+		</div>
+		</div>
+	=09
+			=09
+			</div><!-- #content -->
+
+		=09
+		</div><!-- #primary -->
+
+	=09
+	</div><!-- #content-wrap -->
+
+=09
+
+        </main><!-- #main -->
+
+       =20
+       =20
+        		<div data-elementor-type=3D"footer" data-elementor-id=3D"88" clas=
+s=3D"elementor elementor-88 elementor-location-footer" data-elementor-setti=
+ngs=3D"[]">
+		<div class=3D"elementor-inner">
+			<div class=3D"elementor-section-wrap">
+						<section class=3D"elementor-element elementor-element-6eabd3e element=
+or-section-boxed elementor-section-height-default elementor-section-height-=
+default elementor-section elementor-top-section" data-id=3D"6eabd3e" data-e=
+lement_type=3D"section" data-settings=3D"{&quot;background_background&quot;=
+:&quot;classic&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-0dbec96 elementor-col=
+umn elementor-col-25 elementor-top-column" data-id=3D"0dbec96" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-5674b26 elementor-wid=
+get elementor-widget-heading" data-id=3D"5674b26" data-element_type=3D"widg=
+et" data-widget_type=3D"heading.default">
+				<div class=3D"elementor-widget-container">
+			<h2 class=3D"elementor-heading-title elementor-size-default">About Us</h=
+2>		</div>
+				</div>
+				<div class=3D"elementor-element elementor-element-9304769 elementor-wid=
+get elementor-widget-text-editor" data-id=3D"9304769" data-element_type=3D"=
+widget" data-widget_type=3D"text-editor.default">
+				<div class=3D"elementor-widget-container">
+					<div class=3D"elementor-text-editor elementor-clearfix"><p>Lalita is t=
+he go to place for latest news and happenings. Here you will find the lates=
+t news on Technology, Art, Photography, Development and Design. We also pos=
+t tutorials and guides on various things.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-826ed8b elementor-col=
+umn elementor-col-25 elementor-top-column" data-id=3D"826ed8b" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-deaea4f elementor-wid=
+get elementor-widget-heading" data-id=3D"deaea4f" data-element_type=3D"widg=
+et" data-widget_type=3D"heading.default">
+				<div class=3D"elementor-widget-container">
+			<h2 class=3D"elementor-heading-title elementor-size-default">Contact</h2=
+>		</div>
+				</div>
+				<div class=3D"elementor-element elementor-element-dc5ec8d elementor-ico=
+n-list--layout-traditional elementor-widget elementor-widget-icon-list" dat=
+a-id=3D"dc5ec8d" data-element_type=3D"widget" data-widget_type=3D"icon-list=
+.default">
+				<div class=3D"elementor-widget-container">
+					<ul class=3D"elementor-icon-list-items">
+							<li class=3D"elementor-icon-list-item">
+											<span class=3D"elementor-icon-list-icon">
+							<i aria-hidden=3D"true" class=3D"fas fa-check"></i>						</span>
+										<span class=3D"elementor-icon-list-text">+000 000000000</span>
+									</li>
+								<li class=3D"elementor-icon-list-item">
+											<span class=3D"elementor-icon-list-icon">
+							<i aria-hidden=3D"true" class=3D"fas fa-times"></i>						</span>
+										<span class=3D"elementor-icon-list-text">Kathmandu, Nepal</span>
+									</li>
+								<li class=3D"elementor-icon-list-item">
+											<span class=3D"elementor-icon-list-icon">
+							<i aria-hidden=3D"true" class=3D"fas fa-dot-circle"></i>						</span=
+>
+										<span class=3D"elementor-icon-list-text">info@lalitacode.com</spa=
+n>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-b5dd7f2 elementor-col=
+umn elementor-col-25 elementor-top-column" data-id=3D"b5dd7f2" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-2bab164 elementor-wid=
+get elementor-widget-heading" data-id=3D"2bab164" data-element_type=3D"widg=
+et" data-widget_type=3D"heading.default">
+				<div class=3D"elementor-widget-container">
+			<h2 class=3D"elementor-heading-title elementor-size-default">Categories<=
+/h2>		</div>
+				</div>
+				<div class=3D"elementor-element elementor-element-8ca93db elementor-ali=
+gn-left elementor-widget elementor-widget-elementskit-category-list" data-i=
+d=3D"8ca93db" data-element_type=3D"widget" data-widget_type=3D"elementskit-=
+category-list.default">
+				<div class=3D"elementor-widget-container">
+			<div class=3D"ekit-wid-con">		<ul class=3D"elementor-icon-list-items">
+							<li class=3D"elementor-icon-list-item">
+					<a href=3D"https://lalitacode.com/category/art/">
+                                                    <span class=3D"elemento=
+r-icon-list-icon">
+								<i aria-hidden=3D"true" class=3D"fas fa-paint-brush"></i>          =
+                  </span>
+                                                <span class=3D"elementor-ic=
+on-list-text">Art</span>
+					</a>
+
+				</li>
+								<li class=3D"elementor-icon-list-item">
+					<a href=3D"https://lalitacode.com/category/phototgraphy/">
+                                                    <span class=3D"elemento=
+r-icon-list-icon">
+								<i aria-hidden=3D"true" class=3D"icon icon-photo"></i>             =
+               </span>
+                                                <span class=3D"elementor-ic=
+on-list-text">Photography</span>
+					</a>
+
+				</li>
+								<li class=3D"elementor-icon-list-item">
+					<a href=3D"https://lalitacode.com/category/development/">
+                                                    <span class=3D"elemento=
+r-icon-list-icon">
+								<i aria-hidden=3D"true" class=3D"fas fa-code"></i>                 =
+           </span>
+                                                <span class=3D"elementor-ic=
+on-list-text">Development</span>
+					</a>
+
+				</li>
+								<li class=3D"elementor-icon-list-item">
+					<a href=3D"https://lalitacode.com/category/design/">
+                                                    <span class=3D"elemento=
+r-icon-list-icon">
+								<i aria-hidden=3D"true" class=3D"fas fa-paper-plane"></i>          =
+                  </span>
+                                                <span class=3D"elementor-ic=
+on-list-text">Design</span>
+					</a>
+
+				</li>
+						</ul>
+		</div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-d9bcc7f elementor-col=
+umn elementor-col-25 elementor-top-column" data-id=3D"d9bcc7f" data-element=
+_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-6b4d289 htmegainstagr=
+am-column-4 elementor-widget elementor-widget-htmega-instagram-addons" data=
+-id=3D"6b4d289" data-element_type=3D"widget" data-widget_type=3D"htmega-ins=
+tagram-addons.default">
+				<div class=3D"elementor-widget-container">
+			            <div class=3D"htmega-instragram htmega-instragram-style-3">
+
+                <div id=3D"htmega-instagram-list-6b4d289"></div>
+
+                                    <a class=3D"instagram_follow_btn" href=
+=3D"https://www.instagram.com/portfolio.devitems" target=3D"_blank">
+                        <i aria-hidden=3D"true" class=3D"fab fa-instagram">=
+</i>                        <span>Follow @ portfolio.devitems</span>
+                    </a>
+               =20
+            </div>
+
+           =20
+           =20
+
+        		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class=3D"elementor-element elementor-element-2e96e3ed elemento=
+r-section-boxed elementor-section-height-default elementor-section-height-d=
+efault elementor-section elementor-top-section" data-id=3D"2e96e3ed" data-e=
+lement_type=3D"section" data-settings=3D"{&quot;background_background&quot;=
+:&quot;classic&quot;}">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-42595ef4 elementor-co=
+lumn elementor-col-100 elementor-top-column" data-id=3D"42595ef4" data-elem=
+ent_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<section class=3D"elementor-element elementor-element-476d8c15 elemento=
+r-section-boxed elementor-section-height-default elementor-section-height-d=
+efault elementor-section elementor-inner-section" data-id=3D"476d8c15" data=
+-element_type=3D"section">
+						<div class=3D"elementor-container elementor-column-gap-default">
+				<div class=3D"elementor-row">
+				<div class=3D"elementor-element elementor-element-3f8963f1 elementor-co=
+lumn elementor-col-50 elementor-inner-column" data-id=3D"3f8963f1" data-ele=
+ment_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-6d217694 elementor-wi=
+dget elementor-widget-text-editor" data-id=3D"6d217694" data-element_type=
+=3D"widget" data-widget_type=3D"text-editor.default">
+				<div class=3D"elementor-widget-container">
+					<div class=3D"elementor-text-editor elementor-clearfix"><p>=C2=A9 2020=
+, LalitaCode. All Rights Reserved</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class=3D"elementor-element elementor-element-40e9d83c elementor-co=
+lumn elementor-col-50 elementor-inner-column" data-id=3D"40e9d83c" data-ele=
+ment_type=3D"column">
+			<div class=3D"elementor-column-wrap  elementor-element-populated">
+					<div class=3D"elementor-widget-wrap">
+				<div class=3D"elementor-element elementor-element-95e34db elementor-wid=
+get elementor-widget-elementskit-social-media" data-id=3D"95e34db" data-ele=
+ment_type=3D"widget" data-widget_type=3D"elementskit-social-media.default">
+				<div class=3D"elementor-widget-container">
+			<div class=3D"ekit-wid-con">			 <ul class=3D"ekit_social_media">
+														<li class=3D"elementor-repeater-item-e0facf9">
+					    <a href=3D"https://www.facebook.com/codelalita" class=3D"facebook"=
+>
+													=09
+							<i aria-hidden=3D"true" class=3D"icon icon-facebook"></i>								=09
+                                                                           =
+                                 </a>
+                    </li>
+                    														<li class=3D"elementor-repeater-item-10e1=
+f8c">
+					    <a href=3D"https://twitter.com/lalitacode" class=3D"twitter">
+													=09
+							<i aria-hidden=3D"true" class=3D"icon icon-twitter"></i>								=09
+                                                                           =
+                                 </a>
+                    </li>
+                    														<li class=3D"elementor-repeater-item-007b=
+b23">
+					    <a href=3D"https://www.youtube.com/channel/UCpBdiJteMl-xfU2L2yxk7e=
+A" class=3D"v">
+													=09
+							<i aria-hidden=3D"true" class=3D"icon icon-youtube-v"></i>								=
+=09
+                                                                           =
+                                 </a>
+                    </li>
+                    														<li class=3D"elementor-repeater-item-ae7e=
+b0b">
+					    <a href=3D"https://instagram.com/" class=3D"instagram">
+													=09
+							<i aria-hidden=3D"true" class=3D"fab fa-instagram"></i>								=09
+                                                                           =
+                                 </a>
+                    </li>
+                    							</ul>
+		 </div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+					</div>
+		</div>
+		</div>
+	=09
+       =20
+    </div><!-- #wrap -->
+
+   =20
+</div><!-- #outer-wrap -->
+
+
+
+<a id=3D"scroll-top" class=3D"scroll-top-left" href=3D"https://lalitacode.c=
+om/implement-domain-or-subdomain-based-multi-tenancy-in-identity-server/#">=
+<span class=3D"fa fa-arrow-alt-circle-up" aria-label=3D"Scroll to the top o=
+f the page"></span></a>
+
+
+<div id=3D"sidr-close">
+	<a href=3D"https://lalitacode.com/implement-domain-or-subdomain-based-mult=
+i-tenancy-in-identity-server/#" class=3D"toggle-sidr-close" aria-label=3D"C=
+lose mobile Menu">
+		<i class=3D"icon icon-close" aria-hidden=3D"true"></i><span class=3D"clos=
+e-text">Close Menu</span>
+	</a>
+</div>
+   =20
+   =20
+<div id=3D"mobile-menu-search" class=3D"clr">
+	<form method=3D"get" action=3D"https://lalitacode.com/" class=3D"mobile-se=
+archform" role=3D"search" aria-label=3D"Search for:">
+		<label for=3D"ocean-mobile-search1">
+			<input type=3D"search" name=3D"s" autocomplete=3D"off" placeholder=3D"Se=
+arch">
+			<button type=3D"submit" class=3D"searchform-submit" aria-label=3D"Submit=
+ Search">
+				<i class=3D"icon icon-magnifier" aria-hidden=3D"true"></i>
+			</button>
+					</label>
+			</form>
+</div><!-- .mobile-menu-search -->
+
+<!--googleoff: all--><div id=3D"cookie-law-info-bar"><span>This website use=
+s cookies to improve your experience. We'll assume you're ok with this, but=
+ you can opt-out if you wish. <a role=3D"button" tabindex=3D"0" class=3D"cl=
+i_settings_button" style=3D"margin:5px 20px 5px 20px;">Cookie settings</a><=
+a role=3D"button" tabindex=3D"0" data-cli_action=3D"accept" id=3D"cookie_ac=
+tion_close_header" class=3D"medium cli-plugin-button cli-plugin-main-button=
+ cookie_action_close_header cli_action_button" style=3D"display:inline-bloc=
+k;  margin:5px; ">ACCEPT</a></span></div><div id=3D"cookie-law-info-again" =
+style=3D"display:none;"><span id=3D"cookie_hdr_showagain">Privacy &amp; Coo=
+kies Policy</span></div><div class=3D"cli-modal" id=3D"cliSettingsPopup" ta=
+bindex=3D"-1" role=3D"dialog" aria-labelledby=3D"cliSettingsPopup" aria-hid=
+den=3D"true">
+  <div class=3D"cli-modal-dialog" role=3D"document">
+    <div class=3D"cli-modal-content cli-bar-popup">
+      <button type=3D"button" class=3D"cli-modal-close" id=3D"cliModalClose=
+">
+        <svg class=3D"" viewBox=3D"0 0 24 24"><path d=3D"M19 6.41l-1.41-1.4=
+1-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.5=
+9 5.59 1.41-1.41-5.59-5.59z"></path><path d=3D"M0 0h24v24h-24z" fill=3D"non=
+e"></path></svg>
+        <span class=3D"wt-cli-sr-only">Close</span>
+      </button>
+      <div class=3D"cli-modal-body">
+        <div class=3D"cli-container-fluid cli-tab-container">
+    <div class=3D"cli-row">
+        <div class=3D"cli-col-12 cli-align-items-stretch cli-px-0">
+            <div class=3D"cli-privacy-overview">
+                <h4>Privacy Overview</h4>                <div class=3D"cli-=
+privacy-content">
+                    <div class=3D"cli-privacy-content-text">This website us=
+es cookies to improve your experience while you navigate through the websit=
+e. Out of these cookies, the cookies that are categorized as necessary are =
+stored on your browser as they are essential for the working of basic funct=
+ionalities of the website. We also use third-party cookies that help us ana=
+lyze and understand how you use this website. These cookies will be stored =
+in your browser only with your consent. You also have the option to opt-out=
+ of these cookies. But opting out of some of these cookies may have an effe=
+ct on your browsing experience.</div>
+                </div>
+                <a class=3D"cli-privacy-readmore" data-readmore-text=3D"Sho=
+w more" data-readless-text=3D"Show less"></a>            </div>
+        </div>
+        <div class=3D"cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-s=
+ection-container">
+                                                <div class=3D"cli-tab-secti=
+on">
+                        <div class=3D"cli-tab-header">
+                            <a role=3D"button" tabindex=3D"0" class=3D"cli-=
+nav-link cli-settings-mobile" data-target=3D"necessary" data-toggle=3D"cli-=
+toggle-tab">
+                                Necessary                            </a>
+                            <div class=3D"wt-cli-necessary-checkbox">
+                        <input type=3D"checkbox" class=3D"cli-user-preferen=
+ce-checkbox" id=3D"wt-cli-checkbox-necessary" data-id=3D"checkbox-necessary=
+" checked=3D"checked">
+                        <label class=3D"form-check-label" for=3D"wt-cli-che=
+ckbox-necessary">Necessary</label>
+                    </div>
+                    <span class=3D"cli-necessary-caption">Always Enabled</s=
+pan>                         </div>
+                        <div class=3D"cli-tab-content">
+                            <div class=3D"cli-tab-pane cli-fade" data-id=3D=
+"necessary">
+                                <p>Necessary cookies are absolutely essenti=
+al for the website to function properly. This category only includes cookie=
+s that ensures basic functionalities and security features of the website. =
+These cookies do not store any personal information.</p>
+                            </div>
+                        </div>
+                    </div>
+                                                <div class=3D"cli-tab-secti=
+on">
+                        <div class=3D"cli-tab-header">
+                            <a role=3D"button" tabindex=3D"0" class=3D"cli-=
+nav-link cli-settings-mobile" data-target=3D"non-necessary" data-toggle=3D"=
+cli-toggle-tab">
+                                Non-necessary                            </=
+a>
+                            <div class=3D"cli-switch">
+                        <input type=3D"checkbox" id=3D"wt-cli-checkbox-non-=
+necessary" class=3D"cli-user-preference-checkbox" data-id=3D"checkbox-non-n=
+ecessary" checked=3D"checked">
+                        <label for=3D"wt-cli-checkbox-non-necessary" class=
+=3D"cli-slider" data-cli-enable=3D"Enabled" data-cli-disable=3D"Disabled"><=
+span class=3D"wt-cli-sr-only">Non-necessary</span></label>
+                    </div>                        </div>
+                        <div class=3D"cli-tab-content">
+                            <div class=3D"cli-tab-pane cli-fade" data-id=3D=
+"non-necessary">
+                                <p>Any cookies that may not be particularly=
+ necessary for the website to function and is used specifically to collect =
+user personal data via analytics, ads, other embedded contents are termed a=
+s non-necessary cookies. It is mandatory to procure user consent prior to r=
+unning these cookies on your website.</p>
+                            </div>
+                        </div>
+                    </div>
+           =20
+        </div>
+    </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class=3D"cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class=3D"cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 9]>
+<script type=3D'text/javascript' src=3D'https://lalitacode.com/wp-content/t=
+hemes/oceanwp/assets/js/third/html5.min.js?ver=3D1.8.3'></script>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.c=
+om/w3-total-cache/
+
+Object Caching 2/398 objects using disk
+Page Caching using disk: enhanced=20
+Content Delivery Network via N/A
+Lazy Loading
+Minified using disk
+Database Caching using disk (Request-wide modification query)
+
+Served from: lalitacode.com @ 2020-08-16 04:26:08 by W3 Total Cache
+--></div><div class=3D"nsc-content-camera nsc-hide" style=3D"top: 10px; lef=
+t: 10px;">
+    <div class=3D"nsc-content-camera-buttons" flex=3D"none" layout=3D"row" =
+layout-align=3D"start start">
+        <button class=3D"nsc-content-camera-button nsc-hide" type=3D"button=
+" id=3D"nsc_video_camera_collapse">
+            <span class=3D"nsc-icon nsc-icon-panel-collapse"></span>
+        </button>
+        <button class=3D"nsc-content-camera-button" type=3D"button" id=3D"n=
+sc_video_camera_expand">
+            <span class=3D"nsc-icon nsc-icon-panel-expand"></span>
+        </button>
+        <button class=3D"nsc-content-camera-button" type=3D"button" id=3D"n=
+sc_video_camera_close">
+            <span class=3D"nsc-icon nsc-icon-panel-close"></span>
+        </button>
+    </div>
+    <div class=3D"nsc-content-camera-container">
+        <div class=3D"nsc-content-camera-shadow"></div>
+    </div>
+</div>
+</body><div id=3D"cVim-status-bar" style=3D"top: 0px;"></div><iframe src=3D=
+"cid:frame-C9733D9A0C28CFE1BDDC0911A7198918@mhtml.blink" id=3D"cVim-command=
+-frame"></iframe></html>
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fa042025-ceaf-4470-9809-e7126754c094@mhtml.blink
+
+@charset "utf-8";
+
+.disclaimer { text-align: right; font-size: x-small; }
+
+.banner { background-color: rgb(255, 255, 255); text-align: left; }
+
+.cacheContent { position: relative; }
+
+.b_vPanel > div { padding-bottom: 10px; }
+
+.b_vPanel > div:last-child { padding: 0px; }
+
+.banner a { color: rgb(26, 13, 171); }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-97a58549-eb16-4c40-b5de-0b46312ce9cf@mhtml.blink
+
+@charset "utf-8";
+
+#cVim-command-bar, #cVim-command-bar-mode, #cVim-command-bar-input, #cVim-c=
+ommand-bar-search-results, .cVim-completion-item, .cVim-completion-item .cV=
+im-full, .cVim-completion-item .cVim-left, .cVim-completion-item .cVim-righ=
+t { font-family: Helvetica, "Helvetica Neue", Neue, sans-serif, monospace, =
+Arial; font-size: 10pt !important; -webkit-font-smoothing: antialiased !imp=
+ortant; }
+
+#cVim-command-bar { position: fixed; z-index: 2147483646; background-color:=
+ rgb(27, 29, 30); color: rgb(187, 187, 187); display: none; box-sizing: con=
+tent-box; box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 3px; left: 0px; width: 100=
+%; height: 20px; }
+
+#cVim-command-bar-mode { display: inline-block; vertical-align: middle; box=
+-sizing: border-box; padding-left: 2px; height: 100%; width: 10px; padding-=
+top: 2px; color: rgb(136, 136, 136); }
+
+#cVim-command-bar-input { background-color: rgb(27, 29, 30); color: rgb(187=
+, 187, 187); height: 100%; right: 0px; top: 0px; width: calc(100% - 10px); =
+position: absolute; }
+
+#cVim-command-bar-search-results { position: fixed; width: 100%; overflow: =
+hidden; z-index: 2147483647; left: 0px; box-shadow: rgba(0, 0, 0, 0.4) 0px =
+3px 3px; background-color: rgb(28, 28, 28); }
+
+.cVim-completion-item, .cVim-completion-item .cVim-full, .cVim-completion-i=
+tem .cVim-left, .cVim-completion-item .cVim-right { text-overflow: ellipsis=
+; padding: 1px; display: inline-block; box-sizing: border-box; vertical-ali=
+gn: middle; overflow: hidden; white-space: nowrap; }
+
+.cVim-completion-item:nth-child(2n) { background-color: rgb(31, 31, 31); }
+
+.cVim-completion-item { width: 100%; left: 0px; color: rgb(188, 188, 188); =
+}
+
+.cVim-completion-item[active] { width: 100%; left: 0px; color: rgb(27, 29, =
+30); background-color: rgb(241, 241, 241); }
+
+.cVim-completion-item[active] span { color: rgb(27, 29, 30); }
+
+.cVim-completion-item .cVim-left { color: rgb(255, 255, 255); width: 37%; }
+
+.cVim-completion-item .cVim-right { font-style: italic; color: rgb(136, 136=
+, 136); width: 57%; }
+
+#cVim-link-container, .cVim-link-hint, #cVim-hud, #cVim-status-bar { font-f=
+amily: Helvetica, "Helvetica Neue", Neue, sans-serif, monospace, Arial; fon=
+t-size: 10pt !important; -webkit-font-smoothing: antialiased !important; }
+
+#cVim-link-container { position: absolute; pointer-events: none; width: 100=
+%; left: 0px; height: 100%; top: 0px; z-index: 2147483647; }
+
+.cVim-link-hint { position: absolute; border: 1px solid rgb(173, 129, 12); =
+color: rgb(48, 37, 5) !important; background-color: rgb(255, 215, 110) !imp=
+ortant; border-radius: 2px !important; padding: 2px !important; font-size: =
+8pt !important; font-weight: 500 !important; text-transform: uppercase !imp=
+ortant; display: inline-block !important; vertical-align: middle !important=
+; text-align: center !important; box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 1p=
+x !important; }
+
+.cVim-link-hint_match { color: rgb(119, 119, 119); text-transform: uppercas=
+e !important; }
+
+#cVim-hud { background-color: rgba(28, 28, 28, 0.9); transition: right 0.2s=
+ ease-out 0s; z-index: 24724289; position: fixed !important; }
+
+#cVim-hud span { padding: 2px 4px; color: rgb(143, 143, 143); font-size: 10=
+pt; }
+
+#cVim-frames-outline { position: fixed; width: 100%; height: 100%; left: 0p=
+x; top: 0px; right: 0px; z-index: 2147483647; box-sizing: border-box; borde=
+r: 3px solid yellow; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c375882f-a06f-4d47-95d4-1e2ea833867a@mhtml.blink
+
+@charset "utf-8";
+
+img.lazy { min-height: 1px; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2e3e31b2-3793-41e6-ae67-7ea7a3fb44f8@mhtml.blink
+
+@charset "utf-8";
+
+img.wp-smiley, img.emoji { display: inline !important; border: none !import=
+ant; box-shadow: none !important; height: 1em !important; width: 1em !impor=
+tant; margin: 0px 0.07em !important; vertical-align: -0.1em !important; bac=
+kground: none !important; padding: 0px !important; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-8bec772b-76cc-4643-afb1-0913a6b5ee7a@mhtml.blink
+
+@charset "utf-8";
+
+.recentcomments a { display: inline !important; padding: 0px !important; ma=
+rgin: 0px !important; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-fb82fb5d-07b1-4012-ac1c-6b35333eada8@mhtml.blink
+
+@charset "utf-8";
+
+#loftloader-wrapper .loader-section { background: rgb(255, 255, 255); }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d6d372fb-2333-458a-bbe5-d8be98cb9370@mhtml.blink
+
+@charset "utf-8";
+
+#loftloader-wrapper .loader-section { opacity: 1; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-507289af-79ad-4899-bb41-563334d43c19@mhtml.blink
+
+@charset "utf-8";
+
+#loftloader-wrapper.pl-imgloading #loader { width: 76px; }
+
+#loftloader-wrapper.pl-imgloading #loader span { background-size: cover; ba=
+ckground-image: url("https://lalitacode.com/wp-content/uploads/2020/05/load=
+er-4.svg"); }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cec0279e-70b5-4c05-8e7b-1edf4d32a557@mhtml.blink
+
+@charset "utf-8";
+
+table th, table td, hr, .content-area, body.content-left-sidebar #content-w=
+rap .content-area, .content-left-sidebar .content-area, #top-bar-wrap, #sit=
+e-header, #site-header.top-header #search-toggle, .dropdown-menu ul li, .ce=
+ntered-minimal-page-header, .blog-entry.post, .blog-entry.grid-entry .blog-=
+entry-inner, .blog-entry.thumbnail-entry .blog-entry-bottom, .single-post .=
+entry-title, .single .entry-share-wrap .entry-share, .single .entry-share, =
+.single .entry-share ul li a, .single nav.post-navigation, .single nav.post=
+-navigation .nav-links .nav-previous, #author-bio, #author-bio .author-bio-=
+avatar, #author-bio .author-bio-social li a, #related-posts, #comments, .co=
+mment-body, #respond #cancel-comment-reply-link, #blog-entries .type-page, =
+.page-numbers a, .page-numbers span:not(.elementor-screen-only), .page-link=
+s span, body #wp-calendar caption, body #wp-calendar th, body #wp-calendar =
+tbody, body .contact-info-widget.default i, body .contact-info-widget.big-i=
+cons i, body .posts-thumbnails-widget li, body .tagcloud a { border-color: =
+rgb(26, 97, 168); }
+
+body, .has-parallax-footer:not(.separate-layout) #main { background-color: =
+rgba(34, 34, 34, 0.17); }
+
+a { color: rgb(0, 90, 150); }
+
+#main #content-wrap, .separate-layout #main #content-wrap { padding-top: 0p=
+x; padding-bottom: 0px; }
+
+#site-header.has-header-media .overlay-header-media { background-color: rgb=
+a(0, 0, 0, 0.5); }
+
+.widget-area { background-color: rgb(255, 255, 255); }
+
+.widget-area { padding: 0px 0px 0px 20px !important; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lalitacode.com/wp-content/cache/minify/1d330.css
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.4.2
+
+@charset "utf-8";
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 100; src=
+: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz0dL-vwnYh2eg.woff2") form=
+at("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+=
+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 100; src=
+: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzQdL-vwnYh2eg.woff2") form=
+at("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 100; src=
+: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzwdL-vwnYh2eg.woff2") form=
+at("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 100; src=
+: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzMdL-vwnYh2eg.woff2") form=
+at("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 100; src=
+: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz8dL-vwnYh2eg.woff2") form=
+at("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1=
+A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 100; src=
+: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz4dL-vwnYh2eg.woff2") form=
+at("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-2=
+0AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 100; src=
+: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzAdL-vwnYg.woff2") format(=
+"woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA,=
+ U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215=
+, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 300; src=
+: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc3CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 300; src=
+: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc-CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 300; src=
+: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc2CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 300; src=
+: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc5CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 300; src=
+: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc1CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 300; src=
+: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc0CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A=
+0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 300; src=
+: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsTYl4BO.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2=
+215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 400; src=
+: local("Roboto Italic"), local("Roboto-Italic"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2") format("woff2");=
+ unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U=
++FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 400; src=
+: local("Roboto Italic"), local("Roboto-Italic"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2") format("woff2");=
+ unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 400; src=
+: local("Roboto Italic"), local("Roboto-Italic"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2") format("woff2");=
+ unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 400; src=
+: local("Roboto Italic"), local("Roboto-Italic"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2") format("woff2");=
+ unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 400; src=
+: local("Roboto Italic"), local("Roboto-Italic"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2") format("woff2");=
+ unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1A=
+F-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 400; src=
+: local("Roboto Italic"), local("Roboto-Italic"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2") format("woff2");=
+ unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-=
+20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 400; src=
+: local("Roboto Italic"), local("Roboto-Italic"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2") format("woff2"); un=
+icode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+20=
+00-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+=
+FFFD; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 500; src=
+: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("https:/=
+/fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc3CsTYl4BOQ3o.woff2")=
+ format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DF=
+F, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 500; src=
+: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("https:/=
+/fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc-CsTYl4BOQ3o.woff2")=
+ format("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 500; src=
+: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("https:/=
+/fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc2CsTYl4BOQ3o.woff2")=
+ format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 500; src=
+: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("https:/=
+/fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc5CsTYl4BOQ3o.woff2")=
+ format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 500; src=
+: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("https:/=
+/fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc1CsTYl4BOQ3o.woff2")=
+ format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169=
+, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 500; src=
+: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("https:/=
+/fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc0CsTYl4BOQ3o.woff2")=
+ format("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+2=
+0A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 500; src=
+: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("https:/=
+/fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc6CsTYl4BO.woff2") fo=
+rmat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U=
++2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U=
++2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 700; src=
+: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic3CsTYl4BOQ3o.woff2") for=
+mat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U=
++A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 700; src=
+: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic-CsTYl4BOQ3o.woff2") for=
+mat("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 700; src=
+: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic2CsTYl4BOQ3o.woff2") for=
+mat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 700; src=
+: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic5CsTYl4BOQ3o.woff2") for=
+mat("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 700; src=
+: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic1CsTYl4BOQ3o.woff2") for=
+mat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+=
+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 700; src=
+: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic0CsTYl4BOQ3o.woff2") for=
+mat("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-=
+20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 700; src=
+: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("https://fon=
+ts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2") format=
+("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA=
+, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+221=
+5, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 900; src=
+: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc3CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,=
+ U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 900; src=
+: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc-CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 900; src=
+: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc2CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 900; src=
+: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc5CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 900; src=
+: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc1CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, =
+U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 900; src=
+: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc0CsTYl4BOQ3o.woff2") f=
+ormat("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A=
+0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: italic; font-weight: 900; src=
+: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("https://f=
+onts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc6CsTYl4BO.woff2") form=
+at("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2=
+DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2=
+215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100; src=
+: local("Roboto Thin"), local("Roboto-Thin"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOkCnqEu92Fr1MmgVxFIzIXKMnyrYk.woff2") format("woff2"); uni=
+code-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2=
+E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100; src=
+: local("Roboto Thin"), local("Roboto-Thin"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOkCnqEu92Fr1MmgVxMIzIXKMnyrYk.woff2") format("woff2"); uni=
+code-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100; src=
+: local("Roboto Thin"), local("Roboto-Thin"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOkCnqEu92Fr1MmgVxEIzIXKMnyrYk.woff2") format("woff2"); uni=
+code-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100; src=
+: local("Roboto Thin"), local("Roboto-Thin"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOkCnqEu92Fr1MmgVxLIzIXKMnyrYk.woff2") format("woff2"); uni=
+code-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100; src=
+: local("Roboto Thin"), local("Roboto-Thin"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOkCnqEu92Fr1MmgVxHIzIXKMnyrYk.woff2") format("woff2"); uni=
+code-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B=
+0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100; src=
+: local("Roboto Thin"), local("Roboto-Thin"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOkCnqEu92Fr1MmgVxGIzIXKMnyrYk.woff2") format("woff2"); uni=
+code-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF=
+, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 100; src=
+: local("Roboto Thin"), local("Roboto-Thin"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOkCnqEu92Fr1MmgVxIIzIXKMny.woff2") format("woff2"); unicod=
+e-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-2=
+06F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD=
+; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 300; src=
+: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+=
+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 300; src=
+: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 300; src=
+: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 300; src=
+: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 300; src=
+: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF=
+-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 300; src=
+: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-2=
+0CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 300; src=
+: local("Roboto Light"), local("Roboto-Light"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2") format("woff2"); un=
+icode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+20=
+00-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+=
+FFFD; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/=
+s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2") format("woff2"); unicode-=
+range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2=
+F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/=
+s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2") format("woff2"); unicode-=
+range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/=
+s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2") format("woff2"); unicode-=
+range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/=
+s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2") format("woff2"); unicode-=
+range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/=
+s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2") format("woff2"); unicode-=
+range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+=
+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/=
+s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2") format("woff2"); unicode-=
+range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2=
+113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; src=
+: local("Roboto"), local("Roboto-Regular"), url("https://fonts.gstatic.com/=
+s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2") format("woff2"); unicode-ra=
+nge: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F,=
+ U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; src=
+: local("Roboto Medium"), local("Roboto-Medium"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2") format("woff2")=
+; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, =
+U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; src=
+: local("Roboto Medium"), local("Roboto-Medium"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2") format("woff2")=
+; unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; src=
+: local("Roboto Medium"), local("Roboto-Medium"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2") format("woff2")=
+; unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; src=
+: local("Roboto Medium"), local("Roboto-Medium"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2") format("woff2")=
+; unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; src=
+: local("Roboto Medium"), local("Roboto-Medium"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2") format("woff2")=
+; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1=
+AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; src=
+: local("Roboto Medium"), local("Roboto-Medium"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2") format("woff2")=
+; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD=
+-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; src=
+: local("Roboto Medium"), local("Roboto-Medium"), url("https://fonts.gstati=
+c.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2") format("woff2"); =
+unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+=
+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, =
+U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; src=
+: local("Roboto Bold"), local("Roboto-Bold"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2") format("woff2"); un=
+icode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE=
+2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; src=
+: local("Roboto Bold"), local("Roboto-Bold"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2") format("woff2"); un=
+icode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; src=
+: local("Roboto Bold"), local("Roboto-Bold"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2") format("woff2"); un=
+icode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; src=
+: local("Roboto Bold"), local("Roboto-Bold"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2") format("woff2"); un=
+icode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; src=
+: local("Roboto Bold"), local("Roboto-Bold"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2") format("woff2"); un=
+icode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1=
+B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; src=
+: local("Roboto Bold"), local("Roboto-Bold"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2") format("woff2"); un=
+icode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C=
+F, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; src=
+: local("Roboto Bold"), local("Roboto-Bold"), url("https://fonts.gstatic.co=
+m/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2") format("woff2"); unic=
+ode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000=
+-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FF=
+FD; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 900; src=
+: local("Roboto Black"), local("Roboto-Black"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCRc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+=
+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 900; src=
+: local("Roboto Black"), local("Roboto-Black"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfABc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 900; src=
+: local("Roboto Black"), local("Roboto-Black"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCBc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 900; src=
+: local("Roboto Black"), local("Roboto-Black"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBxc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 900; src=
+: local("Roboto Black"), local("Roboto-Black"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCxc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF=
+-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 900; src=
+: local("Roboto Black"), local("Roboto-Black"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfChc4AMP6lbBP.woff2") format("woff2"); =
+unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-2=
+0CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 900; src=
+: local("Roboto Black"), local("Roboto-Black"), url("https://fonts.gstatic.=
+com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc4AMP6lQ.woff2") format("woff2"); un=
+icode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+20=
+00-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+=
+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 1=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 1=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 1=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 1=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 1=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 1=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 1=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 2=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 2=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 2=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 2=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 2=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 2=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 2=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 3=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 3=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 3=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 3=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 3=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 3=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 3=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 4=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 5=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 5=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 5=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 5=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 5=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 5=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 5=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 6=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 6=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 6=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 6=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 6=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 6=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 6=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 7=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 7=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 7=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 7=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 7=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 7=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 7=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 8=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 8=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 8=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 8=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 8=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 8=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 8=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 9=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufA5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80=
+-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 9=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufJ5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+400-45F, U+490-=
+491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 9=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufB5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 9=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufO5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 9=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufC5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+102-103, U+110-=
+111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 9=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufD5qWr4xCCQ_k.woff2") format("woff2"); unicode-range: U+100-24F, U+259,=
+ U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720=
+-A7FF; }
+
+@font-face { font-family: "Roboto Slab"; font-style: normal; font-weight: 9=
+00; src: url("https://fonts.gstatic.com/s/robotoslab/v12/BngMUXZYTXPIvIBgJJ=
+Sb6ufN5qWr4xCC.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152=
+-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lalitacode.com/wp-content/cache/minify/35ce5.css
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/html
+Content-ID: <frame-C9733D9A0C28CFE1BDDC0911A7198918@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://hjmfgdcackipkgpnmlbelfdbenpomgfa/cmdline_frame.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3Dwindows-1252"><link rel=3D"stylesheet" type=3D"text/css" =
+href=3D"cid:css-01a5a6d7-9f11-45db-a443-5854cdeaaa66@mhtml.blink" />
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+       =20
+        <link rel=3D"stylesheet" href=3D"chrome-extension://hjmfgdcackipkgp=
+nmlbelfdbenpomgfa/content_scripts/main.css">
+    </head>
+    <body>
+   =20
+
+</body><div id=3D"cVim-status-bar" style=3D"top: 0px;"></div><div id=3D"cVi=
+m-command-bar" spellcheck=3D"false" style=3D"top: 0px;"><span id=3D"cVim-co=
+mmand-bar-mode"></span><input type=3D"text" id=3D"cVim-command-bar-input"><=
+/div><div id=3D"cVim-command-bar-search-results" style=3D"top: 20px;"></div=
+></html>
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-01a5a6d7-9f11-45db-a443-5854cdeaaa66@mhtml.blink
+
+@charset "windows-1252";
+
+#cVim-command-bar, #cVim-command-bar-mode, #cVim-command-bar-input, #cVim-c=
+ommand-bar-search-results, .cVim-completion-item, .cVim-completion-item .cV=
+im-full, .cVim-completion-item .cVim-left, .cVim-completion-item .cVim-righ=
+t { font-family: Helvetica, "Helvetica Neue", Neue, sans-serif, monospace, =
+Arial; font-size: 10pt !important; -webkit-font-smoothing: antialiased !imp=
+ortant; }
+
+#cVim-command-bar { position: fixed; z-index: 2147483646; background-color:=
+ rgb(27, 29, 30); color: rgb(187, 187, 187); display: none; box-sizing: con=
+tent-box; box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 3px; left: 0px; width: 100=
+%; height: 20px; }
+
+#cVim-command-bar-mode { display: inline-block; vertical-align: middle; box=
+-sizing: border-box; padding-left: 2px; height: 100%; width: 10px; padding-=
+top: 2px; color: rgb(136, 136, 136); }
+
+#cVim-command-bar-input { background-color: rgb(27, 29, 30); color: rgb(187=
+, 187, 187); height: 100%; right: 0px; top: 0px; width: calc(100% - 10px); =
+position: absolute; }
+
+#cVim-command-bar-search-results { position: fixed; width: 100%; overflow: =
+hidden; z-index: 2147483647; left: 0px; box-shadow: rgba(0, 0, 0, 0.4) 0px =
+3px 3px; background-color: rgb(28, 28, 28); }
+
+.cVim-completion-item, .cVim-completion-item .cVim-full, .cVim-completion-i=
+tem .cVim-left, .cVim-completion-item .cVim-right { text-overflow: ellipsis=
+; padding: 1px; display: inline-block; box-sizing: border-box; vertical-ali=
+gn: middle; overflow: hidden; white-space: nowrap; }
+
+.cVim-completion-item:nth-child(2n) { background-color: rgb(31, 31, 31); }
+
+.cVim-completion-item { width: 100%; left: 0px; color: rgb(188, 188, 188); =
+}
+
+.cVim-completion-item[active] { width: 100%; left: 0px; color: rgb(27, 29, =
+30); background-color: rgb(241, 241, 241); }
+
+.cVim-completion-item[active] span { color: rgb(27, 29, 30); }
+
+.cVim-completion-item .cVim-left { color: rgb(255, 255, 255); width: 37%; }
+
+.cVim-completion-item .cVim-right { font-style: italic; color: rgb(136, 136=
+, 136); width: 57%; }
+
+#cVim-link-container, .cVim-link-hint, #cVim-hud, #cVim-status-bar { font-f=
+amily: Helvetica, "Helvetica Neue", Neue, sans-serif, monospace, Arial; fon=
+t-size: 10pt !important; -webkit-font-smoothing: antialiased !important; }
+
+#cVim-link-container { position: absolute; pointer-events: none; width: 100=
+%; left: 0px; height: 100%; top: 0px; z-index: 2147483647; }
+
+.cVim-link-hint { position: absolute; border: 1px solid rgb(173, 129, 12); =
+color: rgb(48, 37, 5) !important; background-color: rgb(255, 215, 110) !imp=
+ortant; border-radius: 2px !important; padding: 2px !important; font-size: =
+8pt !important; font-weight: 500 !important; text-transform: uppercase !imp=
+ortant; display: inline-block !important; vertical-align: middle !important=
+; text-align: center !important; box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 1p=
+x !important; }
+
+.cVim-link-hint_match { color: rgb(119, 119, 119); text-transform: uppercas=
+e !important; }
+
+#cVim-hud { background-color: rgba(28, 28, 28, 0.9); transition: right 0.2s=
+ ease-out 0s; z-index: 24724289; position: fixed !important; }
+
+#cVim-hud span { padding: 2px 4px; color: rgb(143, 143, 143); font-size: 10=
+pt; }
+
+#cVim-frames-outline { position: fixed; width: 100%; height: 100%; left: 0p=
+x; top: 0px; right: 0px; z-index: 2147483647; box-sizing: border-box; borde=
+r: 3px solid yellow; }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://hjmfgdcackipkgpnmlbelfdbenpomgfa/content_scripts/main.css
+
+@charset "windows-1252";
+
+#cVim-command-frame { display: none; border: 0px; position: fixed; margin: =
+0px; padding: 0px; left: 0px; width: 100%; top: 0px; height: 100%; z-index:=
+ 2147483647 !important; }
+
+#cVim-link-container { transition: opacity 0.1s ease 0s; opacity: 0; }
+
+.cVim-hint-scale { animation: 0.25s ease 0s 1 normal none running scale; }
+
+@keyframes scale {=20
+  0% { transform: scale(0) perspective(1px); }
+  60% { transform: scale(1.15) perspective(1px); }
+  100% { transform: scale(1) perspective(0px); }
+}
+
+.cVim-link-hint_match { opacity: 0.6; }
+
+.cVim-link-hint_match_hidden { display: none; }
+
+.cVim-link-hint { line-height: 1; }
+
+#cVim-command-bar { }
+
+#cVim-command-bar-mode { }
+
+#cVim-command-bar-input { box-sizing: border-box; outline-style: none; bord=
+er: 0px; }
+
+#cVim-command-bar-search-results { }
+
+.cVim-completion-item { }
+
+.cVim-completion-item .cVim-full { }
+
+.cVim-completion-item .cVim-left { }
+
+.cVim-completion-item .cVim-right { }
+
+.cVim-highlight { background-color: yellow; min-height: 0px !important; bor=
+der-radius: 0px !important; border: 0px !important; text-shadow: none !impo=
+rtant; outline: none 0px !important; padding: 0px !important; margin: 0px !=
+important; }
+
+#cVim-hud { bottom: 0px; min-height: 0px !important; border-radius: 0px !im=
+portant; box-sizing: border-box !important; box-shadow: none !important; ma=
+rgin: 0px !important; appearance: none !important; letter-spacing: normal !=
+important; word-spacing: normal !important; text-transform: none !important=
+; text-indent: 0px !important; text-shadow: none !important; text-align: st=
+art !important; outline: none 0px !important; border: 0px !important; line-=
+height: 1 !important; font-style: normal !important; display: inline-block =
+!important; vertical-align: middle !important; position: fixed !important; =
+z-index: 24724289 !important; }
+
+#cVim-hud span { display: inline-block !important; box-sizing: border-box !=
+important; vertical-align: middle !important; }
+
+#cVim-status-bar { display: none; vertical-align: middle; padding-left: 2px=
+; padding-top: 2px; box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 3px; min-height:=
+ 0px !important; border-radius: 0px !important; border: 0px !important; app=
+earance: none !important; letter-spacing: normal !important; word-spacing: =
+normal !important; text-transform: none !important; text-indent: 0px !impor=
+tant; text-shadow: none !important; text-align: start !important; outline: =
+none 0px !important; margin: 0px !important; font-style: normal !important;=
+ position: fixed !important; z-index: 2147483647 !important; background-col=
+or: rgb(27, 29, 30) !important; color: rgb(187, 187, 187) !important; box-s=
+izing: border-box !important; left: 0px !important; width: 100% !important;=
+ height: 20px !important; }
+
+.cVim-error { min-height: 0px !important; border-radius: 0px !important; bo=
+x-sizing: content-box !important; box-shadow: none !important; margin: 0px =
+!important; appearance: none !important; letter-spacing: normal !important;=
+ word-spacing: normal !important; text-transform: none !important; text-ind=
+ent: 0px !important; text-shadow: none !important; text-align: start !impor=
+tant; outline: none 0px !important; border: 0px !important; line-height: 1 =
+!important; font-style: normal !important; }
+
+#cVim-cursor { display: none; min-height: 0px !important; border-radius: 0p=
+x !important; box-sizing: content-box !important; box-shadow: none !importa=
+nt; margin: 0px !important; appearance: none !important; letter-spacing: no=
+rmal !important; word-spacing: normal !important; text-transform: none !imp=
+ortant; text-indent: 0px !important; text-shadow: none !important; text-ali=
+gn: start !important; outline: none 0px !important; border: 0px !important;=
+ line-height: 1 !important; font-style: normal !important; position: fixed =
+!important; background: none !important; left: 0px !important; width: 100% =
+!important; top: 0px !important; height: 100% !important; z-index: 21474836=
+47 !important; cursor: none !important; transform: translateZ(0px) !importa=
+nt; }
+
+.cVim-find-mark { animation: unset; transition: unset; color: rgb(17, 17, 1=
+7); color-scheme: unset; font: unset; font-feature-settings: unset; font-ke=
+rning: unset; font-optical-sizing: unset; font-variation-settings: unset; t=
+ext-orientation: unset; text-rendering: unset; -webkit-font-smoothing: unse=
+t; -webkit-locale: unset; -webkit-text-orientation: unset; -webkit-writing-=
+mode: unset; writing-mode: unset; zoom: unset; place-content: unset; place-=
+items: unset; place-self: unset; alignment-baseline: unset; appearance: uns=
+et; backdrop-filter: unset; backface-visibility: unset; background-attachme=
+nt: unset; background-blend-mode: unset; background-clip: unset; background=
+-color: rgb(255, 255, 0); background-image: unset; background-origin: unset=
+; background-position: unset; background-repeat: unset; background-size: un=
+set; baseline-shift: unset; block-size: unset; border-block-end: unset; bor=
+der-block-start: unset; border: unset; border-radius: unset; border-collaps=
+e: unset; border-inline-end: unset; border-inline-start: unset; bottom: uns=
+et; box-shadow: unset; box-sizing: unset; break-after: unset; break-before:=
+ unset; break-inside: unset; buffered-rendering: unset; caption-side: unset=
+; caret-color: unset; clear: unset; clip: unset; clip-path: unset; clip-rul=
+e: unset; color-interpolation: unset; color-interpolation-filters: unset; c=
+olor-rendering: unset; columns: unset; column-fill: unset; gap: unset; colu=
+mn-rule: unset; column-span: unset; contain: unset; contain-intrinsic-size:=
+ unset; content: unset; counter-increment: unset; counter-reset: unset; cur=
+sor: unset; cx: unset; cy: unset; d: unset; display: unset; dominant-baseli=
+ne: unset; empty-cells: unset; fill: unset; fill-opacity: unset; fill-rule:=
+ unset; filter: unset; flex: unset; flex-flow: unset; float: unset; flood-c=
+olor: unset; flood-opacity: unset; grid: unset; grid-area: unset; height: u=
+nset; hyphens: unset; image-orientation: unset; image-rendering: unset; inl=
+ine-size: unset; isolation: unset; left: unset; letter-spacing: unset; ligh=
+ting-color: unset; line-break: unset; list-style: unset; margin-block-end: =
+unset; margin-block-start: unset; margin: unset; margin-inline-end: unset; =
+margin-inline-start: unset; marker: unset; mask: unset; mask-type: unset; m=
+ax-block-size: unset; max-height: unset; max-inline-size: unset; max-width:=
+ unset; min-block-size: unset; min-height: unset; min-inline-size: unset; m=
+in-width: unset; mix-blend-mode: unset; object-fit: unset; object-position:=
+ unset; offset: unset; opacity: unset; order: unset; origin-trial-test-prop=
+erty: unset; orphans: unset; outline: unset; outline-offset: unset; overflo=
+w-anchor: unset; overflow-wrap: unset; overflow: unset; overscroll-behavior=
+-block: unset; overscroll-behavior-inline: unset; overscroll-behavior: unse=
+t; padding-block-end: unset; padding-block-start: unset; padding: unset; pa=
+dding-inline-end: unset; padding-inline-start: unset; paint-order: unset; p=
+erspective: unset; perspective-origin: unset; pointer-events: unset; positi=
+on: unset; quotes: unset; r: unset; resize: unset; right: unset; ruby-posit=
+ion: unset; rx: unset; ry: unset; scroll-behavior: unset; scroll-margin-blo=
+ck: unset; scroll-margin: unset; scroll-margin-inline: unset; scroll-paddin=
+g-block: unset; scroll-padding: unset; scroll-padding-inline: unset; scroll=
+-snap-align: unset; scroll-snap-stop: unset; scroll-snap-type: unset; shape=
+-image-threshold: unset; shape-margin: unset; shape-outside: unset; shape-r=
+endering: unset; size: unset; speak: unset; stop-color: unset; stop-opacity=
+: unset; stroke: unset; stroke-dasharray: unset; stroke-dashoffset: unset; =
+stroke-linecap: unset; stroke-linejoin: unset; stroke-miterlimit: unset; st=
+roke-opacity: unset; stroke-width: unset; tab-size: unset; table-layout: un=
+set; text-align: unset; text-align-last: unset; text-anchor: unset; text-co=
+mbine-upright: unset; text-decoration: unset; text-decoration-skip-ink: uns=
+et; text-indent: unset; text-overflow: unset; text-shadow: unset; text-size=
+-adjust: unset; text-transform: unset; text-underline-position: unset; top:=
+ unset; touch-action: unset; transform: unset; transform-box: unset; transf=
+orm-origin: unset; transform-style: unset; user-select: unset; vector-effec=
+t: unset; vertical-align: unset; visibility: unset; -webkit-app-region: uns=
+et; border-spacing: unset; -webkit-border-image: unset; -webkit-box-align: =
+unset; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -=
+webkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orien=
+t: unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-font=
+-size-delta: unset; -webkit-highlight: unset; -webkit-hyphenate-character: =
+unset; -webkit-line-break: unset; -webkit-line-clamp: unset; -webkit-mask-b=
+ox-image: unset; -webkit-mask: unset; -webkit-mask-composite: unset; -webki=
+t-perspective-origin-x: unset; -webkit-perspective-origin-y: unset; -webkit=
+-print-color-adjust: unset; -webkit-rtl-ordering: unset; -webkit-ruby-posit=
+ion: unset; -webkit-tap-highlight-color: unset; -webkit-text-combine: unset=
+; -webkit-text-decorations-in-effect: unset; -webkit-text-emphasis: unset; =
+-webkit-text-emphasis-position: unset; -webkit-text-fill-color: unset; -web=
+kit-text-security: unset; -webkit-text-stroke: unset; -webkit-transform-ori=
+gin-x: unset; -webkit-transform-origin-y: unset; -webkit-transform-origin-z=
+: unset; -webkit-user-drag: unset; -webkit-user-modify: unset; white-space:=
+ unset; widows: unset; width: unset; will-change: unset; word-break: unset;=
+ word-spacing: unset; x: unset; y: unset; z-index: unset; }
+
+.cVim-find-mark[active] { background-color: rgb(255, 150, 50); }
+
+#cVim-frames-outline { position: fixed; width: 100%; height: 100%; left: 0p=
+x; top: 0px; right: 0px; z-index: 2147483647; box-sizing: border-box; borde=
+r: 3px solid yellow; }
+
+.cVim-completion-item[active] { width: 100%; left: 0px; color: rgb(27, 29, =
+30); background-color: rgb(241, 241, 241); }
+
+.cVim-completion-item[active] span { color: rgb(27, 29, 30); }
+------MultipartBoundary--viumMtxvhRjGbLDK25vhEbWM3z1wXkH1u82TcvItJ2------
