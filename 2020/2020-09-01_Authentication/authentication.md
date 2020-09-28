@@ -9,6 +9,7 @@
       - [Sign in](#sign-in)
       - [Sign out](#sign-out)
     - [Keys](#keys)
+  - [用最简单的方式在ASP.NET Core应用中实现认证、登录和注销 - 大内老A](#用最简单的方式在aspnet-core应用中实现认证登录和注销---大内老a)
 
 ## Use cookie authentication without ASP.NET Core Identity
 
@@ -64,6 +65,7 @@ await HttpContext.SignInAsync(
     new ClaimsPrincipal(claimsIdentity), 
     authProperties);
 ```
+
 #### Sign out
 ``` cs
 await HttpContext.SignOutAsync(
@@ -72,3 +74,6 @@ await HttpContext.SignOutAsync(
 
 ### Keys
 - SignIn `ClaimsPrincipal` by `HttpContext.SignInAsync`, while Identity SignIn by `UserManager.SignAsync` which based on `HttpContext.SignInAsync` in depth.
+
+
+## [用最简单的方式在ASP.NET Core应用中实现认证、登录和注销](https://www.cnblogs.com/artech/p/authentication-sign-in-out.html) - 大内老A

@@ -175,13 +175,13 @@ public async Task Invoke(HttpContext context, IEndpointRouter router, IUserSessi
 
 ## 重写租户登录
 ``` cs
-// ProfileService
-// auth 后 token 中包含响应 claims
-:AuthorizeEndPoint -> :AuthorizeResponseGenerator -> :DefaultTokenService -> :DefaultClaimService -> :ProfileService
-
 // AuthorizeResponseGenerator
-// 作用之一：用户是不是需要登录或授权等
-:AuthorizeEndPoint -> :AuthorizeResponseGenerator
+// 先确认用户是不是需要登录或授权等
+:AuthorizeEndPoint -> :AuthorizeInteractionResponseGenerator
+
+// ProfileService
+// 通过授权后，响应 claims
+:AuthorizeEndPoint -> :AuthorizeResponseGenerator -> :DefaultTokenService -> :DefaultClaimService -> :ProfileService
 ```
 
 ## others
