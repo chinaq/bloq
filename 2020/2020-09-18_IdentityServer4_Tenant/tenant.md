@@ -2,7 +2,8 @@
 
 - [Options of JWT on ASP.NET](#options-of-jwt-on-aspnet)
   - [起因](#起因)
-  - [确认方向](#确认方向)
+  - [备份](#备份)
+  - [内容确认](#内容确认)
     - [验证](#验证)
     - [颁发](#颁发)
     - [关于 IdentityServer4](#关于-identityserver4)
@@ -16,11 +17,15 @@
       - [修改 API 端](#修改-api-端)
 
 ## 起因
-
 因为需要为某一项目设置多租户，参考各类文章后，决定采用 xxx 一文，进行学习并设置。你肯定打不开连接。。。。。。这事够神奇的。几天前搜索了一下多租户的相关文章，目标希望和 IdentityServer4 相结合，确定了此篇为主要学习对象。之后去完成了手上的其他一些工作，等在回来后，404 了。。。。。。，更绝的是，除了文章本来还有配套的 github 库和 youtube 视频，全部消失了消失了消失了，也不知到是什么原因导致。所以当时只能再找出路，但 google 了半天没有满意的文章。灵感大王一道，为什么不用网页快照？瞬间回来了，除了图片没有缓存、CSS 消失外，内容基本都可以看清了，呼。接着是 github 库，直接 google 库名，可以找到缓存页，但这就没什么鸟用了，我要的是库，不是页面。再次感谢伟大的 github fork，居然有某位大神 fork 过之前的库，于是我 fork 再 fork。这下就只剩视频了，没办法只好放弃。基本是心满意足了。
 
-## 确认方向
+## 备份
+- 原文已备份在本文 ref 文件夹中
+- repo
+  - [IdentityServerTenantSelection](https://github.com/chinaq/IdentityServerTenantSelection)
+  - [IdentityServerSubdomainMultiTenant](https://github.com/chinaq/IdentityServerSubdomainMultiTenant)
 
+## 内容确认
 ### 验证
 - Tenant 包含在如下几个部分中
   - 用户数据库
