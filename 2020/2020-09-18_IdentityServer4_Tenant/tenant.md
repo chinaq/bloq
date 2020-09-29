@@ -95,9 +95,13 @@
   - authority 中指定 url 包含 tenant
 
 #### 修改 API 端
-- 去除对 Issuer 的验证
-  - 因为默认情况下，生成 token 的 claims 时，并没有指定 Issuer
-  - 什么情况下生成，有待继续学习
+- 最简
+  - 去除对 Issuer (即 Authority）的验证
+    - 因为默认情况下，生成 token 的 claims 时，指定 Issuer 为请求 Auth 的地址
+  - 另，也要去除 aud 的验证，默认 API Scope 不生成 aud
+- 进一步
+  - 为每个 tenant 匹配相应 ISSUER
+    - 修改 IConfigureNamedOptions，使 JwtBearedOptions 中的 Authority 动态生成
 
 
 
