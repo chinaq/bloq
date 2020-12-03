@@ -33,17 +33,12 @@ public class ProfileService : IProfileService
             claims = claims.Where(claim => context.RequestedClaimTypes.Contains(claim.Type)).ToList();
 
             // Add custom claims in token here based on user properties or any other source
-          string.Empty));
             claims.Add(new Claim("TenantId", user.TenantId ?? string.Empty));
-
             context.IssuedClaims = claims;
         }
         
         public async Task IsActiveAsync(IsActiveContext context)
         {
-           
-           
-
             //var tokenId = _interaction.
             var sub = context.Subject.GetSubjectId();
             var user = await _userManager.FindByIdAsync(sub);
