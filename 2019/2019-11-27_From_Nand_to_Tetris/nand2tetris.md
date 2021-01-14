@@ -123,6 +123,22 @@ we've built Hack Computer
 ![trans_c-instructions](img/trans_c-instructions.png)
 
 ## Project 7: VM I: Stack Arithmetic
+
+![part2](./img/part2.png)
+
+![high_to_low](./img/hight_to_low.png)
+
+![memory_segments](./img/memory_segments.png)
+
+![vm_mapping_1](./img/vm_mapping_1.png)
+
+![vm_mapping_2](./img/vm_mapping_2.png)
+
+![p7p8](./img/p7p8.png)
+
+
+
+
 ## Project 8: VM II: Program Control
 ## Project 9: High-Level Language
 ## Project 10: Compiler I: Syntax Analysis
