@@ -44,7 +44,7 @@
 
 ## 台版
 
-此博客值得参考，当然大家不一定能打开这个网址，你懂的。[《小牛頓學習漫畫~漫畫中國的歷史(1~10集)》](https://blog.xuite.net/wenshan288/twblog/576818260-%E5%B0%8F%E7%89%9B%E9%A0%93%E5%AD%B8%E7%BF%92%E6%BC%AB%E7%95%AB~%E6%BC%AB%E7%95%AB%E4%B8%AD%E5%9C%8B%E7%9A%84%E6%AD%B7%E5%8F%B2%281~10%E9%9B%86%29)
+此博客值得参考，当然大家不一定能打开这个网址，你懂的。[《小牛頓學習漫畫 - 漫畫中國的歷史(1-10集)》](https://blog.xuite.net/wenshan288/twblog/576818260-%E5%B0%8F%E7%89%9B%E9%A0%93%E5%AD%B8%E7%BF%92%E6%BC%AB%E7%95%AB~%E6%BC%AB%E7%95%AB%E4%B8%AD%E5%9C%8B%E7%9A%84%E6%AD%B7%E5%8F%B2%281~10%E9%9B%86%29)
 
 
 ![books-t1](./img/books-t1.jpg)
