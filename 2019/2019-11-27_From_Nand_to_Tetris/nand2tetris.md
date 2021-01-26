@@ -24,16 +24,21 @@
 
 ![part1](img/part1.png)
 
+
+
 ## Project 1: Boolean Logic
 
 ![gate](img/gate.png)
+
+
 
 ## Project 2: Boolean Arithmetic - ALU
 
 ![alu0](img/alu0.png)  
 ![alu1](img/alu1.png)  
-<!-- ![alu2](img/alu2.png)   -->
 ![alu3](img/alu3.png)  
+
+
 
 ## Project 3: Sequential Logic - Memory
 
@@ -49,6 +54,8 @@
 ![RAM](img/RAM.png)  
 ![Counter](img/counter.png)  
 
+
+
 ## Project 4: Machine Language
 
 ![concept](img/concept.png)  
@@ -58,6 +65,8 @@
 ![c-symbolic](img/c-symbolic.png)  
 ![iterative](img/iterative.png)  
 ![input](img/input.png)  
+
+
 
 ## Project 5: Computer Architecture
 
@@ -104,6 +113,8 @@ we've built Hack Computer
 
 ![hardware-projects](img/hardware-projects.png)
 
+
+
 ## Project 6: Assembler
 
 - Assembly process
@@ -122,6 +133,8 @@ we've built Hack Computer
 
 ![trans_c-instructions](img/trans_c-instructions.png)
 
+
+
 ## Project 7: VM I: Stack Arithmetic
 
 ![part2](./img/part2.png)
@@ -129,6 +142,10 @@ we've built Hack Computer
 ![high_to_low](./img/hight_to_low.png)
 
 ![memory_segments](./img/memory_segments.png)
+
+![this_that_0](./img/this_that_0.png)
+
+![this_that_1](./img/this_that_1.png)
 
 ![vm_mapping_1](./img/vm_mapping_1.png)
 
@@ -138,8 +155,48 @@ we've built Hack Computer
 
 
 
-
 ## Project 8: VM II: Program Control
+
+- Branching
+  - goto label
+  - if-goto label
+  - label
+
+![goto](./img/goto.png)
+
+- Function View
+
+![function_state](./img/function_state.png)
+
+![vm_executing](./img/vm_executing.png)
+
+![function_call_return](./img/function_call_return.png)
+
+- Function
+  - call
+  - function
+  - return
+
+![call](./img/call.png)
+
+![function](./img/function.png)
+
+![return](./img/return.png)
+
+
+- vm done
+
+![vm_done](./img/vm_done.png)
+
+- global
+
+![booting](./img/booting.png)
+
+![vm_mapping_3](./img/vm_mapping_3.png)
+
+
+
+
 ## Project 9: High-Level Language
 ## Project 10: Compiler I: Syntax Analysis
 ## Project 11: Compiler II: Code Generation
