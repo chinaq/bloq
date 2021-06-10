@@ -200,6 +200,12 @@ we've built Hack Computer
 ## Project 9: High-Level Language
 ## Project 10: Compiler I: Syntax Analysis
 ## Project 11: Compiler II: Code Generation
+
+- pointer 0 代表了 this，何时被重新写入
+  - method 中间代码第一步为 push pointer 0 即把当前对象指针放入 pointer 0
+  - 结束后回复原 pointer 0 值
+- this 的 heap 中其实仅包含了 field
+
 ## Project 12: Operating System
 
 
