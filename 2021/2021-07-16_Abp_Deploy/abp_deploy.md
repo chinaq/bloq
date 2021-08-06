@@ -57,6 +57,7 @@
 
 ### docker-compose build 为什么没有生成镜像
 - 一定要在 service 下使用 image 属性，要不只会在本地产生 image
+- 以上，再测试后发现，依然无效，原因未知
 - `docker-compose -H xxx` 先是在本地产生 image 再于 host 上使用该 cache 生成 image
 
 ### mkcert 生成本地 https 证书

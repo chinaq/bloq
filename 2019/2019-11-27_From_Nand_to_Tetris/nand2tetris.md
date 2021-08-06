@@ -12,6 +12,7 @@
   - [Project 4: Machine Language](#project-4-machine-language)
   - [Project 5: Computer Architecture](#project-5-computer-architecture)
   - [Project 6: Assembler](#project-6-assembler)
+  - [Part 2](#part-2)
   - [Project 7: VM I: Stack Arithmetic](#project-7-vm-i-stack-arithmetic)
   - [Project 8: VM II: Program Control](#project-8-vm-ii-program-control)
   - [Project 9: High-Level Language](#project-9-high-level-language)
@@ -28,15 +29,15 @@
 
 ## Project 1: Boolean Logic
 
-![gate](img/gate.png)
+![gate](img/01/gate.png)
 
 
 
 ## Project 2: Boolean Arithmetic - ALU
 
-![alu0](img/alu0.png)  
-![alu1](img/alu1.png)  
-![alu3](img/alu3.png)  
+![alu0](img/02/alu0.png)  
+![alu1](img/02/alu1.png)  
+![alu3](img/02/alu3.png)  
 
 
 
@@ -48,23 +49,23 @@
 - Random Access Memory (RAM) - 内存
 - Counter - 计数器
 
-![flip-flop](img/flip-flop.png)  
-![1-bit register](img/1-bit_register.png)  
-![register](img/register.png)  
-![RAM](img/RAM.png)  
-![Counter](img/counter.png)  
+![flip-flop](img/03/flip-flop.png)  
+![1-bit register](img/03/1-bit_register.png)  
+![register](img/03/register.png)  
+![RAM](img/03/RAM.png)  
+![Counter](img/03/counter.png)  
 
 
 
 ## Project 4: Machine Language
 
-![concept](img/concept.png)  
-![a-c](img/a-c.png)  
-![a-instruction](img/a-instruction.png)  
-![c-instruction](img/c-instruction.png)  
-![c-symbolic](img/c-symbolic.png)  
-![iterative](img/iterative.png)  
-![input](img/input.png)  
+![concept](img/04/concept.png)  
+![a-c](img/04/a-c.png)  
+![a-instruction](img/04/a-instruction.png)  
+![c-instruction](img/04/c-instruction.png)  
+![c-symbolic](img/04/c-symbolic.png)  
+![iterative](img/04/iterative.png)  
+![input](img/04/input.png)  
 
 
 
@@ -72,19 +73,19 @@
 
 - von Neumann Architecture
 
-![von-arch](img/von-arch.png)
+![von-arch](img/05/von-arch.png)
 
 - Harvard Architecture
 
-![harvard-arch](img/harvard.png)
+![harvard-arch](img/05/harvard.png)
 
 - Hack Computer
 
-![hack](img/hack.png)
+![hack](img/05/hack.png)
 
 - CPU
 
-![cpu](img/cpu.png)
+![cpu](img/05/cpu.png)
 
 - `instruction`
   - `A-instruction`: an address value, that should be recorded in A-register
@@ -97,21 +98,21 @@ next, examples for handling instructions
 
 - a-instructions
 
-![a-instructions](img/handling_a-instructions.png)
+![a-instructions](img/05/handling_a-instructions.png)
 
 - c-instructions
 
-![c-instructions](img/handling_c-instructions.png)
+![c-instructions](img/05/handling_c-instructions.png)
 
 - pc - control
 
-![pc](img/pc.png)
+![pc](img/05/pc.png)
 
 we've built Hack Computer
 
 - Hardware projects
 
-![hardware-projects](img/hardware-projects.png)
+![hardware-projects](img/05/hardware-projects.png)
 
 
 
@@ -119,39 +120,41 @@ we've built Hack Computer
 
 - Assembly process
 
-![asm_process](img/asm_process.png)
+![asm_process](img/06/asm_process.png)
 
 - Symbol table
 
-![symbol_table](img/symbol_table.png)
+![symbol_table](img/06/symbol_table.png)
 
 - Translating A-instructions
 
-![trans_a-instructions](img/trans_a-instructions.png)
+![trans_a-instructions](img/06/trans_a-instructions.png)
 
 - Translating C-instructions
 
-![trans_c-instructions](img/trans_c-instructions.png)
+![trans_c-instructions](img/06/trans_c-instructions.png)
 
+
+## Part 2
+
+![part2](./img/part2.png)
 
 
 ## Project 7: VM I: Stack Arithmetic
 
-![part2](./img/part2.png)
+![high_to_low](./img/07/hight_to_low.png)
 
-![high_to_low](./img/hight_to_low.png)
+![memory_segments](./img/07/memory_segments.png)
 
-![memory_segments](./img/memory_segments.png)
+![this_that_0](./img/07/this_that_0.png)
 
-![this_that_0](./img/this_that_0.png)
+![this_that_1](./img/07/this_that_1.png)
 
-![this_that_1](./img/this_that_1.png)
+![vm_mapping_1](./img/07/vm_mapping_1.png)
 
-![vm_mapping_1](./img/vm_mapping_1.png)
+![vm_mapping_2](./img/07/vm_mapping_2.png)
 
-![vm_mapping_2](./img/vm_mapping_2.png)
-
-![p7p8](./img/p7p8.png)
+![p7p8](./img/07/p7p8.png)
 
 
 
@@ -162,49 +165,85 @@ we've built Hack Computer
   - if-goto label
   - label
 
-![goto](./img/goto.png)
+![goto](./img/08/goto.png)
 
 - Function View
 
-![function_state](./img/function_state.png)
+![function_state](./img/08/function_state.png)
 
-![vm_executing](./img/vm_executing.png)
+![vm_executing](./img/08/vm_executing.png)
 
-![function_call_return](./img/function_call_return.png)
+![function_call_return](./img/08/function_call_return.png)
 
 - Function
   - call
   - function
   - return
 
-![call](./img/call.png)
+![call](./img/08/call.png)
 
-![function](./img/function.png)
+![function](./img/08/function.png)
 
-![return](./img/return.png)
+![return](./img/08/return.png)
 
 
 - vm done
 
-![vm_done](./img/vm_done.png)
+![vm_done](./img/08/vm_done.png)
 
 - global
 
-![booting](./img/booting.png)
+![booting](./img/08/booting.png)
 
-![vm_mapping_3](./img/vm_mapping_3.png)
+![vm_mapping_3](./img/08/vm_mapping_3.png)
 
 
 
 
 ## Project 9: High-Level Language
+
+![high_level_language](img/09/high_level_language.jpg)
+
+![p9_target](img/09/p9_target.jpg)
+
+![jack_example](img/09/jack_example.jpg)
+
+
 ## Project 10: Compiler I: Syntax Analysis
+
+![parsing](img/10/parsing.jpg)
+
+![two-tier](img/10/two_tier.jpg)
+
+![road_map](img/10/road_map_token.jpg)
+
+![token_example](img/10/token_example.jpg)
+
 ## Project 11: Compiler II: Code Generation
 
-- pointer 0 代表了 this，何时被重新写入
-  - method 中间代码第一步为 push pointer 0 即把当前对象指针放入 pointer 0
-  - 结束后回复原 pointer 0 值
-- this 的 heap 中其实仅包含了 field
+![code_generation](img/11/code_generation.jpg)
+
+![road_map](img/11/road_map_vm.jpg)
+
+- example
+
+![jack_to_vm](img/11/jack_to_vm.jpg)
+
+- 挑战内容
+
+![compilation_challenges](img/11/compilation_challenges.jpg)
+
+- this & that
+  - pointer 0 代表了 this，何时被重新写入
+    - method 中间代码第一步为 push pointer 0 即把当前对象指针放入 pointer 0
+    - 结束后回复原 pointer 0 值
+    - this 的 heap 中其实仅包含了 field
+
+    ![ram_this](img/11/ram_this.jpg)
+
+  - pointer 1 代表了 that，数组
+
+    ![this_that](img/11/ram_that.jpg)
 
 ## Project 12: Operating System
 
