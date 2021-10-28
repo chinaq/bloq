@@ -247,6 +247,10 @@ we've built Hack Computer
 
 ## Project 12: Operating System
 
+![sys](img/12/sys.jpg)
+
+![os](img/12/os.jpg)
+
 
 ## refs
 - [Richard Feynman: Computer Heuristics](https://sites.google.com/site/principiascientifica/lecture/richard-feynman-computer-heuristics)
