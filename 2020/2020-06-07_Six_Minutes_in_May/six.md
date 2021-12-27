@@ -1,5 +1,6 @@
 # SIX MINUTES IN MAY
 
+![cover](img/cover.jpg)
 
 CONTENTS
 
@@ -14,11 +15,11 @@ CONTENTS
     - [6. Flea and Louse](#6-flea-and-louse)
     - [7. The First Land Battle](#7-the-first-land-battle)
     - [8. Worst of All Experiences](#8-worst-of-all-experiences)
-    - [9.  The Winston Impasse](#9-the-winston-impasse)
-    - [10. Evacuation PART](#10-evacuation-part)
+    - [9.  The Winston Impasse](#9--the-winston-impasse)
+    - [10. Evacuation PART - 挪威撤退](#10-evacuation-part---挪威撤退)
   - [THREE: THE WEEKEND BEFORE](#three-the-weekend-before)
-    - [11. Monsieur J’aimeberlin](#11-monsieur-jaimeberlin)
-    - [12. The Master of Garrowby](#12-the-master-of-garrowby)
+    - [11. Monsieur J’aimeberlin - 张伯伦先生](#11-monsieur-jaimeberlin---张伯伦先生)
+    - [12. The Master of Garrowby - 哈利法克斯勋爵](#12-the-master-of-garrowby---哈利法克斯勋爵)
     - [13. The Wild Man](#13-the-wild-man)
     - [14. The Rebels](#14-the-rebels)
   - [PART FOUR: THE DEBATE](#part-four-the-debate)
@@ -27,7 +28,7 @@ CONTENTS
     - [17. The Division](#17-the-division)
   - [PART FIVE: THE AFTERMATH](#part-five-the-aftermath)
     - [18. A Terrific Buzz](#18-a-terrific-buzz)
-    - [19.  The Obvious Man](#19-the-obvious-man)
+    - [19.  The Obvious Man](#19--the-obvious-man)
     - [20. The Limpet](#20-the-limpet)
     - [21. A Great Tide Flowing](#21-a-great-tide-flowing)
     - [22. The Silence](#22-the-silence)
@@ -46,11 +47,11 @@ CONTENTS
 ### 7. The First Land Battle
 ### 8. Worst of All Experiences
 ### 9.  The Winston Impasse
-### 10. Evacuation PART
+### 10. Evacuation PART - 挪威撤退
 
 ## THREE: THE WEEKEND BEFORE
-### 11. Monsieur J’aimeberlin
-### 12. The Master of Garrowby
+### 11. Monsieur J’aimeberlin - 张伯伦先生
+### 12. The Master of Garrowby - 哈利法克斯勋爵
 ### 13. The Wild Man
 ### 14. The Rebels
 
