@@ -31,3 +31,7 @@ ApplicationModel-ControllerModel-ActionModel
     -> ControllerActionDescriptor
         -> Endpoint
 ```
+
+
+## ref
+- [ASP.NET Core Controller与IOC的羁绊](https://www.cnblogs.com/wucy/p/14222973.html)

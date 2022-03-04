@@ -20,7 +20,7 @@
         - 如果指定 ExcepionHandlerOperion.ExceptionHandler，则调用
         - 如果未指定，则继续 next
 ### IAsyncExceptionFilter
-- 附属于 EndPointMiddleware
+- 附属于 EndPointMiddleware，仅处理 Controller 的错误
 - IAsyncExceptionFilter
     ```
     DefaultActionDescriptorCollectionProvider 
@@ -57,8 +57,5 @@
     }
     ```
 
-    ```
-
-    ```
-
 ## abp 的exceptions 机制
+- 仅注入了 `IAsyncExceptionFilter` 的实现
