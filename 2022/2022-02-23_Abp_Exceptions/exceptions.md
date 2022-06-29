@@ -6,6 +6,7 @@
         - [ExceptionHandlerMiddleware](#exceptionhandlermiddleware)
         - [IAsyncExceptionFilter](#iasyncexceptionfilter)
     - [abp 的exceptions 机制](#abp-的exceptions-机制)
+    - [Angular 端的处理](#angular-端的处理)
 
 ## 问题 - Tenant not Found!
 
@@ -59,3 +60,6 @@
 
 ## abp 的exceptions 机制
 - 仅注入了 `IAsyncExceptionFilter` 的实现
+
+## Angular 端的处理
+- [Tenant Not Found Error (Http 500) #9417](https://github.com/abpframework/abp/issues/9417)
