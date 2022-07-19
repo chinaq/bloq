@@ -1,6 +1,9 @@
-# Asp.net core 5.0 框架
+# Asp.net core 5.0/6.0 框架
 
 ![asp.net](./img/asp-core.png)
+
+## WebHost
+- [Web Host](../2022-07-08_Aspnet_WebHost/webhost.md)
 
 ## Services
 - [Services](../2022-06-29_Dotnet_Services/dotnet_services.md)
