@@ -12,6 +12,10 @@
 
 ## 目标
 - 我们需要在 token 中检测到 Tenant
+  - 学习文章
+    - [2020-09-18_IdentityServer4_Tenant](../2020-09-18_IdentityServer4_Tenant/tenant.md)
+      - [Implement Subdomain Based Multi Tenancy In Identity Server](../2020-09-18_IdentityServer4_Tenant/ref/Implement%20Subdomain%20Based%20Multi%20Tenancy%20In%20Identity%20Server.md)
+
 
 
 ## 默认实现

@@ -1,10 +1,10 @@
-# 黃一農
+# 黃一農 成果目錄
 
 ![cover](img/cover.jpg)
 
 ## 论文链接
 - [早期“脈望齋”提供的论文](https://web.archive.org/web/20150103071233/http://hss.nthu.edu.tw/~ylh/chinese.htm)
-- [黃一農＿紅學研究成果目錄 (2021.11.01更新)](https://vocus.cc/article/6100d272fd89780001c27586) - VOCUS 方格子
+- [黃一農＿紅學研究成果目錄](https://vocus.cc/article/6100d272fd89780001c27586) - VOCUS 方格子
 
 ## 其他
 - 学生论文
