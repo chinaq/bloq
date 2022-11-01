@@ -20,8 +20,9 @@
 
 ![xin deyong](img/xindeyong.jpeg)
 
-- [Sanjiang and others](../2017/2017-09-29-Sanjiang_and_others/words_from_xindeyong.md)
-- [Bai Qi Conqued Yin](../2018/2018-07-20-Bai_Qi_Conqued_Yin/conqued_yin.md)
+- [三江](../2017/2017-09-29-Sanjiang_and_others/words_from_xindeyong.md)
+- [白起取郢](../2018/2018-07-20-Bai_Qi_Conqued_Yin/conqued_yin.md)
+- [《羅氏墓志》與相關天文曆法知識](../2021/2021-01-14_LuoShi_MuZhi/luoshi.md)
 
 
 ## Huang Yinong
@@ -39,16 +40,17 @@
 - Framework
   - [Mini ASP.NET Core](../2019/2019-01-30_Mini_AspNet_Core/mini_aspnet_core.md)
 - WebHost
-  - [Web Host](../2022-07-08_Aspnet_WebHost/webhost.md)
+  - [Web Host](../2022/2022-07-08_Aspnet_WebHost/webhost.md)
 - Services
-  - [Services](../2022-06-29_Dotnet_Services/dotnet_services.md)
+  - [Services](../2022/2022-06-29_Dotnet_Services/dotnet_services.md)
 - Routing & Endpoints
-  - [Routing & Endpoints](../2022-02-24_Aspnet_Routing_Endpoints/routing_endpoints.md)
-  - [To Endpoints](../2022-03-04_Aspnet_To_Endpoints/to_endpoints.md)
-  - [Actions](../2022-02-28_Aspnet_Actions/actions.md)
+  - [Asp.Net 6 Endpoints](../2022/2022-08-01_Aspnet6_EndPoints/aspnet6_endpoints.md)
+  - [Routing & Endpoints](../2022/2022-02-24_Aspnet_Routing_Endpoints/routing_endpoints.md)
+  - [To Endpoints](../2022/2022-03-04_Aspnet_To_Endpoints/to_endpoints.md)
+  - [Actions](../2022/2022-02-28_Aspnet_Actions/actions.md)
 - Controllers
-  - [Controllers](../2022-03-02_Aspnet_Controllers/controllers.md)
-  - [Filters](../2022-03-03_Aspnet_Filters/filters.md)
+  - [Controllers](../2022/2022-03-02_Aspnet_Controllers/controllers.md)
+  - [Filters](../2022/2022-03-03_Aspnet_Filters/filters.md)
 
 
 ## eShop
