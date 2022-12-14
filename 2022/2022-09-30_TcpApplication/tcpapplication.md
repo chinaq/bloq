@@ -24,3 +24,4 @@ Tcp 服务端接收软件，在高峰时会连接超时，客户端在 10 秒内
     - 观测：使用 netdata 监控，发现硬盘负载较高，
     - 推测：和日志有关，因最初使用 logdashboar 配合 serilog 的 txt 方式并无该现象，后续改为 nlog 的 sqlite 出现该问题，是否被写日志阻塞？
 - 后续：尝试使用 serilog 的 mysql 改进
+    - 见 [Concen with MariaDb](../2022-12-14_Concen_with_MariaDb/mariadb.md)
