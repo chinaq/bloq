@@ -26,4 +26,7 @@
 - 两个 `server` 都要在 `launch.json` 设置 `reset`
   - `pyocd` 设置 `"debugServerArgs": "-Oconnect_mode=under-reset",`
   - `openocd` 设置 `"debugServerArgs": "-c init -c \"reset init\"",`
+- 但是两个 `server` 在 `j-link` 配合 `MCU_FM33LG048` 上都无法使用
+  - `pyocd` 会出现 `Flash pages (1024 bytes) do not fit evenly into sector (512 bytes)` 错误
+  - `openocd` 会出现 `No J-Link device found` 错误
 
