@@ -36,6 +36,10 @@
     - new thread pools
 
 ## others
+- app 服务器自身造成的长时间响应
+  - 由于 app 服务器其他程序的影响，造成的长时间响应
+  - 等待结束后，连接数自然会上升
+  - 由于 app 服务器的不响应，数据库发起刷脏
 - `innodb_adaptive_flushing_lwm`
   - 一种推测
     - `innodb_adaptive_flushing_lwm` 在到达水平线时，会触发 flush，先以一定速度 async （见[“理解 InnoDB 自适应刷脏”](https://leviathan.vip/2020/05/19/mysql-understand-adaptive-flushing/)），一定时间后如无法降至水平线下，再以 sync 的方式 flush，此时速度为 `innodb_io_capacity`
