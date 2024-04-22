@@ -14,3 +14,6 @@
 
 ## 他
 - 山内社长如何的决定
+
+## ref
+- [岩田聡 - nico nico pedia](https://dic.nicovideo.jp/a/%E5%B2%A9%E7%94%B0%E8%81%A1)
