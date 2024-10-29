@@ -6,6 +6,7 @@
   - [mariadb server - innodb\_log\_file\_size up](#mariadb-server---innodb_log_file_size-up)
   - [mariadb server - thread\_pool\_size, thread\_pool\_min\_threads up](#mariadb-server---thread_pool_size-thread_pool_min_threads-up)
   - [others](#others)
+  - [finding in 2024](#finding-in-2024)
   - [ref](#ref)
 
 ## origin
@@ -70,6 +71,14 @@
     > The main benefits of a higher watermark are similar to the ones of using a larger value for innodb_log_file_size but it puts the database closer to the edge of max checkpoint age. With a high low watermark value, the write performance will be better on average but there could be short stalls. For a production server, increasing innodb_log_file_size is preferred over increasing innodb_adaptive_flushing_lwm. However, temporarily, it can be useful to raise the value dynamically to speed up a logical dump restore or to allow a slave to catch up with its master.
     > 
     > 较高水位的主要好处与使用较大 innodb_log_file_size 值的好处类似，但它使数据库更接近最大检查点年龄的边缘。使用高低水位线值时，平均写入性能会更好，但可能会出现短暂的停顿。对于生产服务器，增加 innodb_log_file_size 优于增加 innodb_adaptive_flushing_lwm。然而，暂时地，动态提高该值以加速逻辑转储恢复或允许从机赶上主机可能会很有用。
+
+## finding in 2024
+- data base 
+  - 当 dirty data 过高时，pool data 会满，将会引起数据刷新（可能都不是刷脏），大概率导致延时，所以开始开启 dirty page 的 pwm 更有效
+- app server
+  - 一旦有延时，app 服务器的连接数会上升，导致更大的延时，所以要保证 min pool size 足够大
+  - db context 要开启 retry 尽量避免延时导致的报错
+  - polemo ef 库出错后，context 似乎不会正确关闭；改用 mysql ef 库
 
 ## ref
 - [Thread Pool in MariaDB](https://mariadb.com/kb/en/thread-pool-in-mariadb/)
