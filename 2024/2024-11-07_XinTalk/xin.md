@@ -1,6 +1,6 @@
 <div style="display: flex; flex-wrap: wrap;">
   <figure style="max-width: 355px;">
-    <img src="img/20241103.jpg">
+    <img src="img/20241103.jpg" style="max-width: 355px;">
     <figcaption><p>朱雀变身为凤说</p></figcaption>
   </figure>
   <figure style="max-width: 355px;">
