@@ -75,10 +75,15 @@
 ## finding in 2024
 - data base 
   - 当 dirty data 过高时，pool data 会满，将会引起数据刷新（可能都不是刷脏），大概率导致延时，所以开始开启 dirty page 的 pwm 更有效
+  - 新数据 insert 关键在于保证 pages created
 - app server
   - 一旦有延时，app 服务器的连接数会上升，导致更大的延时，所以要保证 min pool size 足够大
   - db context 要开启 retry 尽量避免延时导致的报错
   - polemo ef 库出错后，context 似乎不会正确关闭；改用 mysql ef 库
+  - 程序中的 lock 和 .wait() 会导致线程阻塞，应该尽量避免
+
+![done](img/done.png)
+
 
 ## ref
 - [Thread Pool in MariaDB](https://mariadb.com/kb/en/thread-pool-in-mariadb/)
