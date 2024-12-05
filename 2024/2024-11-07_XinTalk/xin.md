@@ -1,5 +1,13 @@
 <div style="display: flex; flex-wrap: wrap;">
   <figure>
+    <img src="img/20241204.png" style="width: 375px;">
+    <figcaption><p>金乌负日</p></figcaption>
+  </figure>
+  <figure>
+    <img src="img/20241127.png" style="width: 375px;">
+    <figcaption><p>苍天已死黄天当立</p></figcaption>
+  </figure>
+  <figure>
     <img src="img/20241105.jpg" style="width: 375px;">
     <figcaption><p>武王墩出土铺首与上帝的传承</p></figcaption>
   </figure>
