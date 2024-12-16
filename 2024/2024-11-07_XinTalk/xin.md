@@ -1,5 +1,9 @@
 <div style="display: flex; flex-wrap: wrap;">
   <figure>
+    <img src="img/20241214.jpg" style="width: 375px;">
+    <figcaption><p>医神为什么叫扁鹊</p></figcaption>
+  </figure>
+  <figure>
     <img src="img/20241204.png" style="width: 375px;">
     <figcaption><p>金乌负日</p></figcaption>
   </figure>
